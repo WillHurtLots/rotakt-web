@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-08T11:35:26.036735+00:00",
+  "generated_at": "2026-04-08T11:53:53.290525+00:00",
   "date": "2026-04-08",
   "sites": {
     "rotakt.ro": {
@@ -601,13 +601,6 @@
           "short_description_chars": 0
         }
       ]
-    },
-    "micromobilitate.ro": {
-      "total": 96,
-      "in_stock": 55,
-      "out_of_stock": 41,
-      "missing_description_count": 0,
-      "missing_description": []
     }
   }
 }
