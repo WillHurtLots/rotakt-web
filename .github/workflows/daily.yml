@@ -23,12 +23,14 @@ jobs:
     runs-on: [self-hosted, Windows, X64, rotakt-pc]
     defaults:
       run:
-        shell: bash
+        shell: pwsh
     steps:
       - uses: actions/checkout@v4
 
       - name: Install deps
-        run: python -m pip install --upgrade pip && python -m pip install -r requirements.txt
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
 
       - name: Run RotaktWeb agent
         run: python rotakt_web_agent.py
@@ -36,65 +38,33 @@ jobs:
       - name: Publish report to job summary
         if: always()
         run: |
-          if ls reports/report_*.md 1> /dev/null 2>&1; then
-            latest=$(ls -t reports/report_*.md | head -1)
-            cat "$latest" >> "$GITHUB_STEP_SUMMARY"
-          fi
+          $latest = Get-ChildItem -Path reports -Filter 'report_*.md' -ErrorAction SilentlyContinue |
+                    Sort-Object LastWriteTime -Descending | Select-Object -First 1
+          if ($latest) {
+            Get-Content $latest.FullName | Add-Content -Path $env:GITHUB_STEP_SUMMARY
+          }
 
       - name: Open daily issue if alerts present
         if: success()
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          if [ ! -f data/alerts.json ]; then exit 0; fi
-          python - <<'PY'
-          import json, os, subprocess, sys
-          a = json.load(open('data/alerts.json', encoding='utf-8'))
-          total = a.get('total_alerts', 0)
-          date = a.get('date')
-          if total == 0:
-              print("No alerts — skipping issue.")
-              sys.exit(0)
-          title = f"[{date}] RotaktWeb · {total} alerte de catalog"
-          body_lines = [f"## Raport zilnic {date}", "", f"**Total alerte:** {total}", ""]
-          for site, counts in a['sites'].items():
-              body_lines.append(f"### {site}")
-              body_lines.append("")
-              for k, v in counts.items():
-                  if v: body_lines.append(f"- **{k}**: {v}")
-              body_lines.append("")
-          body_lines.append("---")
-          body_lines.append("Dashboard: https://willhurtlots.github.io/rotakt-web/")
-          body = "\n".join(body_lines)
-          # Search for existing issue with same title to avoid duplicates
-          out = subprocess.run(
-              ["gh", "issue", "list", "--state", "open", "--search", title, "--json", "number,title"],
-              capture_output=True, text=True, check=True,
-          ).stdout
-          existing = [i for i in json.loads(out) if i["title"] == title]
-          if existing:
-              num = existing[0]["number"]
-              subprocess.run(["gh", "issue", "comment", str(num), "--body", body], check=True)
-              print(f"Updated existing issue #{num}")
-          else:
-              subprocess.run(
-                  ["gh", "issue", "create", "--title", title, "--body", body],
-                  check=True,
-              )
-              print("Created new issue.")
-          PY
+        run: python scripts/open_alert_issue.py
 
       - name: Commit snapshots & report
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "rotakt-web-bot"
           git config user.email "bot@rotakt.local"
           git add data/ reports/
-          if git diff --staged --quiet; then
-            echo "No changes to commit."
-          else
-            git commit -m "chore(daily): catalog snapshot $(date -u +%Y-%m-%d)"
+          git diff --staged --quiet
+          if ($LASTEXITCODE -eq 0) {
+            Write-Host "No changes to commit."
+          } else {
+            $stamp = (Get-Date -Format 'yyyy-MM-dd')
+            git commit -m "chore(daily): catalog snapshot $stamp"
             git push
-          fi
+          }
 
   deploy-pages:
     needs: audit
