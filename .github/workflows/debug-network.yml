@@ -1,0 +1,23 @@
+name: Debug network to micromobilitate.ro
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test connectivity
+        run: |
+          set +e
+          echo "=== DNS ==="
+          getent hosts www.micromobilitate.ro
+          getent hosts micromobilitate.ro
+          echo "=== HTTPS apex ==="
+          curl -v --max-time 30 -o /dev/null https://micromobilitate.ro/ 2>&1 | tail -20
+          echo "=== HTTPS www ==="
+          curl -v --max-time 30 -o /dev/null https://www.micromobilitate.ro/ 2>&1 | tail -20
+          echo "=== HTTPS API ==="
+          curl -v --max-time 30 -o /dev/null "https://www.micromobilitate.ro/wp-json/wc/store/v1/products?per_page=1" 2>&1 | tail -25
+          echo "=== With browser UA ==="
+          curl -v --max-time 30 -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" "https://www.micromobilitate.ro/wp-json/wc/store/v1/products?per_page=1" 2>&1 | tail -30
