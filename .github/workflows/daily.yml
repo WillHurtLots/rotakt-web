@@ -18,17 +18,17 @@ concurrency:
 
 jobs:
   audit:
-    runs-on: ubuntu-latest
+    # Self-hosted Windows runner on Cristian's PC.
+    # Required because micromobilitate.ro blocks Azure cloud IPs (where GitHub-hosted runners live).
+    runs-on: [self-hosted, Windows, X64, rotakt-pc]
+    defaults:
+      run:
+        shell: bash
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-          cache: pip
-
       - name: Install deps
-        run: pip install -r requirements.txt
+        run: python -m pip install --upgrade pip && python -m pip install -r requirements.txt
 
       - name: Run RotaktWeb agent
         run: python rotakt_web_agent.py
