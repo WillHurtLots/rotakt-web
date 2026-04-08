@@ -1,0 +1,68 @@
+name: Daily catalog audit
+
+on:
+  schedule:
+    # 06:30 UTC daily = 09:30 Romania (summer) / 08:30 Romania (winter)
+    - cron: "30 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: rotakt-web-daily
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Run RotaktWeb agent
+        run: python rotakt_web_agent.py
+
+      - name: Commit snapshots & report
+        run: |
+          git config user.name "rotakt-web-bot"
+          git config user.email "bot@rotakt.local"
+          git add data/ reports/
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore(daily): catalog snapshot $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+  deploy-pages:
+    needs: audit
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - id: deployment
+        name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4

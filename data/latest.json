@@ -1,0 +1,613 @@
+{
+  "generated_at": "2026-04-08T11:35:26.036735+00:00",
+  "date": "2026-04-08",
+  "sites": {
+    "rotakt.ro": {
+      "total": 1082,
+      "in_stock": 810,
+      "out_of_stock": 272,
+      "missing_description_count": 74,
+      "missing_description": [
+        {
+          "id": 22362,
+          "name": "Milwaukee 48005185 PANZE SABIE 100/1 MM BIMETAL, CO",
+          "sku": "036896",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-panze-sabie-100-1-mm-bimetal-co/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 22338,
+          "name": "Milwaukee 4932430899 BIT SHOCKWAVE HEX10x25MM-2BUC",
+          "sku": "046154",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-bit-shockwave-hex10x25mm-2buc/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 22322,
+          "name": "Milwaukee 48005293 PANZE SABIE 200/2.5/1.8 MM BIMETAL, CO",
+          "sku": "036894",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-panze-sabie-200-2-5-1-8-mm-bimetal-co/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 22300,
+          "name": "Milwaukee 4932430900 BIT SHOCKWAVE HEX12x25MM-2BUC",
+          "sku": "046155",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-bit-shockwave-hex12x25mm-2buc/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 22296,
+          "name": "Milwaukee 4932479234 BURGHIU DIAMANTAT 10MM &#8211; 1 BUC",
+          "sku": "041295",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-burghiu-diamantat-10mm-1-buc/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 22286,
+          "name": "Milwaukee 4932479232 BURGHIU DIAMANTAT 6MM -1 BUC",
+          "sku": "041294",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-burghiu-diamantat-6mm-1-buc/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 22284,
+          "name": "Milwaukee 4932479231 BURGHIU DIAMANTAT 5MM &#8211; 1 BUC",
+          "sku": "041293",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-burghiu-diamantat-5mm-1-buc/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 22260,
+          "name": "Milwaukee 48906062 PANZA RIGIDA 52x37MM",
+          "sku": "042355",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-panza-rigida-52x37mm/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 22258,
+          "name": "Milwaukee 48906061 PANZA FLEXIBILA 52x37MM",
+          "sku": "042354",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-panza-flexibila-52x37mm/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 22250,
+          "name": "Milwaukee 48906063 PANZA FLEXIBILA 70&#215;37 MM",
+          "sku": "042356",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-panza-flexibila-70x37-mm/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 22248,
+          "name": "Milwaukee 4932430898 BIT SHOCKWAVE HEX8x25MM-2 BUC",
+          "sku": "046153",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-bit-shockwave-hex8x25mm-2-buc/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 22216,
+          "name": "Milwaukee 48226407 CLESTE PENTRU SCOS CUIE",
+          "sku": "040389",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-cleste-pentru-scos-cuie/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 22206,
+          "name": "Milwaukee 49324300091 PLATOU SLEFUIRE 125MM 8 GAURI ROS125E",
+          "sku": "046143",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-platou-slefuire-125mm-8-gauri-ros125e/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 22150,
+          "name": "Milwaukee 48005016 PANZE SABIE 230/4.2 MM BIMETAL CO",
+          "sku": "045650",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-panze-sabie-230-4-2-mm-bimetal-co/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 22148,
+          "name": "Milwaukee 4932471112 SET 8 BUC. BURGHIE MULTI-MATERIAL",
+          "sku": "036827",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-set-8-buc-burghie-multi-material/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 22140,
+          "name": "Milwaukee 4932399242 ADAPTOR SDS-MAX 320 MM",
+          "sku": "051924",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-adaptor-sds-max-320-mm/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 22134,
+          "name": "Milwaukee 48906054 PANZA TCG 80MM",
+          "sku": "042352",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-panza-tcg-80mm/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 22128,
+          "name": "Milwaukee 4931469103 SINA GHIDAJ LANT 30CM",
+          "sku": "046987",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-sina-ghidaj-lant-30cm/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 22114,
+          "name": "Milwaukee 48906011 PANZA CU INTRARE DIRECTA 3C 35X42mm",
+          "sku": "042362",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-panza-cu-intrare-directa-3c-35x42mm/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 22108,
+          "name": "Milwaukee 4932399909 PANZA CIRCULAR 165x30x24 DINTI",
+          "sku": "036882",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-panza-circular-165x30x24-dinti/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 22106,
+          "name": "Milwaukee 48906005 PANZA CU INTRARE DIRECTA 65X42MM-1 BUC",
+          "sku": "041325",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-panza-cu-intrare-directa-65x42mm-1-buc/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 22094,
+          "name": "Milwaukee 48906051 PANZA TCG 75&#215;2.2MM",
+          "sku": "042351",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-panza-tcg-75x2-2mm/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 22088,
+          "name": "Milwaukee 4932343771 PRELUNGITOR CONIC UNIVERSAL PENTRU CAROTE, SDS-MAX 300MM",
+          "sku": "047494",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-prelungitor-conic-universal-pentru-carote-sds-max-300mm/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 22056,
+          "name": "Milwaukee 4939698536 CUTIE DEPOZITARE 21&#8243;",
+          "sku": "055666",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-cutie-depozitare-21/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 21998,
+          "name": "Milwaukee 4932478865 MASCA DE PROTECTIE S/M",
+          "sku": "037680",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-masca-de-protectie-s-m/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 21974,
+          "name": "Milwaukee 4932352833 SET 5 BURGHIE M4 SDS-PLUS 5-10MM",
+          "sku": "046192",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-set-5-burghie-m4-sds-plus-5-10mm/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 21924,
+          "name": "Milwaukee 4932352304 CARTUS FILTRU AP/AS300ELCP",
+          "sku": "048181",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-cartus-filtru-ap-as300elcp/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 21908,
+          "name": "Milwaukee 48906038 PANZA 85X20 mm",
+          "sku": "042361",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-panza-85x20-mm/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 21906,
+          "name": "Milwaukee 4932352861 SET TUBULARE 1/2&#8243; HEXAGONALE 8/10/11/12/13/14/16/17/19/21MM",
+          "sku": "037675",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-set-tubulare-1-2-hexagonale-8-10-11-12-13-14-16-17-19-21mm/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 21892,
+          "name": "Milwaukee 4932471426 MANUSI DE PROTECTIE, NIVEL 5 &#8211; XL/10",
+          "sku": "037080",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-manusi-de-protectie-nivel-5-xl-10/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 21864,
+          "name": "Milwaukee 4932352334 SET BURGHIE METAL 3-10MM, 8 BUC",
+          "sku": "040867",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-set-burghie-metal-3-10mm-8-buc/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 21862,
+          "name": "Milwaukee 4932498298 SET BURGHIE BETON SDS+, MX4 &#8211; 5 BUC",
+          "sku": "049902",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-set-burghie-beton-sds-mx4-5-buc/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 21858,
+          "name": "Milwaukee 48906039 PANZA BIMETAL 100X28 mm",
+          "sku": "042363",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-panza-bimetal-100x28-mm/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 21848,
+          "name": "Milwaukee 4932352306 SACI PENTRU PRAF FLEECE 5 BUC FIL UM-AP250/AS250",
+          "sku": "048149",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-saci-pentru-praf-fleece-5-buc-fil-um-ap250-as250/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 21844,
+          "name": "Milwaukee 49224800 SET CAROTE 3 BUC, 22/29/35 MM",
+          "sku": "049886",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-set-carote-3-buc-22-29-35-mm/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 21838,
+          "name": "Milwaukee 48225211 RULETA DE MASURAT DESCHISA 100M/300FT",
+          "sku": "053960",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-ruleta-de-masurat-deschisa-100m-300ft/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 21820,
+          "name": "Milwaukee 49560509 BURGHIU DIAMANTAT 10 MM",
+          "sku": "047818",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-burghiu-diamantat-10-mm/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 21816,
+          "name": "Milwaukee 4932492116 SET BURGHIE BETON SDS-PLUS M2, 7 BUC NR.1",
+          "sku": "047477",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-set-burghie-beton-sds-plus-m2-7-buc-nr-1/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 21810,
+          "name": "Milwaukee 48005262 PANZE SABIE NITRUS 230/8T 1 PCS",
+          "sku": "049855",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-panze-sabie-nitrus-230-8t-1-pcs/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 21802,
+          "name": "Milwaukee 48906060 PANZA CUTIT 40MM",
+          "sku": "042353",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-panza-cutit-40mm/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 21798,
+          "name": "Milwaukee 48005203 PANZA SABIE SZ BL TCT TORCH 300/7T SABR. SAW BL.",
+          "sku": "038833",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-panza-sabie-sz-bl-tct-torch-300-7t-sabr-saw-bl/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 21788,
+          "name": "Milwaukee 4933464476 M18CBLID-0 CHEIE DE IMPACT CU ACUM.",
+          "sku": "047763",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-m18cblid-0-cheie-de-impact-cu-acum/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 21772,
+          "name": "Milwaukee 4933459822 M12FID-0 CHEIE IMPACT CU ACUM.",
+          "sku": "036934",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-m12fid-0-cheie-impact-cu-acum/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 21766,
+          "name": "Milwaukee 4933441502 HD18AG125-0 POLIZOR UNGHIULAR CU ACUM. 18V",
+          "sku": "047511",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-hd18ag125-0-polizor-unghiular-cu-acum-18v/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 21764,
+          "name": "Milwaukee 48005526 PANZA SABIE TCT AX 230 MM",
+          "sku": "050298",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-panza-sabie-tct-ax-230-mm/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 21762,
+          "name": "Milwaukee 4932471818 RULETA PREMIUM LATA 8M-26",
+          "sku": "039920",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-ruleta-premium-lata-8m-26/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 21750,
+          "name": "Milwaukee 48005263 PANZA SABIENITRUS 300/8T &#8211; 1 PCS",
+          "sku": "049856",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-panza-sabienitrus-300-8t-1-pcs/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 21744,
+          "name": "Milwaukee 4932498749 SET 5 CHEI TUBULARE DE IMPACT 3/4&#8243;",
+          "sku": "051716",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-set-5-chei-tubulare-de-impact-3-4/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 21738,
+          "name": "Milwaukee 4932498751 SET 5 CHEI TUBULARE DE IMPACT 1&#8243;",
+          "sku": "051717",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-set-5-chei-tubulare-de-impact-1/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 21726,
+          "name": "Milwaukee 48005527 PANZA SABIE TCT AX 300 MM",
+          "sku": "049917",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-panza-sabie-tct-ax-300-mm/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 21704,
+          "name": "Milwaukee 4932478129 MANUSI PROTECTIE IMPACT NIVEL 3-10/XL-1pc",
+          "sku": "038557",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-manusi-protectie-impact-nivel-3-10-xl-1pc/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 21688,
+          "name": "Milwaukee 4933451427 M18CAG125XPDB-0X POLIZOR UNGHIULAR",
+          "sku": "036928",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-m18cag125xpdb-0x-polizor-unghiular/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 21686,
+          "name": "Milwaukee 4933441947 M12CH-0 CIOCAN ROTOPERCUTOR CU ACUM.",
+          "sku": "051710",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-m12ch-0-ciocan-rotopercutor-cu-acum/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 21678,
+          "name": "Milwaukee 4933464105 M18PAL-0 PROIECTOR PIVOTANT",
+          "sku": "042024",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-m18pal-0-proiector-pivotant/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 21670,
+          "name": "Milwaukee 48005502 PANZA SABIE TORCH TCT 230 MM",
+          "sku": "038592",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-panza-sabie-torch-tct-230-mm/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 21664,
+          "name": "Milwaukee 4933464266 M18FDD2-OX MASINA DE GAURIT SI INSURUBAT",
+          "sku": "041916",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-m18fdd2-ox-masina-de-gaurit-si-insurubat/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 21662,
+          "name": "Milwaukee 4933446639 M18RC-0 RADIO-INCARCATOR ACUM. IN2",
+          "sku": "037015",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-m18rc-0-radio-incarcator-acum-in2/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 21650,
+          "name": "Milwaukee 030250 MASINA DE GAURIT HDE13RQX BURGHIU IN2",
+          "sku": "036919",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-masina-de-gaurit-hde13rqx-burghiu-in2/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 21620,
+          "name": "Milwaukee 4932478128 MANUSI PROTECTIE IMPACT NIVEL 3-9/L-1pc",
+          "sku": "038558",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-manusi-protectie-impact-nivel-3-9-l-1pc/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 21618,
+          "name": "Milwaukee 4932498367 OCHELARI PERFORMANCE CU LENTILA GRI",
+          "sku": "054490",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-ochelari-performance-cu-lentila-gri/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 21596,
+          "name": "Milwaukee 4933478823 M12FPP2AV-422P M12 COMBO KIT IN2",
+          "sku": "037463",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-m12fpp2av-422p-m12-combo-kit-in2/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 21550,
+          "name": "Milwaukee 4933441950 M12BPD-0 MASINA DE GAURIT CU ACUM.",
+          "sku": "036941",
+          "permalink": "https://rotakt.ro/produse/milkwaukee-m12bpd-0-masina-de-gaurit-cu-acum/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 3923,
+          "name": "A1703 DISPOZITIV NITUIT",
+          "sku": "026509",
+          "permalink": "https://rotakt.ro/produse/a1703-dispozitiv-nituit/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 3922,
+          "name": "A1700 DISPOZITIV DE NITUIT",
+          "sku": "026510",
+          "permalink": "https://rotakt.ro/produse/a1700-dispozitiv-de-nituit/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 3913,
+          "name": "Fir pentru cosit 2.70 mmx 15 m RO4081527",
+          "sku": "007773",
+          "permalink": "https://rotakt.ro/produse/fir-pentru-cosit-2-70-mmx-15-m-ro4081527/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 3911,
+          "name": "Fir pentru cosit 2.00 mmx 15 m RO4081520",
+          "sku": "012844",
+          "permalink": "https://rotakt.ro/produse/fir-pentru-cosit-2-00-mmx-15-m-ro4081520/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 3910,
+          "name": "Fir pentru cosit 1,65 mmx 15 m",
+          "sku": "006822",
+          "permalink": "https://rotakt.ro/produse/fir-pentru-cosit-165-mmx-15-m/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 3909,
+          "name": "Fir pentru cosit 1,30mmx15 m",
+          "sku": "006821",
+          "permalink": "https://rotakt.ro/produse/fir-pentru-cosit-130mmx15-m/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 3907,
+          "name": "SP360-2 tija adaptor MF360",
+          "sku": "000921",
+          "permalink": "https://rotakt.ro/produse/sp360-2-tija-adaptor-mf360/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 3899,
+          "name": "Ulei rosu pentru motoare in 2T ROTAKT 1 L",
+          "sku": "045892",
+          "permalink": "https://rotakt.ro/produse/ulei-rosu-pentru-motoare-in-2t-rotakt-1-l/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 3898,
+          "name": "Ulei rosu pentru motoare in 2T ROTAKT 0.600 L",
+          "sku": "043420",
+          "permalink": "https://rotakt.ro/produse/ulei-rosu-pentru-motoare-in-2t-rotakt-0-600-l/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 3897,
+          "name": "Ulei pentru ungere lant ROTAKT 1L",
+          "sku": "044723",
+          "permalink": "https://rotakt.ro/produse/ulei-pentru-ungere-lant-rotakt-1l/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 3896,
+          "name": "ULEI HIDRAULIC 1L ROTAKT HLP 46",
+          "sku": "044722",
+          "permalink": "https://rotakt.ro/produse/ulei-hidraulic-1l-rotakt-hlp-46/",
+          "description_chars": 0,
+          "short_description_chars": 0
+        },
+        {
+          "id": 3876,
+          "name": "RTFU079 Cap cosire hobby cu 4 fire",
+          "sku": "045048",
+          "permalink": "https://rotakt.ro/produse/rtfu079-cap-cosire-hobby-cu-4-fire/",
+          "description_chars": 13,
+          "short_description_chars": 0
+        }
+      ]
+    },
+    "micromobilitate.ro": {
+      "total": 96,
+      "in_stock": 55,
+      "out_of_stock": 41,
+      "missing_description_count": 0,
+      "missing_description": []
+    }
+  }
+}

@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>RotaktWeb — Dashboard Marketing</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+<style>
+  :root { --rotakt-red: #D91B1B; }
+  html, body { font-family: 'Inter', system-ui, sans-serif; background: #F8FAFC; color: #0F172A; }
+  h1, h2, .display { font-family: 'Montserrat', sans-serif; letter-spacing: -0.02em; }
+  .kpi { transition: transform .15s ease; }
+  .kpi:hover { transform: translateY(-2px); }
+  .badge-green { background: #DCFCE7; color: #166534; }
+  .badge-amber { background: #FEF3C7; color: #92400E; }
+  .badge-red { background: #FEE2E2; color: #991B1B; }
+  table { font-variant-numeric: tabular-nums; }
+  tbody tr { background: #fff; }
+  tbody tr:hover { background: #F1F5F9; }
+  .tab-btn[data-active="true"] { background: var(--rotakt-red); color: #fff; }
+</style>
+</head>
+<body>
+<header class="bg-[#0F172A] text-white">
+  <div class="max-w-7xl mx-auto px-6 py-6 flex items-center justify-between">
+    <div>
+      <div class="text-xs uppercase tracking-widest text-slate-400">RotaktWeb · Marketing Audit</div>
+      <h1 class="display text-3xl font-extrabold mt-1">Catalog Health Dashboard</h1>
+    </div>
+    <div class="text-right">
+      <div class="text-xs text-slate-400 uppercase tracking-widest">Ultima actualizare</div>
+      <div id="generated" class="text-sm font-semibold">—</div>
+    </div>
+  </div>
+</header>
+
+<main class="max-w-7xl mx-auto px-6 py-8 space-y-10">
+
+  <!-- KPI grid -->
+  <section id="kpi-grid" class="grid grid-cols-1 md:grid-cols-2 gap-6"></section>
+
+  <!-- Trend chart -->
+  <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6">
+    <div class="flex items-center justify-between mb-4">
+      <h2 class="text-lg font-bold">Evoluție catalog</h2>
+      <div class="flex gap-2 text-xs">
+        <button class="tab-btn px-3 py-1 rounded-full border border-slate-300" data-metric="total" data-active="true">Total produse</button>
+        <button class="tab-btn px-3 py-1 rounded-full border border-slate-300" data-metric="in_stock">În stoc</button>
+        <button class="tab-btn px-3 py-1 rounded-full border border-slate-300" data-metric="missing_description_count">Fără descriere</button>
+      </div>
+    </div>
+    <div class="h-72"><canvas id="trend"></canvas></div>
+  </section>
+
+  <!-- Action required -->
+  <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6">
+    <div class="flex items-center justify-between mb-4 flex-wrap gap-3">
+      <div>
+        <h2 class="text-lg font-bold">Produse fără descriere</h2>
+        <p class="text-sm text-slate-500">Listă acționabilă pentru echipa Marketing — click pe nume → produs live.</p>
+      </div>
+      <div class="flex gap-2 items-center">
+        <select id="site-filter" class="text-sm border border-slate-300 rounded px-3 py-1.5"></select>
+        <input id="search" type="search" placeholder="Caută nume sau SKU…" class="text-sm border border-slate-300 rounded px-3 py-1.5 w-64" />
+      </div>
+    </div>
+    <div class="overflow-x-auto">
+      <table class="w-full text-sm">
+        <thead class="text-left text-xs uppercase text-slate-500 border-b border-slate-200">
+          <tr>
+            <th class="py-2 pr-4">Site</th>
+            <th class="py-2 pr-4">SKU</th>
+            <th class="py-2 pr-4">Nume produs</th>
+            <th class="py-2 pr-4 text-right">Chars desc</th>
+            <th class="py-2 pr-4 text-right">Chars short</th>
+          </tr>
+        </thead>
+        <tbody id="missing-tbody" class="divide-y divide-slate-100"></tbody>
+      </table>
+      <div id="missing-empty" class="hidden text-center text-slate-400 py-10">Nimic de făcut — toate produsele au descriere.</div>
+    </div>
+  </section>
+
+  <footer class="text-xs text-slate-400 text-center py-6">
+    Sursă: WooCommerce Store API · Generat zilnic via GitHub Actions ·
+    <a href="data/latest.json" class="underline hover:text-slate-600">latest.json</a> ·
+    <a href="data/history.json" class="underline hover:text-slate-600">history.json</a>
+  </footer>
+</main>
+
+<script>
+const SITE_COLORS = {
+  'rotakt.ro': '#D91B1B',
+  'micromobilitate.ro': '#0EA5E9',
+};
+
+let LATEST = null;
+let HISTORY = null;
+let trendChart = null;
+
+async function loadJSON(path) {
+  const r = await fetch(path + '?_=' + Date.now());
+  if (!r.ok) throw new Error(`Failed to load ${path}: ${r.status}`);
+  return r.json();
+}
+
+function fmt(n) { return new Intl.NumberFormat('ro-RO').format(n); }
+function pct(n, total) { return total ? Math.round((n/total)*100) : 0; }
+
+function renderKPIs() {
+  const grid = document.getElementById('kpi-grid');
+  grid.innerHTML = '';
+  for (const [site, data] of Object.entries(LATEST.sites)) {
+    const color = SITE_COLORS[site] || '#0F172A';
+    const stockPct = pct(data.in_stock, data.total);
+    const missPct = pct(data.missing_description_count, data.total);
+    const missBadge = data.missing_description_count === 0 ? 'badge-green'
+      : missPct < 5 ? 'badge-amber' : 'badge-red';
+    const missLabel = data.missing_description_count === 0 ? 'OK · catalog complet'
+      : `${data.missing_description_count} produse necesită descriere`;
+    grid.insertAdjacentHTML('beforeend', `
+      <div class="kpi bg-white rounded-2xl shadow-sm border border-slate-200 p-6">
+        <div class="flex items-center gap-3 mb-4">
+          <span class="inline-block w-3 h-3 rounded-full" style="background:${color}"></span>
+          <h2 class="font-bold text-lg">${site}</h2>
+        </div>
+        <div class="grid grid-cols-3 gap-4">
+          <div>
+            <div class="text-xs uppercase text-slate-500 tracking-wider">Total produse</div>
+            <div class="display text-3xl font-extrabold">${fmt(data.total)}</div>
+          </div>
+          <div>
+            <div class="text-xs uppercase text-slate-500 tracking-wider">În stoc</div>
+            <div class="display text-3xl font-extrabold text-emerald-600">${fmt(data.in_stock)}</div>
+            <div class="text-xs text-slate-400">${stockPct}% din catalog</div>
+          </div>
+          <div>
+            <div class="text-xs uppercase text-slate-500 tracking-wider">Fără stoc</div>
+            <div class="display text-3xl font-extrabold text-slate-400">${fmt(data.out_of_stock)}</div>
+          </div>
+        </div>
+        <div class="mt-5">
+          <span class="inline-block px-3 py-1 rounded-full text-xs font-semibold ${missBadge}">${missLabel}</span>
+        </div>
+      </div>
+    `);
+  }
+}
+
+function renderTrend(metric = 'total') {
+  const labels = HISTORY.map(h => h.date);
+  const datasets = Object.keys(LATEST.sites).map(site => ({
+    label: site,
+    data: HISTORY.map(h => h.sites?.[site]?.[metric] ?? null),
+    borderColor: SITE_COLORS[site] || '#0F172A',
+    backgroundColor: (SITE_COLORS[site] || '#0F172A') + '20',
+    tension: 0.3,
+    fill: true,
+    pointRadius: 4,
+    pointHoverRadius: 6,
+  }));
+  if (trendChart) trendChart.destroy();
+  const ctx = document.getElementById('trend').getContext('2d');
+  trendChart = new Chart(ctx, {
+    type: 'line',
+    data: { labels, datasets },
+    options: {
+      maintainAspectRatio: false,
+      plugins: { legend: { position: 'bottom' } },
+      scales: { y: { beginAtZero: false, ticks: { precision: 0 } } },
+    }
+  });
+}
+
+function renderMissingTable() {
+  const sel = document.getElementById('site-filter').value;
+  const q = document.getElementById('search').value.trim().toLowerCase();
+  const tbody = document.getElementById('missing-tbody');
+  const empty = document.getElementById('missing-empty');
+  tbody.innerHTML = '';
+
+  const rows = [];
+  for (const [site, data] of Object.entries(LATEST.sites)) {
+    if (sel && sel !== '__all__' && site !== sel) continue;
+    for (const m of (data.missing_description || [])) {
+      if (q && !((m.name || '').toLowerCase().includes(q) || (m.sku || '').toLowerCase().includes(q))) continue;
+      rows.push({ site, ...m });
+    }
+  }
+
+  if (!rows.length) {
+    empty.classList.remove('hidden');
+    return;
+  }
+  empty.classList.add('hidden');
+
+  for (const r of rows) {
+    const color = SITE_COLORS[r.site] || '#0F172A';
+    tbody.insertAdjacentHTML('beforeend', `
+      <tr>
+        <td class="py-2 pr-4">
+          <span class="inline-flex items-center gap-1.5 text-xs">
+            <span class="inline-block w-2 h-2 rounded-full" style="background:${color}"></span>
+            ${r.site}
+          </span>
+        </td>
+        <td class="py-2 pr-4 text-slate-500">${r.sku || '—'}</td>
+        <td class="py-2 pr-4">
+          <a href="${r.permalink}" target="_blank" rel="noopener" class="text-slate-900 hover:text-[color:var(--rotakt-red)] font-medium">${r.name || '(fără nume)'}</a>
+        </td>
+        <td class="py-2 pr-4 text-right">${r.description_chars}</td>
+        <td class="py-2 pr-4 text-right">${r.short_description_chars}</td>
+      </tr>
+    `);
+  }
+}
+
+function setupFilters() {
+  const sel = document.getElementById('site-filter');
+  sel.innerHTML = '<option value="__all__">Toate site-urile</option>' +
+    Object.keys(LATEST.sites).map(s => `<option value="${s}">${s}</option>`).join('');
+  sel.addEventListener('change', renderMissingTable);
+  document.getElementById('search').addEventListener('input', renderMissingTable);
+
+  document.querySelectorAll('.tab-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.tab-btn').forEach(b => b.dataset.active = 'false');
+      btn.dataset.active = 'true';
+      renderTrend(btn.dataset.metric);
+    });
+  });
+}
+
+(async function init() {
+  try {
+    [LATEST, HISTORY] = await Promise.all([
+      loadJSON('data/latest.json'),
+      loadJSON('data/history.json'),
+    ]);
+    document.getElementById('generated').textContent =
+      new Date(LATEST.generated_at).toLocaleString('ro-RO', { dateStyle: 'medium', timeStyle: 'short' });
+    renderKPIs();
+    setupFilters();
+    renderTrend('total');
+    renderMissingTable();
+  } catch (e) {
+    document.querySelector('main').insertAdjacentHTML('afterbegin',
+      `<div class="bg-red-50 border border-red-200 text-red-800 p-4 rounded-xl">Eroare încărcare date: ${e.message}</div>`);
+  }
+})();
+</script>
+</body>
+</html>
