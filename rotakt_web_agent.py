@@ -35,7 +35,18 @@ SITES = {
 # Threshold (chars after stripping HTML) below which a description is "missing"
 MIN_DESCRIPTION_CHARS = 20
 
-USER_AGENT = "RotaktWebAgent/1.0 (+daily catalog audit)"
+USER_AGENT = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) "
+    "Chrome/131.0.0.0 Safari/537.36"
+)
+DEFAULT_HEADERS = {
+    "User-Agent": USER_AGENT,
+    "Accept": "application/json, text/plain, */*",
+    "Accept-Language": "ro-RO,ro;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Cache-Control": "no-cache",
+}
 PER_PAGE = 50
 TIMEOUT = 90.0
 MAX_RETRIES = 4
@@ -70,7 +81,12 @@ def fetch_all_products(base_url: str) -> list[dict]:
     """Paginates through WooCommerce Store API and returns all products."""
     products: list[dict] = []
     page = 1
-    with httpx.Client(timeout=TIMEOUT, headers={"User-Agent": USER_AGENT}) as client:
+    with httpx.Client(
+        timeout=TIMEOUT,
+        headers=DEFAULT_HEADERS,
+        http2=False,
+        follow_redirects=True,
+    ) as client:
         while True:
             url = f"{base_url}/wp-json/wc/store/v1/products"
             params = {"per_page": PER_PAGE, "page": page}
