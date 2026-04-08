@@ -36,8 +36,10 @@ SITES = {
 MIN_DESCRIPTION_CHARS = 20
 
 USER_AGENT = "RotaktWebAgent/1.0 (+daily catalog audit)"
-PER_PAGE = 100
-TIMEOUT = 30.0
+PER_PAGE = 50
+TIMEOUT = 90.0
+MAX_RETRIES = 4
+RETRY_BACKOFF = 3.0
 
 
 def strip_html(html: str | None) -> str:
@@ -48,6 +50,22 @@ def strip_html(html: str | None) -> str:
     return text
 
 
+def _get_with_retries(client: httpx.Client, url: str, params: dict) -> httpx.Response:
+    last_exc: Exception | None = None
+    for attempt in range(1, MAX_RETRIES + 1):
+        try:
+            return client.get(url, params=params)
+        except (httpx.TimeoutException, httpx.TransportError) as e:
+            last_exc = e
+            if attempt == MAX_RETRIES:
+                raise
+            wait = RETRY_BACKOFF * attempt
+            print(f"  retry {attempt}/{MAX_RETRIES - 1} after {wait}s ({type(e).__name__})", flush=True)
+            import time
+            time.sleep(wait)
+    raise last_exc  # type: ignore[misc]
+
+
 def fetch_all_products(base_url: str) -> list[dict]:
     """Paginates through WooCommerce Store API and returns all products."""
     products: list[dict] = []
@@ -56,7 +74,7 @@ def fetch_all_products(base_url: str) -> list[dict]:
         while True:
             url = f"{base_url}/wp-json/wc/store/v1/products"
             params = {"per_page": PER_PAGE, "page": page}
-            r = client.get(url, params=params)
+            r = _get_with_retries(client, url, params)
             if r.status_code == 400 and page > 1:
                 # Woo returns 400 "rest_product_invalid_page_number" past the last page
                 break
@@ -69,7 +87,7 @@ def fetch_all_products(base_url: str) -> list[dict]:
             if total_pages and page >= total_pages:
                 break
             page += 1
-            if page > 200:  # safety stop
+            if page > 400:  # safety stop
                 break
     return products
 
