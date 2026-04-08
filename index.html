@@ -16,10 +16,13 @@
   .badge-green { background: #DCFCE7; color: #166534; }
   .badge-amber { background: #FEF3C7; color: #92400E; }
   .badge-red { background: #FEE2E2; color: #991B1B; }
+  .badge-slate { background: #E2E8F0; color: #334155; }
   table { font-variant-numeric: tabular-nums; }
   tbody tr { background: #fff; }
   tbody tr:hover { background: #F1F5F9; }
-  .tab-btn[data-active="true"] { background: var(--rotakt-red); color: #fff; }
+  .chart-tab[data-active="true"] { background: var(--rotakt-red); color: #fff; border-color: var(--rotakt-red); }
+  .check-tab[data-active="true"] { background: #0F172A; color: #fff; border-color: #0F172A; }
+  .ring-bg { stroke: #E2E8F0; }
 </style>
 </head>
 <body>
@@ -32,6 +35,7 @@
     <div class="text-right">
       <div class="text-xs text-slate-400 uppercase tracking-widest">Ultima actualizare</div>
       <div id="generated" class="text-sm font-semibold">—</div>
+      <div id="alert-pill" class="mt-2"></div>
     </div>
   </div>
 </header>
@@ -39,54 +43,74 @@
 <main class="max-w-7xl mx-auto px-6 py-8 space-y-10">
 
   <!-- KPI grid -->
-  <section id="kpi-grid" class="grid grid-cols-1 md:grid-cols-2 gap-6"></section>
+  <section id="kpi-grid" class="grid grid-cols-1 lg:grid-cols-2 gap-6"></section>
 
   <!-- Trend chart -->
   <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6">
-    <div class="flex items-center justify-between mb-4">
+    <div class="flex items-center justify-between mb-4 flex-wrap gap-3">
       <h2 class="text-lg font-bold">Evoluție catalog</h2>
-      <div class="flex gap-2 text-xs">
-        <button class="tab-btn px-3 py-1 rounded-full border border-slate-300" data-metric="total" data-active="true">Total produse</button>
-        <button class="tab-btn px-3 py-1 rounded-full border border-slate-300" data-metric="in_stock">În stoc</button>
-        <button class="tab-btn px-3 py-1 rounded-full border border-slate-300" data-metric="missing_description_count">Fără descriere</button>
+      <div class="flex gap-2 text-xs flex-wrap">
+        <button class="chart-tab px-3 py-1 rounded-full border border-slate-300" data-metric="total" data-active="true">Total</button>
+        <button class="chart-tab px-3 py-1 rounded-full border border-slate-300" data-metric="in_stock">În stoc</button>
+        <button class="chart-tab px-3 py-1 rounded-full border border-slate-300" data-metric="health_score">Health %</button>
+        <button class="chart-tab px-3 py-1 rounded-full border border-slate-300" data-metric="missing_description_count">Fără descriere</button>
+        <button class="chart-tab px-3 py-1 rounded-full border border-slate-300" data-metric="missing_image_count">Fără poză</button>
+        <button class="chart-tab px-3 py-1 rounded-full border border-slate-300" data-metric="missing_price_count">Fără preț</button>
+        <button class="chart-tab px-3 py-1 rounded-full border border-slate-300" data-metric="missing_brand_count">Fără brand</button>
+        <button class="chart-tab px-3 py-1 rounded-full border border-slate-300" data-metric="seo_issues_count">SEO</button>
       </div>
     </div>
     <div class="h-72"><canvas id="trend"></canvas></div>
   </section>
 
-  <!-- Action required -->
+  <!-- Daily diff -->
+  <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6">
+    <h2 class="text-lg font-bold mb-1">Modificări zilnice</h2>
+    <p class="text-sm text-slate-500 mb-4">Produse noi sau dispărute față de ultimul rulaj.</p>
+    <div id="diff-grid" class="grid grid-cols-1 md:grid-cols-2 gap-6"></div>
+  </section>
+
+  <!-- Issues tabs -->
   <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6">
     <div class="flex items-center justify-between mb-4 flex-wrap gap-3">
       <div>
-        <h2 class="text-lg font-bold">Produse fără descriere</h2>
-        <p class="text-sm text-slate-500">Listă acționabilă pentru echipa Marketing — click pe nume → produs live.</p>
+        <h2 class="text-lg font-bold">Probleme de catalog</h2>
+        <p class="text-sm text-slate-500">Listă acționabilă pentru Marketing — selectează tip + site.</p>
       </div>
       <div class="flex gap-2 items-center">
         <select id="site-filter" class="text-sm border border-slate-300 rounded px-3 py-1.5"></select>
-        <input id="search" type="search" placeholder="Caută nume sau SKU…" class="text-sm border border-slate-300 rounded px-3 py-1.5 w-64" />
+        <input id="search" type="search" placeholder="Caută nume sau SKU…" class="text-sm border border-slate-300 rounded px-3 py-1.5 w-56" />
       </div>
     </div>
+    <div id="check-tabs" class="flex flex-wrap gap-2 text-xs mb-4"></div>
     <div class="overflow-x-auto">
       <table class="w-full text-sm">
         <thead class="text-left text-xs uppercase text-slate-500 border-b border-slate-200">
-          <tr>
+          <tr id="issues-thead">
             <th class="py-2 pr-4">Site</th>
             <th class="py-2 pr-4">SKU</th>
             <th class="py-2 pr-4">Nume produs</th>
-            <th class="py-2 pr-4 text-right">Chars desc</th>
-            <th class="py-2 pr-4 text-right">Chars short</th>
+            <th class="py-2 pr-4">Detalii</th>
           </tr>
         </thead>
-        <tbody id="missing-tbody" class="divide-y divide-slate-100"></tbody>
+        <tbody id="issues-tbody" class="divide-y divide-slate-100"></tbody>
       </table>
-      <div id="missing-empty" class="hidden text-center text-slate-400 py-10">Nimic de făcut — toate produsele au descriere.</div>
+      <div id="issues-empty" class="hidden text-center text-slate-400 py-10">Nimic de făcut aici.</div>
     </div>
+  </section>
+
+  <!-- Categories -->
+  <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6">
+    <h2 class="text-lg font-bold mb-1">Catalog pe categorii</h2>
+    <p class="text-sm text-slate-500 mb-4">Top 15 categorii cu cele mai multe produse + categorii goale.</p>
+    <div id="cats-grid" class="grid grid-cols-1 md:grid-cols-2 gap-6"></div>
   </section>
 
   <footer class="text-xs text-slate-400 text-center py-6">
     Sursă: WooCommerce Store API · Generat zilnic via GitHub Actions ·
     <a href="data/latest.json" class="underline hover:text-slate-600">latest.json</a> ·
-    <a href="data/history.json" class="underline hover:text-slate-600">history.json</a>
+    <a href="data/history.json" class="underline hover:text-slate-600">history.json</a> ·
+    <a href="data/alerts.json" class="underline hover:text-slate-600">alerts.json</a>
   </footer>
 </main>
 
@@ -96,9 +120,19 @@ const SITE_COLORS = {
   'micromobilitate.ro': '#0EA5E9',
 };
 
+const CHECK_LABELS = {
+  missing_description: 'Fără descriere',
+  missing_image: 'Fără poză',
+  missing_price: 'Fără preț',
+  missing_brand: 'Fără brand',
+  low_stock: 'Stoc redus',
+  seo_issues: 'SEO',
+};
+
 let LATEST = null;
 let HISTORY = null;
 let trendChart = null;
+let activeCheck = 'missing_description';
 
 async function loadJSON(path) {
   const r = await fetch(path + '?_=' + Date.now());
@@ -106,8 +140,29 @@ async function loadJSON(path) {
   return r.json();
 }
 
-function fmt(n) { return new Intl.NumberFormat('ro-RO').format(n); }
-function pct(n, total) { return total ? Math.round((n/total)*100) : 0; }
+const fmt = n => new Intl.NumberFormat('ro-RO').format(n);
+const pct = (n, t) => t ? Math.round((n/t)*100) : 0;
+
+function healthColor(score) {
+  if (score >= 85) return '#059669';
+  if (score >= 70) return '#D97706';
+  return '#DC2626';
+}
+
+function ringSVG(score) {
+  const r = 40, c = 2 * Math.PI * r;
+  const offset = c - (score/100) * c;
+  const color = healthColor(score);
+  return `
+    <svg width="110" height="110" viewBox="0 0 110 110">
+      <circle class="ring-bg" cx="55" cy="55" r="${r}" stroke-width="10" fill="none"/>
+      <circle cx="55" cy="55" r="${r}" stroke="${color}" stroke-width="10" fill="none"
+        stroke-dasharray="${c}" stroke-dashoffset="${offset}" stroke-linecap="round"
+        transform="rotate(-90 55 55)"/>
+      <text x="55" y="62" text-anchor="middle" font-family="Montserrat" font-weight="800" font-size="22" fill="#0F172A">${score}%</text>
+    </svg>
+  `;
+}
 
 function renderKPIs() {
   const grid = document.getElementById('kpi-grid');
@@ -115,38 +170,53 @@ function renderKPIs() {
   for (const [site, data] of Object.entries(LATEST.sites)) {
     const color = SITE_COLORS[site] || '#0F172A';
     const stockPct = pct(data.in_stock, data.total);
-    const missPct = pct(data.missing_description_count, data.total);
-    const missBadge = data.missing_description_count === 0 ? 'badge-green'
-      : missPct < 5 ? 'badge-amber' : 'badge-red';
-    const missLabel = data.missing_description_count === 0 ? 'OK · catalog complet'
-      : `${data.missing_description_count} produse necesită descriere`;
+    const issueCounts = Object.entries(data.checks)
+      .map(([k,v]) => `<div class="flex justify-between text-xs py-1 border-b border-slate-100">
+        <span class="text-slate-500">${CHECK_LABELS[k] || k}</span>
+        <span class="font-semibold ${v.length>0?'text-red-600':'text-slate-400'}">${v.length}</span>
+      </div>`).join('');
     grid.insertAdjacentHTML('beforeend', `
       <div class="kpi bg-white rounded-2xl shadow-sm border border-slate-200 p-6">
-        <div class="flex items-center gap-3 mb-4">
-          <span class="inline-block w-3 h-3 rounded-full" style="background:${color}"></span>
-          <h2 class="font-bold text-lg">${site}</h2>
-        </div>
-        <div class="grid grid-cols-3 gap-4">
-          <div>
-            <div class="text-xs uppercase text-slate-500 tracking-wider">Total produse</div>
-            <div class="display text-3xl font-extrabold">${fmt(data.total)}</div>
+        <div class="flex items-start justify-between gap-4">
+          <div class="flex-1">
+            <div class="flex items-center gap-3 mb-3">
+              <span class="inline-block w-3 h-3 rounded-full" style="background:${color}"></span>
+              <h2 class="font-bold text-lg">${site}</h2>
+            </div>
+            <div class="grid grid-cols-3 gap-3">
+              <div>
+                <div class="text-[10px] uppercase text-slate-500 tracking-wider">Total</div>
+                <div class="display text-2xl font-extrabold">${fmt(data.total)}</div>
+              </div>
+              <div>
+                <div class="text-[10px] uppercase text-slate-500 tracking-wider">În stoc</div>
+                <div class="display text-2xl font-extrabold text-emerald-600">${fmt(data.in_stock)}</div>
+                <div class="text-[10px] text-slate-400">${stockPct}%</div>
+              </div>
+              <div>
+                <div class="text-[10px] uppercase text-slate-500 tracking-wider">Fără stoc</div>
+                <div class="display text-2xl font-extrabold text-slate-400">${fmt(data.out_of_stock)}</div>
+              </div>
+            </div>
+            <div class="mt-4">${issueCounts}</div>
           </div>
-          <div>
-            <div class="text-xs uppercase text-slate-500 tracking-wider">În stoc</div>
-            <div class="display text-3xl font-extrabold text-emerald-600">${fmt(data.in_stock)}</div>
-            <div class="text-xs text-slate-400">${stockPct}% din catalog</div>
+          <div class="text-center">
+            <div class="text-[10px] uppercase text-slate-500 tracking-wider mb-1">Health</div>
+            ${ringSVG(data.health_score)}
+            <div class="text-[10px] text-slate-400 mt-1">${data.products_with_issues} cu probleme</div>
           </div>
-          <div>
-            <div class="text-xs uppercase text-slate-500 tracking-wider">Fără stoc</div>
-            <div class="display text-3xl font-extrabold text-slate-400">${fmt(data.out_of_stock)}</div>
-          </div>
-        </div>
-        <div class="mt-5">
-          <span class="inline-block px-3 py-1 rounded-full text-xs font-semibold ${missBadge}">${missLabel}</span>
         </div>
       </div>
     `);
   }
+}
+
+function renderAlertPill() {
+  const total = Object.values(LATEST.sites)
+    .reduce((s, v) => s + Object.values(v.checks).reduce((a,b)=>a+b.length,0) + v.categories.empty_count, 0);
+  const cls = total === 0 ? 'badge-green' : total < 50 ? 'badge-amber' : 'badge-red';
+  document.getElementById('alert-pill').innerHTML =
+    `<span class="inline-block px-3 py-1 rounded-full text-xs font-semibold ${cls}">${total} alerte total</span>`;
 }
 
 function renderTrend(metric = 'total') {
@@ -174,45 +244,156 @@ function renderTrend(metric = 'total') {
   });
 }
 
-function renderMissingTable() {
+function renderDiff() {
+  const grid = document.getElementById('diff-grid');
+  grid.innerHTML = '';
+  for (const [site, data] of Object.entries(LATEST.sites)) {
+    const color = SITE_COLORS[site] || '#0F172A';
+    const d = data.diff || {};
+    const baseline = d.baseline;
+    const added = d.added || [];
+    const removed = d.removed || [];
+    const renderList = (arr, emptyMsg) => arr.length === 0
+      ? `<div class="text-xs text-slate-400 italic">${emptyMsg}</div>`
+      : `<ul class="text-xs space-y-1">${arr.slice(0,12).map(p => `
+          <li><a href="${p.permalink || '#'}" target="_blank" class="text-slate-700 hover:text-[color:var(--rotakt-red)]">${p.name || '(fără nume)'}</a> ${p.sku ? `<span class="text-slate-400">· ${p.sku}</span>` : ''}</li>
+        `).join('')}${arr.length>12?`<li class="text-slate-400 italic">…+${arr.length-12} altele</li>`:''}</ul>`;
+    grid.insertAdjacentHTML('beforeend', `
+      <div class="border border-slate-200 rounded-xl p-4">
+        <div class="flex items-center gap-2 mb-3">
+          <span class="inline-block w-2 h-2 rounded-full" style="background:${color}"></span>
+          <span class="font-semibold text-sm">${site}</span>
+          ${baseline ? '<span class="text-xs text-slate-400">(baseline — fără diff)</span>' : ''}
+        </div>
+        <div class="grid grid-cols-2 gap-3">
+          <div>
+            <div class="text-[10px] uppercase text-emerald-600 font-semibold mb-1">+ Adăugate (${added.length})</div>
+            ${renderList(added, 'Niciun produs nou.')}
+          </div>
+          <div>
+            <div class="text-[10px] uppercase text-red-600 font-semibold mb-1">− Dispărute (${removed.length})</div>
+            ${renderList(removed, 'Niciun produs dispărut.')}
+          </div>
+        </div>
+      </div>
+    `);
+  }
+}
+
+function renderCheckTabs() {
+  const tabs = document.getElementById('check-tabs');
+  tabs.innerHTML = Object.keys(CHECK_LABELS).map(k => {
+    const total = Object.values(LATEST.sites).reduce((s,v)=>s+(v.checks[k]?.length||0),0);
+    return `<button class="check-tab px-3 py-1.5 rounded-full border border-slate-300" data-check="${k}" data-active="${k===activeCheck}">
+      ${CHECK_LABELS[k]} <span class="ml-1 text-[10px] opacity-60">${total}</span>
+    </button>`;
+  }).join('');
+  tabs.querySelectorAll('.check-tab').forEach(btn => {
+    btn.addEventListener('click', () => {
+      activeCheck = btn.dataset.check;
+      tabs.querySelectorAll('.check-tab').forEach(b => b.dataset.active = (b.dataset.check === activeCheck));
+      renderIssuesTable();
+    });
+  });
+}
+
+function detailCell(check, item) {
+  switch (check) {
+    case 'missing_description':
+      return `desc: <b>${item.description_chars}</b> chars · short: ${item.short_description_chars}`;
+    case 'missing_image':
+      return item.reason === 'placeholder' ? 'placeholder' : 'fără poză';
+    case 'missing_price':
+      return `preț: ${item.raw_price || '0'} ${item.currency || ''}`;
+    case 'missing_brand':
+      return 'brand neasignat';
+    case 'low_stock':
+      return `${item.remaining} rămase`;
+    case 'seo_issues':
+      return (item.issues || []).join(', ');
+    default:
+      return '';
+  }
+}
+
+function renderIssuesTable() {
   const sel = document.getElementById('site-filter').value;
   const q = document.getElementById('search').value.trim().toLowerCase();
-  const tbody = document.getElementById('missing-tbody');
-  const empty = document.getElementById('missing-empty');
+  const tbody = document.getElementById('issues-tbody');
+  const empty = document.getElementById('issues-empty');
   tbody.innerHTML = '';
 
   const rows = [];
   for (const [site, data] of Object.entries(LATEST.sites)) {
     if (sel && sel !== '__all__' && site !== sel) continue;
-    for (const m of (data.missing_description || [])) {
-      if (q && !((m.name || '').toLowerCase().includes(q) || (m.sku || '').toLowerCase().includes(q))) continue;
-      rows.push({ site, ...m });
+    for (const item of (data.checks[activeCheck] || [])) {
+      if (q && !((item.name || '').toLowerCase().includes(q) || (item.sku || '').toLowerCase().includes(q))) continue;
+      rows.push({ site, item });
     }
   }
-
-  if (!rows.length) {
-    empty.classList.remove('hidden');
-    return;
-  }
+  if (!rows.length) { empty.classList.remove('hidden'); return; }
   empty.classList.add('hidden');
 
-  for (const r of rows) {
-    const color = SITE_COLORS[r.site] || '#0F172A';
+  for (const { site, item } of rows.slice(0, 500)) {
+    const color = SITE_COLORS[site] || '#0F172A';
     tbody.insertAdjacentHTML('beforeend', `
       <tr>
         <td class="py-2 pr-4">
           <span class="inline-flex items-center gap-1.5 text-xs">
             <span class="inline-block w-2 h-2 rounded-full" style="background:${color}"></span>
-            ${r.site}
+            ${site}
           </span>
         </td>
-        <td class="py-2 pr-4 text-slate-500">${r.sku || '—'}</td>
+        <td class="py-2 pr-4 text-slate-500">${item.sku || '—'}</td>
         <td class="py-2 pr-4">
-          <a href="${r.permalink}" target="_blank" rel="noopener" class="text-slate-900 hover:text-[color:var(--rotakt-red)] font-medium">${r.name || '(fără nume)'}</a>
+          <a href="${item.permalink || '#'}" target="_blank" rel="noopener" class="text-slate-900 hover:text-[color:var(--rotakt-red)] font-medium">${item.name || '(fără nume)'}</a>
         </td>
-        <td class="py-2 pr-4 text-right">${r.description_chars}</td>
-        <td class="py-2 pr-4 text-right">${r.short_description_chars}</td>
+        <td class="py-2 pr-4 text-xs text-slate-500">${detailCell(activeCheck, item)}</td>
       </tr>
+    `);
+  }
+  if (rows.length > 500) {
+    tbody.insertAdjacentHTML('beforeend', `<tr><td colspan="4" class="py-3 text-center text-xs text-slate-400 italic">…+${rows.length-500} produse omise (folosește căutarea)</td></tr>`);
+  }
+}
+
+function renderCategories() {
+  const grid = document.getElementById('cats-grid');
+  grid.innerHTML = '';
+  for (const [site, data] of Object.entries(LATEST.sites)) {
+    const color = SITE_COLORS[site] || '#0F172A';
+    const c = data.categories || {};
+    const top = c.top || [];
+    const empty = c.empty || [];
+    const maxCount = top.length ? top[0].count : 1;
+    grid.insertAdjacentHTML('beforeend', `
+      <div class="border border-slate-200 rounded-xl p-4">
+        <div class="flex items-center justify-between mb-3">
+          <div class="flex items-center gap-2">
+            <span class="inline-block w-2 h-2 rounded-full" style="background:${color}"></span>
+            <span class="font-semibold text-sm">${site}</span>
+          </div>
+          <span class="text-xs text-slate-500">${c.total} categorii · ${c.empty_count} goale</span>
+        </div>
+        <div class="text-[10px] uppercase text-slate-500 font-semibold mb-2">Top 15 categorii</div>
+        <ul class="space-y-1.5 mb-4">
+          ${top.map(cat => `
+            <li class="text-xs">
+              <div class="flex justify-between">
+                <a href="${cat.permalink || '#'}" target="_blank" class="text-slate-700 hover:text-[color:var(--rotakt-red)] truncate pr-2">${cat.name}</a>
+                <span class="font-semibold text-slate-700">${cat.count}</span>
+              </div>
+              <div class="h-1 bg-slate-100 rounded mt-0.5"><div class="h-1 rounded" style="width:${(cat.count/maxCount)*100}%;background:${color}"></div></div>
+            </li>
+          `).join('')}
+        </ul>
+        <div class="text-[10px] uppercase text-red-600 font-semibold mb-2">Categorii goale (${empty.length})</div>
+        ${empty.length === 0
+          ? '<div class="text-xs text-slate-400 italic">Niciuna goală.</div>'
+          : `<ul class="text-xs space-y-1">${empty.map(cat => `
+              <li>· <a href="${cat.permalink || '#'}" target="_blank" class="text-slate-700 hover:text-[color:var(--rotakt-red)]">${cat.name}</a></li>
+            `).join('')}</ul>`}
+      </div>
     `);
   }
 }
@@ -221,12 +402,11 @@ function setupFilters() {
   const sel = document.getElementById('site-filter');
   sel.innerHTML = '<option value="__all__">Toate site-urile</option>' +
     Object.keys(LATEST.sites).map(s => `<option value="${s}">${s}</option>`).join('');
-  sel.addEventListener('change', renderMissingTable);
-  document.getElementById('search').addEventListener('input', renderMissingTable);
-
-  document.querySelectorAll('.tab-btn').forEach(btn => {
+  sel.addEventListener('change', renderIssuesTable);
+  document.getElementById('search').addEventListener('input', renderIssuesTable);
+  document.querySelectorAll('.chart-tab').forEach(btn => {
     btn.addEventListener('click', () => {
-      document.querySelectorAll('.tab-btn').forEach(b => b.dataset.active = 'false');
+      document.querySelectorAll('.chart-tab').forEach(b => b.dataset.active = 'false');
       btn.dataset.active = 'true';
       renderTrend(btn.dataset.metric);
     });
@@ -241,10 +421,14 @@ function setupFilters() {
     ]);
     document.getElementById('generated').textContent =
       new Date(LATEST.generated_at).toLocaleString('ro-RO', { dateStyle: 'medium', timeStyle: 'short' });
+    renderAlertPill();
     renderKPIs();
     setupFilters();
     renderTrend('total');
-    renderMissingTable();
+    renderDiff();
+    renderCheckTabs();
+    renderIssuesTable();
+    renderCategories();
   } catch (e) {
     document.querySelector('main').insertAdjacentHTML('afterbegin',
       `<div class="bg-red-50 border border-red-200 text-red-800 p-4 rounded-xl">Eroare încărcare date: ${e.message}</div>`);

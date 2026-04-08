@@ -1,613 +1,2612 @@
 {
+<<<<<<< HEAD
   "generated_at": "2026-04-08T13:36:54.864954+00:00",
+=======
+  "generated_at": "2026-04-08T12:40:49.869841+00:00",
+>>>>>>> 44a5e16 (feat: 9 new audit checks + extended dashboard + GitHub issue alerts)
   "date": "2026-04-08",
   "sites": {
     "rotakt.ro": {
       "total": 1082,
       "in_stock": 810,
       "out_of_stock": 272,
-      "missing_description_count": 74,
-      "missing_description": [
-        {
-          "id": 22362,
-          "name": "Milwaukee 48005185 PANZE SABIE 100/1 MM BIMETAL, CO",
-          "sku": "036896",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-panze-sabie-100-1-mm-bimetal-co/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 22338,
-          "name": "Milwaukee 4932430899 BIT SHOCKWAVE HEX10x25MM-2BUC",
-          "sku": "046154",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-bit-shockwave-hex10x25mm-2buc/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 22322,
-          "name": "Milwaukee 48005293 PANZE SABIE 200/2.5/1.8 MM BIMETAL, CO",
-          "sku": "036894",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-panze-sabie-200-2-5-1-8-mm-bimetal-co/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 22300,
-          "name": "Milwaukee 4932430900 BIT SHOCKWAVE HEX12x25MM-2BUC",
-          "sku": "046155",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-bit-shockwave-hex12x25mm-2buc/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 22296,
-          "name": "Milwaukee 4932479234 BURGHIU DIAMANTAT 10MM &#8211; 1 BUC",
-          "sku": "041295",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-burghiu-diamantat-10mm-1-buc/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 22286,
-          "name": "Milwaukee 4932479232 BURGHIU DIAMANTAT 6MM -1 BUC",
-          "sku": "041294",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-burghiu-diamantat-6mm-1-buc/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 22284,
-          "name": "Milwaukee 4932479231 BURGHIU DIAMANTAT 5MM &#8211; 1 BUC",
-          "sku": "041293",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-burghiu-diamantat-5mm-1-buc/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 22260,
-          "name": "Milwaukee 48906062 PANZA RIGIDA 52x37MM",
-          "sku": "042355",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-panza-rigida-52x37mm/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 22258,
-          "name": "Milwaukee 48906061 PANZA FLEXIBILA 52x37MM",
-          "sku": "042354",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-panza-flexibila-52x37mm/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 22250,
-          "name": "Milwaukee 48906063 PANZA FLEXIBILA 70&#215;37 MM",
-          "sku": "042356",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-panza-flexibila-70x37-mm/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 22248,
-          "name": "Milwaukee 4932430898 BIT SHOCKWAVE HEX8x25MM-2 BUC",
-          "sku": "046153",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-bit-shockwave-hex8x25mm-2-buc/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 22216,
-          "name": "Milwaukee 48226407 CLESTE PENTRU SCOS CUIE",
-          "sku": "040389",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-cleste-pentru-scos-cuie/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 22206,
-          "name": "Milwaukee 49324300091 PLATOU SLEFUIRE 125MM 8 GAURI ROS125E",
-          "sku": "046143",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-platou-slefuire-125mm-8-gauri-ros125e/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 22150,
-          "name": "Milwaukee 48005016 PANZE SABIE 230/4.2 MM BIMETAL CO",
-          "sku": "045650",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-panze-sabie-230-4-2-mm-bimetal-co/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 22148,
-          "name": "Milwaukee 4932471112 SET 8 BUC. BURGHIE MULTI-MATERIAL",
-          "sku": "036827",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-set-8-buc-burghie-multi-material/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 22140,
-          "name": "Milwaukee 4932399242 ADAPTOR SDS-MAX 320 MM",
-          "sku": "051924",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-adaptor-sds-max-320-mm/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 22134,
-          "name": "Milwaukee 48906054 PANZA TCG 80MM",
-          "sku": "042352",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-panza-tcg-80mm/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 22128,
-          "name": "Milwaukee 4931469103 SINA GHIDAJ LANT 30CM",
-          "sku": "046987",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-sina-ghidaj-lant-30cm/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 22114,
-          "name": "Milwaukee 48906011 PANZA CU INTRARE DIRECTA 3C 35X42mm",
-          "sku": "042362",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-panza-cu-intrare-directa-3c-35x42mm/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 22108,
-          "name": "Milwaukee 4932399909 PANZA CIRCULAR 165x30x24 DINTI",
-          "sku": "036882",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-panza-circular-165x30x24-dinti/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 22106,
-          "name": "Milwaukee 48906005 PANZA CU INTRARE DIRECTA 65X42MM-1 BUC",
-          "sku": "041325",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-panza-cu-intrare-directa-65x42mm-1-buc/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 22094,
-          "name": "Milwaukee 48906051 PANZA TCG 75&#215;2.2MM",
-          "sku": "042351",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-panza-tcg-75x2-2mm/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 22088,
-          "name": "Milwaukee 4932343771 PRELUNGITOR CONIC UNIVERSAL PENTRU CAROTE, SDS-MAX 300MM",
-          "sku": "047494",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-prelungitor-conic-universal-pentru-carote-sds-max-300mm/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 22056,
-          "name": "Milwaukee 4939698536 CUTIE DEPOZITARE 21&#8243;",
-          "sku": "055666",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-cutie-depozitare-21/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 21998,
-          "name": "Milwaukee 4932478865 MASCA DE PROTECTIE S/M",
-          "sku": "037680",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-masca-de-protectie-s-m/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 21974,
-          "name": "Milwaukee 4932352833 SET 5 BURGHIE M4 SDS-PLUS 5-10MM",
-          "sku": "046192",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-set-5-burghie-m4-sds-plus-5-10mm/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 21924,
-          "name": "Milwaukee 4932352304 CARTUS FILTRU AP/AS300ELCP",
-          "sku": "048181",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-cartus-filtru-ap-as300elcp/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 21908,
-          "name": "Milwaukee 48906038 PANZA 85X20 mm",
-          "sku": "042361",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-panza-85x20-mm/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 21906,
-          "name": "Milwaukee 4932352861 SET TUBULARE 1/2&#8243; HEXAGONALE 8/10/11/12/13/14/16/17/19/21MM",
-          "sku": "037675",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-set-tubulare-1-2-hexagonale-8-10-11-12-13-14-16-17-19-21mm/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 21892,
-          "name": "Milwaukee 4932471426 MANUSI DE PROTECTIE, NIVEL 5 &#8211; XL/10",
-          "sku": "037080",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-manusi-de-protectie-nivel-5-xl-10/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 21864,
-          "name": "Milwaukee 4932352334 SET BURGHIE METAL 3-10MM, 8 BUC",
-          "sku": "040867",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-set-burghie-metal-3-10mm-8-buc/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 21862,
-          "name": "Milwaukee 4932498298 SET BURGHIE BETON SDS+, MX4 &#8211; 5 BUC",
-          "sku": "049902",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-set-burghie-beton-sds-mx4-5-buc/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 21858,
-          "name": "Milwaukee 48906039 PANZA BIMETAL 100X28 mm",
-          "sku": "042363",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-panza-bimetal-100x28-mm/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 21848,
-          "name": "Milwaukee 4932352306 SACI PENTRU PRAF FLEECE 5 BUC FIL UM-AP250/AS250",
-          "sku": "048149",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-saci-pentru-praf-fleece-5-buc-fil-um-ap250-as250/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 21844,
-          "name": "Milwaukee 49224800 SET CAROTE 3 BUC, 22/29/35 MM",
-          "sku": "049886",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-set-carote-3-buc-22-29-35-mm/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 21838,
-          "name": "Milwaukee 48225211 RULETA DE MASURAT DESCHISA 100M/300FT",
-          "sku": "053960",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-ruleta-de-masurat-deschisa-100m-300ft/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 21820,
-          "name": "Milwaukee 49560509 BURGHIU DIAMANTAT 10 MM",
-          "sku": "047818",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-burghiu-diamantat-10-mm/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 21816,
-          "name": "Milwaukee 4932492116 SET BURGHIE BETON SDS-PLUS M2, 7 BUC NR.1",
-          "sku": "047477",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-set-burghie-beton-sds-plus-m2-7-buc-nr-1/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 21810,
-          "name": "Milwaukee 48005262 PANZE SABIE NITRUS 230/8T 1 PCS",
-          "sku": "049855",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-panze-sabie-nitrus-230-8t-1-pcs/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 21802,
-          "name": "Milwaukee 48906060 PANZA CUTIT 40MM",
-          "sku": "042353",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-panza-cutit-40mm/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 21798,
-          "name": "Milwaukee 48005203 PANZA SABIE SZ BL TCT TORCH 300/7T SABR. SAW BL.",
-          "sku": "038833",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-panza-sabie-sz-bl-tct-torch-300-7t-sabr-saw-bl/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 21788,
-          "name": "Milwaukee 4933464476 M18CBLID-0 CHEIE DE IMPACT CU ACUM.",
-          "sku": "047763",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-m18cblid-0-cheie-de-impact-cu-acum/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 21772,
-          "name": "Milwaukee 4933459822 M12FID-0 CHEIE IMPACT CU ACUM.",
-          "sku": "036934",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-m12fid-0-cheie-impact-cu-acum/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 21766,
-          "name": "Milwaukee 4933441502 HD18AG125-0 POLIZOR UNGHIULAR CU ACUM. 18V",
-          "sku": "047511",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-hd18ag125-0-polizor-unghiular-cu-acum-18v/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 21764,
-          "name": "Milwaukee 48005526 PANZA SABIE TCT AX 230 MM",
-          "sku": "050298",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-panza-sabie-tct-ax-230-mm/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 21762,
-          "name": "Milwaukee 4932471818 RULETA PREMIUM LATA 8M-26",
-          "sku": "039920",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-ruleta-premium-lata-8m-26/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 21750,
-          "name": "Milwaukee 48005263 PANZA SABIENITRUS 300/8T &#8211; 1 PCS",
-          "sku": "049856",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-panza-sabienitrus-300-8t-1-pcs/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 21744,
-          "name": "Milwaukee 4932498749 SET 5 CHEI TUBULARE DE IMPACT 3/4&#8243;",
-          "sku": "051716",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-set-5-chei-tubulare-de-impact-3-4/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 21738,
-          "name": "Milwaukee 4932498751 SET 5 CHEI TUBULARE DE IMPACT 1&#8243;",
-          "sku": "051717",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-set-5-chei-tubulare-de-impact-1/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 21726,
-          "name": "Milwaukee 48005527 PANZA SABIE TCT AX 300 MM",
-          "sku": "049917",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-panza-sabie-tct-ax-300-mm/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 21704,
-          "name": "Milwaukee 4932478129 MANUSI PROTECTIE IMPACT NIVEL 3-10/XL-1pc",
-          "sku": "038557",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-manusi-protectie-impact-nivel-3-10-xl-1pc/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 21688,
-          "name": "Milwaukee 4933451427 M18CAG125XPDB-0X POLIZOR UNGHIULAR",
-          "sku": "036928",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-m18cag125xpdb-0x-polizor-unghiular/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 21686,
-          "name": "Milwaukee 4933441947 M12CH-0 CIOCAN ROTOPERCUTOR CU ACUM.",
-          "sku": "051710",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-m12ch-0-ciocan-rotopercutor-cu-acum/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 21678,
-          "name": "Milwaukee 4933464105 M18PAL-0 PROIECTOR PIVOTANT",
-          "sku": "042024",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-m18pal-0-proiector-pivotant/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 21670,
-          "name": "Milwaukee 48005502 PANZA SABIE TORCH TCT 230 MM",
-          "sku": "038592",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-panza-sabie-torch-tct-230-mm/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 21664,
-          "name": "Milwaukee 4933464266 M18FDD2-OX MASINA DE GAURIT SI INSURUBAT",
-          "sku": "041916",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-m18fdd2-ox-masina-de-gaurit-si-insurubat/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 21662,
-          "name": "Milwaukee 4933446639 M18RC-0 RADIO-INCARCATOR ACUM. IN2",
-          "sku": "037015",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-m18rc-0-radio-incarcator-acum-in2/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 21650,
-          "name": "Milwaukee 030250 MASINA DE GAURIT HDE13RQX BURGHIU IN2",
-          "sku": "036919",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-masina-de-gaurit-hde13rqx-burghiu-in2/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 21620,
-          "name": "Milwaukee 4932478128 MANUSI PROTECTIE IMPACT NIVEL 3-9/L-1pc",
-          "sku": "038558",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-manusi-protectie-impact-nivel-3-9-l-1pc/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 21618,
-          "name": "Milwaukee 4932498367 OCHELARI PERFORMANCE CU LENTILA GRI",
-          "sku": "054490",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-ochelari-performance-cu-lentila-gri/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 21596,
-          "name": "Milwaukee 4933478823 M12FPP2AV-422P M12 COMBO KIT IN2",
-          "sku": "037463",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-m12fpp2av-422p-m12-combo-kit-in2/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 21550,
-          "name": "Milwaukee 4933441950 M12BPD-0 MASINA DE GAURIT CU ACUM.",
-          "sku": "036941",
-          "permalink": "https://rotakt.ro/produse/milkwaukee-m12bpd-0-masina-de-gaurit-cu-acum/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 3923,
-          "name": "A1703 DISPOZITIV NITUIT",
-          "sku": "026509",
-          "permalink": "https://rotakt.ro/produse/a1703-dispozitiv-nituit/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 3922,
-          "name": "A1700 DISPOZITIV DE NITUIT",
-          "sku": "026510",
-          "permalink": "https://rotakt.ro/produse/a1700-dispozitiv-de-nituit/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 3913,
-          "name": "Fir pentru cosit 2.70 mmx 15 m RO4081527",
-          "sku": "007773",
-          "permalink": "https://rotakt.ro/produse/fir-pentru-cosit-2-70-mmx-15-m-ro4081527/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 3911,
-          "name": "Fir pentru cosit 2.00 mmx 15 m RO4081520",
-          "sku": "012844",
-          "permalink": "https://rotakt.ro/produse/fir-pentru-cosit-2-00-mmx-15-m-ro4081520/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 3910,
-          "name": "Fir pentru cosit 1,65 mmx 15 m",
-          "sku": "006822",
-          "permalink": "https://rotakt.ro/produse/fir-pentru-cosit-165-mmx-15-m/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 3909,
-          "name": "Fir pentru cosit 1,30mmx15 m",
-          "sku": "006821",
-          "permalink": "https://rotakt.ro/produse/fir-pentru-cosit-130mmx15-m/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 3907,
-          "name": "SP360-2 tija adaptor MF360",
-          "sku": "000921",
-          "permalink": "https://rotakt.ro/produse/sp360-2-tija-adaptor-mf360/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 3899,
-          "name": "Ulei rosu pentru motoare in 2T ROTAKT 1 L",
-          "sku": "045892",
-          "permalink": "https://rotakt.ro/produse/ulei-rosu-pentru-motoare-in-2t-rotakt-1-l/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 3898,
-          "name": "Ulei rosu pentru motoare in 2T ROTAKT 0.600 L",
-          "sku": "043420",
-          "permalink": "https://rotakt.ro/produse/ulei-rosu-pentru-motoare-in-2t-rotakt-0-600-l/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 3897,
-          "name": "Ulei pentru ungere lant ROTAKT 1L",
-          "sku": "044723",
-          "permalink": "https://rotakt.ro/produse/ulei-pentru-ungere-lant-rotakt-1l/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 3896,
-          "name": "ULEI HIDRAULIC 1L ROTAKT HLP 46",
-          "sku": "044722",
-          "permalink": "https://rotakt.ro/produse/ulei-hidraulic-1l-rotakt-hlp-46/",
-          "description_chars": 0,
-          "short_description_chars": 0
-        },
-        {
-          "id": 3876,
-          "name": "RTFU079 Cap cosire hobby cu 4 fire",
-          "sku": "045048",
-          "permalink": "https://rotakt.ro/produse/rtfu079-cap-cosire-hobby-cu-4-fire/",
-          "description_chars": 13,
-          "short_description_chars": 0
-        }
-      ]
+      "health_score": 83,
+      "products_with_issues": 184,
+      "checks": {
+        "missing_description": [
+          {
+            "id": 22362,
+            "name": "Milwaukee 48005185 PANZE SABIE 100/1 MM BIMETAL, CO",
+            "sku": "036896",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-panze-sabie-100-1-mm-bimetal-co/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 22338,
+            "name": "Milwaukee 4932430899 BIT SHOCKWAVE HEX10x25MM-2BUC",
+            "sku": "046154",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-bit-shockwave-hex10x25mm-2buc/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 22322,
+            "name": "Milwaukee 48005293 PANZE SABIE 200/2.5/1.8 MM BIMETAL, CO",
+            "sku": "036894",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-panze-sabie-200-2-5-1-8-mm-bimetal-co/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 22300,
+            "name": "Milwaukee 4932430900 BIT SHOCKWAVE HEX12x25MM-2BUC",
+            "sku": "046155",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-bit-shockwave-hex12x25mm-2buc/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 22296,
+            "name": "Milwaukee 4932479234 BURGHIU DIAMANTAT 10MM &#8211; 1 BUC",
+            "sku": "041295",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-burghiu-diamantat-10mm-1-buc/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 22286,
+            "name": "Milwaukee 4932479232 BURGHIU DIAMANTAT 6MM -1 BUC",
+            "sku": "041294",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-burghiu-diamantat-6mm-1-buc/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 22284,
+            "name": "Milwaukee 4932479231 BURGHIU DIAMANTAT 5MM &#8211; 1 BUC",
+            "sku": "041293",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-burghiu-diamantat-5mm-1-buc/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 22260,
+            "name": "Milwaukee 48906062 PANZA RIGIDA 52x37MM",
+            "sku": "042355",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-panza-rigida-52x37mm/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 22258,
+            "name": "Milwaukee 48906061 PANZA FLEXIBILA 52x37MM",
+            "sku": "042354",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-panza-flexibila-52x37mm/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 22250,
+            "name": "Milwaukee 48906063 PANZA FLEXIBILA 70&#215;37 MM",
+            "sku": "042356",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-panza-flexibila-70x37-mm/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 22248,
+            "name": "Milwaukee 4932430898 BIT SHOCKWAVE HEX8x25MM-2 BUC",
+            "sku": "046153",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-bit-shockwave-hex8x25mm-2-buc/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 22216,
+            "name": "Milwaukee 48226407 CLESTE PENTRU SCOS CUIE",
+            "sku": "040389",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-cleste-pentru-scos-cuie/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 22206,
+            "name": "Milwaukee 49324300091 PLATOU SLEFUIRE 125MM 8 GAURI ROS125E",
+            "sku": "046143",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-platou-slefuire-125mm-8-gauri-ros125e/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 22150,
+            "name": "Milwaukee 48005016 PANZE SABIE 230/4.2 MM BIMETAL CO",
+            "sku": "045650",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-panze-sabie-230-4-2-mm-bimetal-co/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 22148,
+            "name": "Milwaukee 4932471112 SET 8 BUC. BURGHIE MULTI-MATERIAL",
+            "sku": "036827",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-set-8-buc-burghie-multi-material/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 22140,
+            "name": "Milwaukee 4932399242 ADAPTOR SDS-MAX 320 MM",
+            "sku": "051924",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-adaptor-sds-max-320-mm/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 22134,
+            "name": "Milwaukee 48906054 PANZA TCG 80MM",
+            "sku": "042352",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-panza-tcg-80mm/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 22128,
+            "name": "Milwaukee 4931469103 SINA GHIDAJ LANT 30CM",
+            "sku": "046987",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-sina-ghidaj-lant-30cm/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 22114,
+            "name": "Milwaukee 48906011 PANZA CU INTRARE DIRECTA 3C 35X42mm",
+            "sku": "042362",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-panza-cu-intrare-directa-3c-35x42mm/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 22108,
+            "name": "Milwaukee 4932399909 PANZA CIRCULAR 165x30x24 DINTI",
+            "sku": "036882",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-panza-circular-165x30x24-dinti/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 22106,
+            "name": "Milwaukee 48906005 PANZA CU INTRARE DIRECTA 65X42MM-1 BUC",
+            "sku": "041325",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-panza-cu-intrare-directa-65x42mm-1-buc/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 22094,
+            "name": "Milwaukee 48906051 PANZA TCG 75&#215;2.2MM",
+            "sku": "042351",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-panza-tcg-75x2-2mm/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 22088,
+            "name": "Milwaukee 4932343771 PRELUNGITOR CONIC UNIVERSAL PENTRU CAROTE, SDS-MAX 300MM",
+            "sku": "047494",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-prelungitor-conic-universal-pentru-carote-sds-max-300mm/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 22056,
+            "name": "Milwaukee 4939698536 CUTIE DEPOZITARE 21&#8243;",
+            "sku": "055666",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-cutie-depozitare-21/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 21998,
+            "name": "Milwaukee 4932478865 MASCA DE PROTECTIE S/M",
+            "sku": "037680",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-masca-de-protectie-s-m/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 21974,
+            "name": "Milwaukee 4932352833 SET 5 BURGHIE M4 SDS-PLUS 5-10MM",
+            "sku": "046192",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-set-5-burghie-m4-sds-plus-5-10mm/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 21924,
+            "name": "Milwaukee 4932352304 CARTUS FILTRU AP/AS300ELCP",
+            "sku": "048181",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-cartus-filtru-ap-as300elcp/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 21908,
+            "name": "Milwaukee 48906038 PANZA 85X20 mm",
+            "sku": "042361",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-panza-85x20-mm/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 21906,
+            "name": "Milwaukee 4932352861 SET TUBULARE 1/2&#8243; HEXAGONALE 8/10/11/12/13/14/16/17/19/21MM",
+            "sku": "037675",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-set-tubulare-1-2-hexagonale-8-10-11-12-13-14-16-17-19-21mm/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 21892,
+            "name": "Milwaukee 4932471426 MANUSI DE PROTECTIE, NIVEL 5 &#8211; XL/10",
+            "sku": "037080",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-manusi-de-protectie-nivel-5-xl-10/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 21864,
+            "name": "Milwaukee 4932352334 SET BURGHIE METAL 3-10MM, 8 BUC",
+            "sku": "040867",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-set-burghie-metal-3-10mm-8-buc/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 21862,
+            "name": "Milwaukee 4932498298 SET BURGHIE BETON SDS+, MX4 &#8211; 5 BUC",
+            "sku": "049902",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-set-burghie-beton-sds-mx4-5-buc/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 21858,
+            "name": "Milwaukee 48906039 PANZA BIMETAL 100X28 mm",
+            "sku": "042363",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-panza-bimetal-100x28-mm/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 21848,
+            "name": "Milwaukee 4932352306 SACI PENTRU PRAF FLEECE 5 BUC FIL UM-AP250/AS250",
+            "sku": "048149",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-saci-pentru-praf-fleece-5-buc-fil-um-ap250-as250/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 21844,
+            "name": "Milwaukee 49224800 SET CAROTE 3 BUC, 22/29/35 MM",
+            "sku": "049886",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-set-carote-3-buc-22-29-35-mm/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 21838,
+            "name": "Milwaukee 48225211 RULETA DE MASURAT DESCHISA 100M/300FT",
+            "sku": "053960",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-ruleta-de-masurat-deschisa-100m-300ft/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 21820,
+            "name": "Milwaukee 49560509 BURGHIU DIAMANTAT 10 MM",
+            "sku": "047818",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-burghiu-diamantat-10-mm/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 21816,
+            "name": "Milwaukee 4932492116 SET BURGHIE BETON SDS-PLUS M2, 7 BUC NR.1",
+            "sku": "047477",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-set-burghie-beton-sds-plus-m2-7-buc-nr-1/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 21810,
+            "name": "Milwaukee 48005262 PANZE SABIE NITRUS 230/8T 1 PCS",
+            "sku": "049855",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-panze-sabie-nitrus-230-8t-1-pcs/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 21802,
+            "name": "Milwaukee 48906060 PANZA CUTIT 40MM",
+            "sku": "042353",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-panza-cutit-40mm/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 21798,
+            "name": "Milwaukee 48005203 PANZA SABIE SZ BL TCT TORCH 300/7T SABR. SAW BL.",
+            "sku": "038833",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-panza-sabie-sz-bl-tct-torch-300-7t-sabr-saw-bl/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 21788,
+            "name": "Milwaukee 4933464476 M18CBLID-0 CHEIE DE IMPACT CU ACUM.",
+            "sku": "047763",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-m18cblid-0-cheie-de-impact-cu-acum/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 21772,
+            "name": "Milwaukee 4933459822 M12FID-0 CHEIE IMPACT CU ACUM.",
+            "sku": "036934",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-m12fid-0-cheie-impact-cu-acum/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 21766,
+            "name": "Milwaukee 4933441502 HD18AG125-0 POLIZOR UNGHIULAR CU ACUM. 18V",
+            "sku": "047511",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-hd18ag125-0-polizor-unghiular-cu-acum-18v/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 21764,
+            "name": "Milwaukee 48005526 PANZA SABIE TCT AX 230 MM",
+            "sku": "050298",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-panza-sabie-tct-ax-230-mm/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 21762,
+            "name": "Milwaukee 4932471818 RULETA PREMIUM LATA 8M-26",
+            "sku": "039920",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-ruleta-premium-lata-8m-26/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 21750,
+            "name": "Milwaukee 48005263 PANZA SABIENITRUS 300/8T &#8211; 1 PCS",
+            "sku": "049856",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-panza-sabienitrus-300-8t-1-pcs/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 21744,
+            "name": "Milwaukee 4932498749 SET 5 CHEI TUBULARE DE IMPACT 3/4&#8243;",
+            "sku": "051716",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-set-5-chei-tubulare-de-impact-3-4/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 21738,
+            "name": "Milwaukee 4932498751 SET 5 CHEI TUBULARE DE IMPACT 1&#8243;",
+            "sku": "051717",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-set-5-chei-tubulare-de-impact-1/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 21726,
+            "name": "Milwaukee 48005527 PANZA SABIE TCT AX 300 MM",
+            "sku": "049917",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-panza-sabie-tct-ax-300-mm/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 21704,
+            "name": "Milwaukee 4932478129 MANUSI PROTECTIE IMPACT NIVEL 3-10/XL-1pc",
+            "sku": "038557",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-manusi-protectie-impact-nivel-3-10-xl-1pc/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 21688,
+            "name": "Milwaukee 4933451427 M18CAG125XPDB-0X POLIZOR UNGHIULAR",
+            "sku": "036928",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-m18cag125xpdb-0x-polizor-unghiular/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 21686,
+            "name": "Milwaukee 4933441947 M12CH-0 CIOCAN ROTOPERCUTOR CU ACUM.",
+            "sku": "051710",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-m12ch-0-ciocan-rotopercutor-cu-acum/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 21678,
+            "name": "Milwaukee 4933464105 M18PAL-0 PROIECTOR PIVOTANT",
+            "sku": "042024",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-m18pal-0-proiector-pivotant/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 21670,
+            "name": "Milwaukee 48005502 PANZA SABIE TORCH TCT 230 MM",
+            "sku": "038592",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-panza-sabie-torch-tct-230-mm/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 21664,
+            "name": "Milwaukee 4933464266 M18FDD2-OX MASINA DE GAURIT SI INSURUBAT",
+            "sku": "041916",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-m18fdd2-ox-masina-de-gaurit-si-insurubat/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 21662,
+            "name": "Milwaukee 4933446639 M18RC-0 RADIO-INCARCATOR ACUM. IN2",
+            "sku": "037015",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-m18rc-0-radio-incarcator-acum-in2/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 21650,
+            "name": "Milwaukee 030250 MASINA DE GAURIT HDE13RQX BURGHIU IN2",
+            "sku": "036919",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-masina-de-gaurit-hde13rqx-burghiu-in2/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 21620,
+            "name": "Milwaukee 4932478128 MANUSI PROTECTIE IMPACT NIVEL 3-9/L-1pc",
+            "sku": "038558",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-manusi-protectie-impact-nivel-3-9-l-1pc/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 21618,
+            "name": "Milwaukee 4932498367 OCHELARI PERFORMANCE CU LENTILA GRI",
+            "sku": "054490",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-ochelari-performance-cu-lentila-gri/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 21596,
+            "name": "Milwaukee 4933478823 M12FPP2AV-422P M12 COMBO KIT IN2",
+            "sku": "037463",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-m12fpp2av-422p-m12-combo-kit-in2/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 21550,
+            "name": "Milwaukee 4933441950 M12BPD-0 MASINA DE GAURIT CU ACUM.",
+            "sku": "036941",
+            "permalink": "https://rotakt.ro/produse/milkwaukee-m12bpd-0-masina-de-gaurit-cu-acum/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 3923,
+            "name": "A1703 DISPOZITIV NITUIT",
+            "sku": "026509",
+            "permalink": "https://rotakt.ro/produse/a1703-dispozitiv-nituit/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 3922,
+            "name": "A1700 DISPOZITIV DE NITUIT",
+            "sku": "026510",
+            "permalink": "https://rotakt.ro/produse/a1700-dispozitiv-de-nituit/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 3913,
+            "name": "Fir pentru cosit 2.70 mmx 15 m RO4081527",
+            "sku": "007773",
+            "permalink": "https://rotakt.ro/produse/fir-pentru-cosit-2-70-mmx-15-m-ro4081527/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 3911,
+            "name": "Fir pentru cosit 2.00 mmx 15 m RO4081520",
+            "sku": "012844",
+            "permalink": "https://rotakt.ro/produse/fir-pentru-cosit-2-00-mmx-15-m-ro4081520/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 3910,
+            "name": "Fir pentru cosit 1,65 mmx 15 m",
+            "sku": "006822",
+            "permalink": "https://rotakt.ro/produse/fir-pentru-cosit-165-mmx-15-m/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 3909,
+            "name": "Fir pentru cosit 1,30mmx15 m",
+            "sku": "006821",
+            "permalink": "https://rotakt.ro/produse/fir-pentru-cosit-130mmx15-m/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 3907,
+            "name": "SP360-2 tija adaptor MF360",
+            "sku": "000921",
+            "permalink": "https://rotakt.ro/produse/sp360-2-tija-adaptor-mf360/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 3899,
+            "name": "Ulei rosu pentru motoare in 2T ROTAKT 1 L",
+            "sku": "045892",
+            "permalink": "https://rotakt.ro/produse/ulei-rosu-pentru-motoare-in-2t-rotakt-1-l/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 3898,
+            "name": "Ulei rosu pentru motoare in 2T ROTAKT 0.600 L",
+            "sku": "043420",
+            "permalink": "https://rotakt.ro/produse/ulei-rosu-pentru-motoare-in-2t-rotakt-0-600-l/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 3897,
+            "name": "Ulei pentru ungere lant ROTAKT 1L",
+            "sku": "044723",
+            "permalink": "https://rotakt.ro/produse/ulei-pentru-ungere-lant-rotakt-1l/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 3896,
+            "name": "ULEI HIDRAULIC 1L ROTAKT HLP 46",
+            "sku": "044722",
+            "permalink": "https://rotakt.ro/produse/ulei-hidraulic-1l-rotakt-hlp-46/",
+            "description_chars": 0,
+            "short_description_chars": 0
+          },
+          {
+            "id": 3876,
+            "name": "RTFU079 Cap cosire hobby cu 4 fire",
+            "sku": "045048",
+            "permalink": "https://rotakt.ro/produse/rtfu079-cap-cosire-hobby-cu-4-fire/",
+            "description_chars": 13,
+            "short_description_chars": 0
+          }
+        ],
+        "missing_image": [],
+        "missing_price": [],
+        "missing_brand": [
+          {
+            "id": 22493,
+            "name": "Dispozitiv ascutit lant Rotakt R00403009",
+            "sku": "001790",
+            "permalink": "https://rotakt.ro/produse/dispozitiv-ascutit-lant-rotakt-r00403009/"
+          },
+          {
+            "id": 21239,
+            "name": "Cvadriciclu Electric Basculabil Rotakt Rabota, Fara Permis, 25 km/h",
+            "sku": "055505",
+            "permalink": "https://rotakt.ro/produse/cvadriciclu-electric-basculabil-rotakt-rabota-fara-permis-25-km-h/"
+          },
+          {
+            "id": 21053,
+            "name": "CARTE IDENTIFICARE AUTO (CIV) 400",
+            "sku": "056018",
+            "permalink": "https://rotakt.ro/produse/carte-identificare-auto-civ-400/"
+          },
+          {
+            "id": 21051,
+            "name": "CARTE IDENTIFICARE AUTO (CIV) 200",
+            "sku": "051169",
+            "permalink": "https://rotakt.ro/produse/carte-identificare-auto-civ-200/"
+          },
+          {
+            "id": 20884,
+            "name": "SEMERING MOARA Rotakt 20X40X7TCM",
+            "sku": "000296",
+            "permalink": "https://rotakt.ro/produse/semering-moara-rotakt-20x40x7tcm/"
+          },
+          {
+            "id": 20881,
+            "name": "Ax melcat antrenare roată Rotakt MF360",
+            "sku": "008076",
+            "permalink": "https://rotakt.ro/produse/ax-melcat-antrenare-roata-rotakt-mf360/"
+          },
+          {
+            "id": 20878,
+            "name": "Roata dintata melcata din bronz, pentru antrenarea axului roții MF360",
+            "sku": "013009",
+            "permalink": "https://rotakt.ro/produse/roata-dintata-melcata-din-bronz-pentru-antrenarea-axului-rotii-mf360/"
+          },
+          {
+            "id": 20866,
+            "name": "Mecanism Complet Cosire Motocoasă Rotakt ROMTC87",
+            "sku": "001822",
+            "permalink": "https://rotakt.ro/produse/mecanism-complet-cosire-motocoasa-rotakt-romtc87/"
+          },
+          {
+            "id": 20837,
+            "name": "Motor 4T 10CP 300cc Pentru Motocultor Rotakt RO10R Cu Pornire Electrica Rato",
+            "sku": "054831",
+            "permalink": "https://rotakt.ro/produse/motor-4t-10cp-300cc-pentru-motocultor-rotakt-ro10r-cu-pornire-electrica-rato/"
+          },
+          {
+            "id": 20717,
+            "name": "Motor 4T Loncin G200F – 6.5 CP pentru MF360 196cc",
+            "sku": "007576",
+            "permalink": "https://rotakt.ro/produse/motor-4t-loncin-g200f-6-5-cp-pentru-mf360-196cc/"
+          },
+          {
+            "id": 20708,
+            "name": "Lamă superioară Motocoasă ROTAKT ROMTC-87, 17 dinti",
+            "sku": "010493",
+            "permalink": "https://rotakt.ro/produse/lama-superioara-motocoasa-rotakt-romtc-87-17-dinti/"
+          },
+          {
+            "id": 20699,
+            "name": "Remorca agricola Rotakt 1T pentru tractor cu basculare hidraulica,dimensiune bena 200x106cm",
+            "sku": "055909",
+            "permalink": "https://rotakt.ro/produse/remorca-agricola-rotakt-1t-pentru-tractor-cu-basculare-hidraulicadimensiune-bena-200x106cm/"
+          },
+          {
+            "id": 20613,
+            "name": "Compresor Cu 2 Pistoane Rotakt ROCP‑S200, Putere 4 kW, 400V, Presiune 10 bar, Debit 460 lmin, Capacitate 200l",
+            "sku": "055828",
+            "permalink": "https://rotakt.ro/produse/compresor-cu-2-pistoane-rotakt-rocp-s200-putere-4-kw-400v-presiune-10-bar-debit-460-lmin-capacitate-200l/"
+          },
+          {
+            "id": 20546,
+            "name": "Compresor Cu 2 Pistoane Rotakt ROCP‑S100, Putere 2.2 kW, Presiune 10 bar, Debit 250 l/min, Capacitate 100l",
+            "sku": "055829",
+            "permalink": "https://rotakt.ro/produse/compresor-cu-2-pistoane-rotakt-rocp-s100-putere-2-2-kw-presiune-10-bar-debit-250-l-min-capacitate-100l/"
+          },
+          {
+            "id": 20537,
+            "name": "Compresor Aer Cu 2 Cilindrii Fara ulei Rotakt ROCP-S50 Putere 2.0CP/1.5kW, Presiune 8 bar, Debit 220l/min, Capacitate 50l",
+            "sku": "055827",
+            "permalink": "https://rotakt.ro/produse/compresor-aer-cu-2-cilindrii-fara-ulei-rotakt-rocp-s50-putere-2-0cp-1-5kw-presiune-8-bar-debit-220l-min-capacitate-50l/"
+          },
+          {
+            "id": 20509,
+            "name": "Compresor Aer Cu 2 Cilindrii Fara ulei Rotakt ROCP-S24 Putere 1.5CP/1.1kW, Presiune 8 bar, Debit 160l/min, Capacitate 24l",
+            "sku": "055826",
+            "permalink": "https://rotakt.ro/produse/compresor-aer-cu-2-cilindrii-fara-ulei-rotakt-rocp-s24-putere-1-5cp-1-1kw-presiune-8-bar-debit-160l-min-capacitate-24l/"
+          }
+        ],
+        "low_stock": [],
+        "seo_issues": [
+          {
+            "id": 21432,
+            "name": "Motocultor Rotakt RO101RS Agile Roti 5.00-8 motor 7 CP benzina 2+1 viteze latime lucru 56-90 cm freze",
+            "sku": "056096",
+            "permalink": "https://rotakt.ro/produse/motocultor-rotakt-ro101rs-agile-roti-5-00-8-motor-7-cp-benzina-21-viteze-latime-lucru-56-90-cm-freze/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "motocultor-rotakt-ro101rs-agile-roti-5-00-8-motor-7-cp-benzina-21-viteze-latime-lucru-56-90-cm-freze",
+            "name_chars": 101
+          },
+          {
+            "id": 21430,
+            "name": "Motocultor Rotakt RO101Rx Junior Plus Roti 5.00-8 motor 7 CP benzina 2+1 viteze latime lucru 56-90 cm freze",
+            "sku": "056120",
+            "permalink": "https://rotakt.ro/produse/motocultor-rotakt-ro101rx-junior-plus-roti-5-00-8-motor-7-cp-benzina-21-viteze-latime-lucru-56-90-cm-freze-21/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "motocultor-rotakt-ro101rx-junior-plus-roti-5-00-8-motor-7-cp-benzina-21-viteze-latime-lucru-56-90-cm-freze-21",
+            "name_chars": 107
+          },
+          {
+            "id": 21241,
+            "name": "Triciclu Electric Utilitar Rotakt GAGARIN – Fara Permis, 25Km/h, Autonomie Până la 69 km",
+            "sku": "055193",
+            "permalink": "https://rotakt.ro/produse/triciclu-electric-utilitar-rotakt-gagarin-fara-permis-25km-h-autonomie-pana-la-69-km/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "triciclu-electric-utilitar-rotakt-gagarin-fara-permis-25km-h-autonomie-pana-la-69-km",
+            "name_chars": 88
+          },
+          {
+            "id": 21208,
+            "name": "Triciclu Transport Marfa Rotakt Goliat Plus, Motor 2000W, Autonomie Până la 68 km, Fara Permis",
+            "sku": "054989",
+            "permalink": "https://rotakt.ro/produse/triciclu-transport-marfa-rotakt-goliat-plus-motor-2000w-autonomie-pana-la-68-km-fara-permis/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "triciclu-transport-marfa-rotakt-goliat-plus-motor-2000w-autonomie-pana-la-68-km-fara-permis",
+            "name_chars": 94
+          },
+          {
+            "id": 20699,
+            "name": "Remorca agricola Rotakt 1T pentru tractor cu basculare hidraulica,dimensiune bena 200x106cm",
+            "sku": "055909",
+            "permalink": "https://rotakt.ro/produse/remorca-agricola-rotakt-1t-pentru-tractor-cu-basculare-hidraulicadimensiune-bena-200x106cm/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "remorca-agricola-rotakt-1t-pentru-tractor-cu-basculare-hidraulicadimensiune-bena-200x106cm",
+            "name_chars": 91
+          },
+          {
+            "id": 20613,
+            "name": "Compresor Cu 2 Pistoane Rotakt ROCP‑S200, Putere 4 kW, 400V, Presiune 10 bar, Debit 460 lmin, Capacitate 200l",
+            "sku": "055828",
+            "permalink": "https://rotakt.ro/produse/compresor-cu-2-pistoane-rotakt-rocp-s200-putere-4-kw-400v-presiune-10-bar-debit-460-lmin-capacitate-200l/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "compresor-cu-2-pistoane-rotakt-rocp-s200-putere-4-kw-400v-presiune-10-bar-debit-460-lmin-capacitate-200l",
+            "name_chars": 109
+          },
+          {
+            "id": 20546,
+            "name": "Compresor Cu 2 Pistoane Rotakt ROCP‑S100, Putere 2.2 kW, Presiune 10 bar, Debit 250 l/min, Capacitate 100l",
+            "sku": "055829",
+            "permalink": "https://rotakt.ro/produse/compresor-cu-2-pistoane-rotakt-rocp-s100-putere-2-2-kw-presiune-10-bar-debit-250-l-min-capacitate-100l/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "compresor-cu-2-pistoane-rotakt-rocp-s100-putere-2-2-kw-presiune-10-bar-debit-250-l-min-capacitate-100l",
+            "name_chars": 106
+          },
+          {
+            "id": 20537,
+            "name": "Compresor Aer Cu 2 Cilindrii Fara ulei Rotakt ROCP-S50 Putere 2.0CP/1.5kW, Presiune 8 bar, Debit 220l/min, Capacitate 50l",
+            "sku": "055827",
+            "permalink": "https://rotakt.ro/produse/compresor-aer-cu-2-cilindrii-fara-ulei-rotakt-rocp-s50-putere-2-0cp-1-5kw-presiune-8-bar-debit-220l-min-capacitate-50l/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "compresor-aer-cu-2-cilindrii-fara-ulei-rotakt-rocp-s50-putere-2-0cp-1-5kw-presiune-8-bar-debit-220l-min-capacitate-50l",
+            "name_chars": 121
+          },
+          {
+            "id": 20509,
+            "name": "Compresor Aer Cu 2 Cilindrii Fara ulei Rotakt ROCP-S24 Putere 1.5CP/1.1kW, Presiune 8 bar, Debit 160l/min, Capacitate 24l",
+            "sku": "055826",
+            "permalink": "https://rotakt.ro/produse/compresor-aer-cu-2-cilindrii-fara-ulei-rotakt-rocp-s24-putere-1-5cp-1-1kw-presiune-8-bar-debit-160l-min-capacitate-24l/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "compresor-aer-cu-2-cilindrii-fara-ulei-rotakt-rocp-s24-putere-1-5cp-1-1kw-presiune-8-bar-debit-160l-min-capacitate-24l",
+            "name_chars": 121
+          },
+          {
+            "id": 20375,
+            "name": "Tocator de crengi tractabil, ROTAKT ROTC-G150, Diametru tocare lemn max.120 mm, Motor termic 15 CP, Pornire electrica",
+            "sku": "055689",
+            "permalink": "https://rotakt.ro/produse/tocator-de-crengi-tractabil-rotakt-rotc-g150-diametru-tocare-lemn-max-120-mm-motor-termic-15-cp-pornire-electrica/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "tocator-de-crengi-tractabil-rotakt-rotc-g150-diametru-tocare-lemn-max-120-mm-motor-termic-15-cp-pornire-electrica",
+            "name_chars": 117
+          },
+          {
+            "id": 20194,
+            "name": "Motocultor Rotakt RO101Rx Junior motor 7 CP benzina 2+1 viteze latime lucru 56-90 cm freze 2+1",
+            "sku": "055428",
+            "permalink": "https://rotakt.ro/produse/motocultor-rotakt-ro101rx-junior-motor-7-cp-benzina-21-viteze-latime-lucru-56-90-cm-freze-21/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "motocultor-rotakt-ro101rx-junior-motor-7-cp-benzina-21-viteze-latime-lucru-56-90-cm-freze-21",
+            "name_chars": 94
+          },
+          {
+            "id": 20182,
+            "name": "Freză de zăpadă ROWS0724 Alaska motor 7cp benzină lățime 61cm 4 viteze înainte + 2 înapoi",
+            "sku": "055483",
+            "permalink": "https://rotakt.ro/produse/freza-de-zapada-rows0724-alaska-motor-7cp-benzina-latime-61cm-4-viteze-inainte-2-inapoi/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "freza-de-zapada-rows0724-alaska-motor-7cp-benzina-latime-61cm-4-viteze-inainte-2-inapoi",
+            "name_chars": 89
+          },
+          {
+            "id": 19974,
+            "name": "Scuter Electric Nitro 800W Verde 25km/h Autonomie de până la 50 km Baterie plumb-acid 60V, Fără permis",
+            "sku": "055247",
+            "permalink": "https://rotakt.ro/produse/scuter-electric-nitro-800w-verde-25km-h-autonomie-de-pana-la-70-km-baterie-plumb-acid-60v-fara-permis/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "scuter-electric-nitro-800w-verde-25km-h-autonomie-de-pana-la-70-km-baterie-plumb-acid-60v-fara-permis",
+            "name_chars": 102
+          },
+          {
+            "id": 19719,
+            "name": "Motocultor Rotakt RO101RS Cadet motor 7 CP benzina 2+1 viteze latime lucru 56-90 cm freze 2+1roti 4.00-8”",
+            "sku": "054927",
+            "permalink": "https://rotakt.ro/produse/motocultor-rotakt-ro101rs-cadet-motor-7-cp-benzina-21-viteze-latime-lucru-56-90-cm-freze-21roti-4-00-8/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "motocultor-rotakt-ro101rs-cadet-motor-7-cp-benzina-21-viteze-latime-lucru-56-90-cm-freze-21roti-4-00-8",
+            "name_chars": 105
+          },
+          {
+            "id": 18333,
+            "name": "Scuter Electric Rotakt Magellan 1000W 25 km/h Autonomie de până la 80 km Baterie plumb-acid 72V, Fără permis",
+            "sku": "053336",
+            "permalink": "https://rotakt.ro/produse/scuter-electric-rotakt-magellan-1000w-25-km-h-autonomie-80-km-baterie-plumb-acid-72v-fara-permis/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "scuter-electric-rotakt-magellan-1000w-25-km-h-autonomie-80-km-baterie-plumb-acid-72v-fara-permis",
+            "name_chars": 108
+          },
+          {
+            "id": 18325,
+            "name": "Triciclu Electric Rotakt Courier Motor 2000W 25 km/h Autonomie pana la 79 km Baterie plumb-acid 72V 32Ah Greutate maximă admisa 478kg, Fără permis",
+            "sku": "053595",
+            "permalink": "https://rotakt.ro/produse/triciclu-electric-rotakt-courier-motor-2000w-25-km-h-autonomie-79-km-baterie-plumb-acid-72v-32ah-greutate-maxima-admisa-478kg-fara-permis/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "triciclu-electric-rotakt-courier-motor-2000w-25-km-h-autonomie-79-km-baterie-plumb-acid-72v-32ah-greutate-maxima-admisa-478kg-fara-permis",
+            "name_chars": 146
+          },
+          {
+            "id": 18137,
+            "name": "Triciclu Electric Rotakt Voyager 2 Motor 1000W 25 km/h Autonomie de până la 41 km Baterie plumb-acid 60V 20Ah Greutate maximă 251 kg, Fără permis",
+            "sku": "053548",
+            "permalink": "https://rotakt.ro/produse/triciclu-electric-rotakt-voyager-2-motor-1000w-25-km-h-autonomie-45-km-baterie-plumb-acid-60v-20ah-greutate-maxima-251-kg-fara-permis/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "triciclu-electric-rotakt-voyager-2-motor-1000w-25-km-h-autonomie-45-km-baterie-plumb-acid-60v-20ah-greutate-maxima-251-kg-fara-permis",
+            "name_chars": 145
+          },
+          {
+            "id": 17131,
+            "name": "Maşină de tuns iarba Rotakt R46-V145 Premium, Lăţime de lucru 460mm, Motor 144 cmc, Euro 5",
+            "sku": "052182",
+            "permalink": "https://rotakt.ro/produse/masina-de-tuns-iarba-rotakt-r46-v145-premium-latime-de-lucru-460mm-motor-144-cmc-euro-5/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "masina-de-tuns-iarba-rotakt-r46-v145-premium-latime-de-lucru-460mm-motor-144-cmc-euro-5",
+            "name_chars": 90
+          },
+          {
+            "id": 17129,
+            "name": "Maşină de tuns iarba Rotakt R53-V190 Premium, Lăţime de lucru 530mm, Motor 190cc, Euro 5",
+            "sku": "052183",
+            "permalink": "https://rotakt.ro/produse/masina-de-tuns-iarba-rotakt-r53-v190-premium-latime-de-lucru-530mm-motor-190cc-euro-5/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "masina-de-tuns-iarba-rotakt-r53-v190-premium-latime-de-lucru-530mm-motor-190cc-euro-5",
+            "name_chars": 88
+          },
+          {
+            "id": 17127,
+            "name": "Statie de incarcare vehicule electrice LXAC-J4-EU7/230 7kW 230V conector tip 2 cablu de incarcare 5m comunicatie 4G",
+            "sku": "051455",
+            "permalink": "https://rotakt.ro/produse/statie-de-incarcare-vehicule-electrice-lxac-j4-eu7-230-7kw-230v-conector-tip-2-cablu-de-incarcare-5m-comunicatie-4g/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "statie-de-incarcare-vehicule-electrice-lxac-j4-eu7-230-7kw-230v-conector-tip-2-cablu-de-incarcare-5m-comunicatie-4g",
+            "name_chars": 115
+          },
+          {
+            "id": 17118,
+            "name": "Statie de incarcare vehicule electrice LXAC-J4-EU22/400 22kW 400V trifazat conector tip 2 cablu de incarcare 5m comunicatie 4G",
+            "sku": "051457",
+            "permalink": "https://rotakt.ro/produse/statie-de-incarcare-vehicule-electrice-lxac-j4-eu22-400-22kw-400v-trifazat-conector-tip-2-cablu-de-incarcare-5m-comunicatie-4g/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "statie-de-incarcare-vehicule-electrice-lxac-j4-eu22-400-22kw-400v-trifazat-conector-tip-2-cablu-de-incarcare-5m-comunicatie-4g",
+            "name_chars": 126
+          },
+          {
+            "id": 17039,
+            "name": "Incarcator portabil PC100-3k6 pentru masini electrice conector type 2 3,6 kW 6-16A reglabil 230V cablu de incarcare 6m",
+            "sku": "052927",
+            "permalink": "https://rotakt.ro/produse/incarcator-portabil-pc100-3k6-pentru-masini-electrice-conector-type-2-36kw-6-16a-reglabil-230v-cablu-de-incarcare-6m/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "incarcator-portabil-pc100-3k6-pentru-masini-electrice-conector-type-2-36kw-6-16a-reglabil-230v-cablu-de-incarcare-6m",
+            "name_chars": 118
+          },
+          {
+            "id": 17024,
+            "name": "Incarcator portabil PC100-11k pentru masini electrice conector type 2 11kW 6-16A reglabil 400V cablu de incarcare 6m",
+            "sku": "052922",
+            "permalink": "https://rotakt.ro/produse/incarcator-portabil-pc100-11k-pentru-masini-electrice-conector-type-2-11kw-6-16a-reglabil-400v-6m-cablu-de-incarcare/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "incarcator-portabil-pc100-11k-pentru-masini-electrice-conector-type-2-11kw-6-16a-reglabil-400v-6m-cablu-de-incarcare",
+            "name_chars": 116
+          },
+          {
+            "id": 17004,
+            "name": "Statie de incarcare vehicule electrice WB500 -11K 400V trifazat, conector tip 2, cablu incarcare 6m, control WiFi",
+            "sku": "052921",
+            "permalink": "https://rotakt.ro/produse/statie-de-incarcare-vehicule-electrice-wb500-11k-400v-trifazat-conector-tip-2-cablu-incarcare-6m-control-wifi/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "statie-de-incarcare-vehicule-electrice-wb500-11k-400v-trifazat-conector-tip-2-cablu-incarcare-6m-control-wifi",
+            "name_chars": 113
+          },
+          {
+            "id": 16895,
+            "name": "Statie de incarcare vehicule electrice WB500 -7K2 230V monofazat, conector tip 2, cablu incarcare 6m, control WiFi",
+            "sku": "052920",
+            "permalink": "https://rotakt.ro/produse/statie-de-incarcare-vehicule-electrice-wb500-7k2-230v-monofazat-conector-tip-2-cablu-incarcare-6m-control-wifi/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "statie-de-incarcare-vehicule-electrice-wb500-7k2-230v-monofazat-conector-tip-2-cablu-incarcare-6m-control-wifi",
+            "name_chars": 114
+          },
+          {
+            "id": 16304,
+            "name": "Generator De Curent pe Benzină ROGE 5500RC 5.5kW, AVR, Voltmetru, Iesire 12V, Consum de 3,57L/oră, Pornire Electrică",
+            "sku": "052320",
+            "permalink": "https://rotakt.ro/produse/generator-de-curent-pe-benzina-roge-5500rc-5-5kw-avr-voltmetru-iesire-12v-consum-de-357l-ora-pornire-electrica/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "generator-de-curent-pe-benzina-roge-5500rc-5-5kw-avr-voltmetru-iesire-12v-consum-de-357l-ora-pornire-electrica",
+            "name_chars": 116
+          },
+          {
+            "id": 16296,
+            "name": "Generator de Curent Pe Benzină Rotakt ROGE3000RC 3.0kW, AVR, Voltmetru, Iesire 12V, Consum de 1,09L/oră oră, Pornire Electrică",
+            "sku": "052319",
+            "permalink": "https://rotakt.ro/produse/generator-de-curent-pe-benzina-rotakt-roge3000rc-3-0kw-avr-voltmetru-iesire-12v-consum-de-109l-ora-ora-pornire-electrica/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "generator-de-curent-pe-benzina-rotakt-roge3000rc-3-0kw-avr-voltmetru-iesire-12v-consum-de-109l-ora-ora-pornire-electrica",
+            "name_chars": 126
+          },
+          {
+            "id": 16181,
+            "name": "Motocultor Rotakt Partizan RO15R-2P, Doua Prize de Putere, 15 CP, Benzină, Lățime de lucru 560-1350mm",
+            "sku": "052314",
+            "permalink": "https://rotakt.ro/produse/motocultor-rotakt-partizan-ro15r-2p-doua-prize-de-putere-15-cp-benzina-latime-de-lucru-560-1350mm/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "motocultor-rotakt-partizan-ro15r-2p-doua-prize-de-putere-15-cp-benzina-latime-de-lucru-560-1350mm",
+            "name_chars": 101
+          },
+          {
+            "id": 16164,
+            "name": "Motocultor Rotakt Apollo 13 RO13R-2P (Doua Prize de Putere), 13 CP, Benzină, Lățime de lucru 560-1350mm",
+            "sku": "052402",
+            "permalink": "https://rotakt.ro/produse/motocultor-rotakt-apollo-13-ro13r-2p-doua-prize-de-putere-13-cp-benzina-latime-de-lucru-560-1350mm/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "motocultor-rotakt-apollo-13-ro13r-2p-doua-prize-de-putere-13-cp-benzina-latime-de-lucru-560-1350mm",
+            "name_chars": 103
+          },
+          {
+            "id": 15954,
+            "name": "Motocultor Rotakt Ghepard RO10RE-2P, Pornire Electrica, 2 Prize de Putere, 10 CP, benzină, Lățime de lucru 560-1050mm",
+            "sku": "052295",
+            "permalink": "https://rotakt.ro/produse/motocultor-rotakt-ghepard-ro10re-2p-pornire-electrica-2-prize-de-putere-10-cp-benzina-latime-de-lucru-560-1050mm/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "motocultor-rotakt-ghepard-ro10re-2p-pornire-electrica-2-prize-de-putere-10-cp-benzina-latime-de-lucru-560-1050mm",
+            "name_chars": 117
+          },
+          {
+            "id": 15924,
+            "name": "Motocultor Rotakt Gardian RO110RVE cu Pornire Electrica si kit de capotare, 8.0CP, Benzina, Latime de Lucru 560-900mm",
+            "sku": "052293",
+            "permalink": "https://rotakt.ro/produse/motocultor-rotakt-gardian-ro110rve-cu-porniere-electrica-si-kit-de-capotare-8-0cp-benzina-latime-de-lucru-560-900mm/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "motocultor-rotakt-gardian-ro110rve-cu-porniere-electrica-si-kit-de-capotare-8-0cp-benzina-latime-de-lucru-560-900mm",
+            "name_chars": 117
+          },
+          {
+            "id": 15913,
+            "name": "Pulverizator Electric Cu Acumulator Rotakt Mistral 10L, Presiune De Lucru 0.6 MPA (6 Bari)",
+            "sku": "052307",
+            "permalink": "https://rotakt.ro/produse/pulverizator-electric-cu-acumulator-rotakt-mistral-10l-presiune-de-lucru-0-6-mpa-6-bari/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "pulverizator-electric-cu-acumulator-rotakt-mistral-10l-presiune-de-lucru-0-6-mpa-6-bari",
+            "name_chars": 90
+          },
+          {
+            "id": 15911,
+            "name": "Pulverizator Electric Cu Acumulator Rotakt Zefir 2L, Volum pulverizare 50-200ml/min (reglabil)",
+            "sku": "052306",
+            "permalink": "https://rotakt.ro/produse/pulverizator-electric-cu-acumulator-rotakt-zefir-2l-volum-pulverizare-50-200ml-min-reglabil/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "pulverizator-electric-cu-acumulator-rotakt-zefir-2l-volum-pulverizare-50-200ml-min-reglabil",
+            "name_chars": 94
+          },
+          {
+            "id": 15877,
+            "name": "Tractoraș de tuns iarba Rotakt Clipper RMR24Q benzină, max. 7.5CP, 610mm lățime de lucru, înălțime de tundere 30 &#8211; 81mm",
+            "sku": "052317",
+            "permalink": "https://rotakt.ro/produse/tractoras-de-tuns-iarba-rotakt-clipper-rmr24q-benzina-max-7-5cp-610mm-latime-de-lucru-inaltime-de-tundere-30-81cm/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "tractoras-de-tuns-iarba-rotakt-clipper-rmr24q-benzina-max-7-5cp-610mm-latime-de-lucru-inaltime-de-tundere-30-81cm",
+            "name_chars": 125
+          },
+          {
+            "id": 15855,
+            "name": "Despicator De Busteni Hidraulic Rotakt HLS7T, Forta De Despicare 7 Tone, Motor Electric 2.3 KW",
+            "sku": "052301",
+            "permalink": "https://rotakt.ro/produse/despicator-de-busteni-hidraulic-rotakt-hls7t-forta-de-despicare-7-tone-motor-electric-2-3-kw/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "despicator-de-busteni-hidraulic-rotakt-hls7t-forta-de-despicare-7-tone-motor-electric-2-3-kw",
+            "name_chars": 94
+          },
+          {
+            "id": 15853,
+            "name": "Despicator De Busteni Hidraulic Trifazic Rotakt HVLS14T, Forta De Despicare 14 Tone, Motor Electric 4.3 KW",
+            "sku": "052304",
+            "permalink": "https://rotakt.ro/produse/despicator-de-busteni-hidraulic-trifazic-rotakt-hvls14t-forta-de-despicare-14-tone-motor-electric-4-3-kw/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "despicator-de-busteni-hidraulic-trifazic-rotakt-hvls14t-forta-de-despicare-14-tone-motor-electric-4-3-kw",
+            "name_chars": 106
+          },
+          {
+            "id": 15851,
+            "name": "Despicator De Busteni Hidraulic Rotakt HVLS10T, Forta De Despicare 10 Tone, Motor Electric 3 kW",
+            "sku": "052303",
+            "permalink": "https://rotakt.ro/produse/despicator-de-busteni-hidraulic-rotakt-hvls10t-forta-de-despicare-10-tone-motor-electric-3-kw/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "despicator-de-busteni-hidraulic-rotakt-hvls10t-forta-de-despicare-10-tone-motor-electric-3-kw",
+            "name_chars": 95
+          },
+          {
+            "id": 15847,
+            "name": "Despicator De Busteni Hidraulic Rotakt HVLS8T Forta De Despicare 8 Tone, Motor Electric 3 kW",
+            "sku": "052302",
+            "permalink": "https://rotakt.ro/produse/despicator-de-busteni-hidraulic-rotakt-hvls8t-forta-de-despicare-8-tone-motor-electric-3-kw/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "despicator-de-busteni-hidraulic-rotakt-hvls8t-forta-de-despicare-8-tone-motor-electric-3-kw",
+            "name_chars": 92
+          },
+          {
+            "id": 15844,
+            "name": "Atomizor Rotakt WF &#8211; 550, Rezervor 14 l, Motor 2CP, Distanță de Pulverizare Cel Putin 12 metri",
+            "sku": "052196",
+            "permalink": "https://rotakt.ro/produse/atomizor-rotakt-wf-550-rezervor-14-l-motor-2cp-distanta-de-pulverizare-cel-putin-12-metri/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "atomizor-rotakt-wf-550-rezervor-14-l-motor-2cp-distanta-de-pulverizare-cel-putin-12-metri",
+            "name_chars": 100
+          },
+          {
+            "id": 15209,
+            "name": "Motocultor Rotakt Gladiator RO15RE-2P, 15 CP, benzină, Pornire electrică, Lățime de lucru 560-1350mm",
+            "sku": "051820",
+            "permalink": "https://rotakt.ro/produse/motocultor-rotakt-gladiator-ro15re-2p-15-cp-benzina-pornire-electrica-latime-de-lucru-560-1350mm/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "motocultor-rotakt-gladiator-ro15re-2p-15-cp-benzina-pornire-electrica-latime-de-lucru-560-1350mm",
+            "name_chars": 100
+          },
+          {
+            "id": 15154,
+            "name": "Motor Electric Monofazic Rotakt 1,8 kW (2,5 CP) cu Bobinaj de Cupru, Protecție IP44 și Fulie",
+            "sku": "029282",
+            "permalink": "https://rotakt.ro/produse/motor-electric-monofazic-rotakt-18-kw-25-cp-cu-bobinaj-de-cupru-protectie-ip44-si-fulie/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "motor-electric-monofazic-rotakt-18-kw-25-cp-cu-bobinaj-de-cupru-protectie-ip44-si-fulie",
+            "name_chars": 92
+          },
+          {
+            "id": 15120,
+            "name": "Motocultor Rotakt Godzilla RO135C, 9 CP,2-PTO, Diesel, Pornire electrică, Lățime de lucru 560-1350mm",
+            "sku": "051978",
+            "permalink": "https://rotakt.ro/produse/motocultor-rotakt-godzilla-ro135c-9-cp2-pto-diesel-pornire-electrica-latime-de-lucru-560-1350mm/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "motocultor-rotakt-godzilla-ro135c-9-cp2-pto-diesel-pornire-electrica-latime-de-lucru-560-1350mm",
+            "name_chars": 100
+          },
+          {
+            "id": 15018,
+            "name": "Motocultor Rotakt Goliath RO17RE-2P, 17 CP, benzina, Pornire electrica, Latime de lucru 560-1350mm",
+            "sku": "051821",
+            "permalink": "https://rotakt.ro/produse/motocultor-rotakt-goliath-ro17re-2p-17-cp-benzina-pornire-electrica-latime-de-lucru-560-1350mm/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "motocultor-rotakt-goliath-ro17re-2p-17-cp-benzina-pornire-electrica-latime-de-lucru-560-1350mm",
+            "name_chars": 98
+          },
+          {
+            "id": 14633,
+            "name": "Baterie semitractiune Deep Cycle Xupai 6-DZF-20, 12V 20Ah VRLA GEL pentru scutere si tricicluri electrice",
+            "sku": "051463",
+            "permalink": "https://rotakt.ro/produse/baterie-semitractiune-deep-cycle-xupai-6-dzf-20-12v-20ah-vrla-gel-pentru-scutere-si-tricicluri-electrice/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "baterie-semitractiune-deep-cycle-xupai-6-dzf-20-12v-20ah-vrla-gel-pentru-scutere-si-tricicluri-electrice",
+            "name_chars": 105
+          },
+          {
+            "id": 14194,
+            "name": "Casca Motocicleta, Scuter, Triciclu,  Rotakt OP12, ABS, Certificare ECE.R22.06, Gri, Marime XL",
+            "sku": "050942",
+            "permalink": "https://rotakt.ro/produse/casca-motocicleta-scuter-triciclu-rotakt-op12-abs-certificare-ece-r22-06-gri-marime-xl/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "casca-motocicleta-scuter-triciclu-rotakt-op12-abs-certificare-ece-r22-06-gri-marime-xl",
+            "name_chars": 94
+          },
+          {
+            "id": 14193,
+            "name": "Casca Motocicleta, Scuter, Triciclu,  Rotakt OP12, ABS, Certificare ECE.R22.06, Gri, Marime L",
+            "sku": "050940",
+            "permalink": "https://rotakt.ro/produse/casca-motocicleta-scuter-triciclu-rotakt-op12-abs-certificare-ece-r22-06-gri-marime-l/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "casca-motocicleta-scuter-triciclu-rotakt-op12-abs-certificare-ece-r22-06-gri-marime-l",
+            "name_chars": 93
+          },
+          {
+            "id": 14182,
+            "name": "Casca Motocicleta, Scuter, Triciclu,  Rotakt OP12, ABS, Certificare ECE.R22.06, Gri, Marime M",
+            "sku": "050938",
+            "permalink": "https://rotakt.ro/produse/casca-motocicleta-scuter-triciclu-rotakt-op12-abs-certificare-ece-r22-06-gri-marime-m/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "casca-motocicleta-scuter-triciclu-rotakt-op12-abs-certificare-ece-r22-06-gri-marime-m",
+            "name_chars": 93
+          },
+          {
+            "id": 14179,
+            "name": "Casca Motocicleta, Scuter, Triciclu,  Rotakt OP11, ABS, Certificare ECE.R22.06, Alb, Marime XL",
+            "sku": "050936",
+            "permalink": "https://rotakt.ro/produse/casca-motocicleta-scuter-triciclu-rotakt-op11-abs-certificare-ece-r22-06-alb-marime-xl/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "casca-motocicleta-scuter-triciclu-rotakt-op11-abs-certificare-ece-r22-06-alb-marime-xl",
+            "name_chars": 94
+          },
+          {
+            "id": 14178,
+            "name": "Casca Motocicleta, Scuter, Triciclu,  Rotakt OP11, ABS, Certificare ECE.R22.06, Alb, Marime L",
+            "sku": "050933",
+            "permalink": "https://rotakt.ro/produse/casca-motocicleta-scuter-triciclu-rotakt-op11-abs-certificare-ece-r22-06-alb-marime-l/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "casca-motocicleta-scuter-triciclu-rotakt-op11-abs-certificare-ece-r22-06-alb-marime-l",
+            "name_chars": 93
+          },
+          {
+            "id": 14147,
+            "name": "Statie de incarcare vehicule electrice LXAC-J4-EU22/400 22kW 400V trifazat conector tip 2 cablu de incarcare 5m",
+            "sku": "051456",
+            "permalink": "https://rotakt.ro/produse/statie-de-incarcare-vehicule-electrice-lxac-j4-eu22-400-22kw-400v-trifazat-conector-tip-2-cablu-de-incarcare-5m/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "statie-de-incarcare-vehicule-electrice-lxac-j4-eu22-400-22kw-400v-trifazat-conector-tip-2-cablu-de-incarcare-5m",
+            "name_chars": 111
+          },
+          {
+            "id": 14141,
+            "name": "Statie de incarcare vehicule electrice LXAC-J4-EU7/230 7kW 230V conector tip 2 cablu de incarcare 5m",
+            "sku": "051454",
+            "permalink": "https://rotakt.ro/produse/statie-de-incarcare-vehicule-electrice-lxac-j4-eu7-230-7kw-230v-conector-tip-2-cablu-de-incarcare-5m/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "statie-de-incarcare-vehicule-electrice-lxac-j4-eu7-230-7kw-230v-conector-tip-2-cablu-de-incarcare-5m",
+            "name_chars": 100
+          },
+          {
+            "id": 14114,
+            "name": "Scuter pe benzină Rotakt Intercity, motor 125cc, viteză maximă 85 Km/h, 6,5 kW /7500 rpm, Euro 5",
+            "sku": "050992",
+            "permalink": "https://rotakt.ro/produse/scuter-pe-benzina-rotakt-intercity-motor-125cc-viteza-maxima-85-km-h-65-kw-7500-rpm/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "scuter-pe-benzina-rotakt-intercity-motor-125cc-viteza-maxima-85-km-h-65-kw-7500-rpm",
+            "name_chars": 96
+          },
+          {
+            "id": 13999,
+            "name": "Unitate Motor Rotakt MF360 6.5 CP, benzină + Freză de zăpadă ST360 + 2 x Ulei Rotakt SAE 15W-40",
+            "sku": "006932+010577+2&#215;035408",
+            "permalink": "https://rotakt.ro/produse/unitate-motor-rotakt-mf360-6-5-cp-benzina-freza-de-zapada-st360-2-x-ulei-rotakt-sae-15w-40/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "unitate-motor-rotakt-mf360-6-5-cp-benzina-freza-de-zapada-st360-2-x-ulei-rotakt-sae-15w-40",
+            "name_chars": 95
+          },
+          {
+            "id": 13973,
+            "name": "Unitate Motor Rotakt MF360 6.5 CP, benzină + SW360 Perie rotativă de curățat (matură) + 2 x Ulei Rotakt SAE 15W-40",
+            "sku": "006932+017002+2&#215;035408",
+            "permalink": "https://rotakt.ro/produse/unitate-motor-rotakt-mf360-6-5-cp-benzina-sw360-perie-rotativa-de-curatat-matura-2-x-ulei-rotakt-sae-15w-40/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "unitate-motor-rotakt-mf360-6-5-cp-benzina-sw360-perie-rotativa-de-curatat-matura-2-x-ulei-rotakt-sae-15w-40",
+            "name_chars": 114
+          },
+          {
+            "id": 13860,
+            "name": "Scuter Rotakt Adventure Albastru-Gri 49 cmc, 2.2kW, Euro 5, Benzină, Viteză Maximă 45km/h",
+            "sku": "050993A",
+            "permalink": "https://rotakt.ro/produse/scuter-rotakt-adventure-albastru-gri-49-cmc-2-2kw-euro-5-benzina-viteza-maxima-45km-h/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "scuter-rotakt-adventure-albastru-gri-49-cmc-2-2kw-euro-5-benzina-viteza-maxima-45km-h",
+            "name_chars": 89
+          },
+          {
+            "id": 13849,
+            "name": "Scuter benzina 49cc Rotakt Adventure rosu-gri, 2.2kW, Euro 5, viteză maximă 45km/h",
+            "sku": "050993",
+            "permalink": "https://rotakt.ro/produse/scuter-rotakt-adventure-rosu-gri-49-cmc-2-2kw-euro-5-benzina-viteza-maxima-45km-h/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "scuter-rotakt-adventure-rosu-gri-49-cmc-2-2kw-euro-5-benzina-viteza-maxima-45km-h",
+            "name_chars": 82
+          },
+          {
+            "id": 13794,
+            "name": "Stalp de sustinere metalic pentru incarcator vehicule electrice, compatibil cu EVD02-07RD si EVD02-22RD",
+            "sku": "050983",
+            "permalink": "https://rotakt.ro/produse/stalp-de-sustinere-metalic-pentru-incarcator-vehicule-electrice-compatibil-cu-evd02-07rd-si-evd02-22rd/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "stalp-de-sustinere-metalic-pentru-incarcator-vehicule-electrice-compatibil-cu-evd02-07rd-si-evd02-22rd",
+            "name_chars": 103
+          },
+          {
+            "id": 13792,
+            "name": "Stația de încărcare pentru vehicule electrice EVD02-22RD 400V/50Hz 8A-32A reglabil in trepte conector tip 2 comanda RFID si aplicatie",
+            "sku": "050981",
+            "permalink": "https://rotakt.ro/produse/statia-de-incarcare-pentru-vehicule-electrice-evd02-22rd-400v-50hz-8a-32a-reglabil-in-trepte-conector-tip-2-comanda-rfid-si-aplicatie/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "statia-de-incarcare-pentru-vehicule-electrice-evd02-22rd-400v-50hz-8a-32a-reglabil-in-trepte-conector-tip-2-comanda-rfid-si-aplicatie",
+            "name_chars": 133
+          },
+          {
+            "id": 13785,
+            "name": "Stația de încărcare pentru vehicule electrice EVD02-07RD 230V/50Hz 8A-32A reglabil in trepte conector tip 2 comanda RFID si aplicatie",
+            "sku": "050982",
+            "permalink": "https://rotakt.ro/produse/statia-de-incarcare-pentru-vehicule-electrice-evd02-07rd-230v-50hz-8a-32a-reglabil-in-trepte-conector-tip-2-comanda-rfid-si-aplicatie/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "statia-de-incarcare-pentru-vehicule-electrice-evd02-07rd-230v-50hz-8a-32a-reglabil-in-trepte-conector-tip-2-comanda-rfid-si-aplicatie",
+            "name_chars": 133
+          },
+          {
+            "id": 13651,
+            "name": "Suport de perete pentru conector de incarcare vehicule electrice tip 2 -EV Plug Holder type 2",
+            "sku": "050907",
+            "permalink": "https://rotakt.ro/produse/suport-de-perete-pentru-conector-de-incarcare-vehicule-electrice-tip-2-ev-plug-holder-type-2/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "suport-de-perete-pentru-conector-de-incarcare-vehicule-electrice-tip-2-ev-plug-holder-type-2",
+            "name_chars": 93
+          },
+          {
+            "id": 13646,
+            "name": "Incarcator portabil PC280 pentru masini electrice conector type 2 7,2kW 6-32A reglabil 230V 6m cablu de incarcare",
+            "sku": "050905",
+            "permalink": "https://rotakt.ro/produse/incarcator-portabil-pc280-pentru-masini-electrice-conector-type-2-72kw-6-32a-reglabil-230v-6m-cablu-de-incarcare/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "incarcator-portabil-pc280-pentru-masini-electrice-conector-type-2-72kw-6-32a-reglabil-230v-6m-cablu-de-incarcare",
+            "name_chars": 113
+          },
+          {
+            "id": 13631,
+            "name": "Incarcator portabil PC200 pentru masini electrice conector type 2 3,6kW 6-16A reglabil 230V 6m cablu de incarcare",
+            "sku": "050904",
+            "permalink": "https://rotakt.ro/produse/incarcator-portabil-pentru-masini-electrice-conector-type-2-36kw-6-16a-reglabil-230v-6m-cablu-de-incarcare/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "incarcator-portabil-pentru-masini-electrice-conector-type-2-36kw-6-16a-reglabil-230v-6m-cablu-de-incarcare",
+            "name_chars": 113
+          },
+          {
+            "id": 12365,
+            "name": "Triciclu Electric cu Remorca Rotakt Guliver 2000W 25 km/h Autonomie pana la 68 km Baterie Plumb-acid 72V 58Ah Greutate maxima 617 kg, Fara permis",
+            "sku": "050304",
+            "permalink": "https://rotakt.ro/produse/triciclu-electric-cu-remorca-rotakt-guliver-2000w-25-km-h-autonomie-68-km-baterie-plumb-acid-72v-58ah-greutate-maxima-617-kg-fara-permis/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "triciclu-electric-cu-remorca-rotakt-guliver-2000w-25-km-h-autonomie-68-km-baterie-plumb-acid-72v-58ah-greutate-maxima-617-kg-fara-permis",
+            "name_chars": 145
+          },
+          {
+            "id": 12645,
+            "name": "Triciclu Electric Rotakt Navigator cu Doua Motoare De 400W Viteză 25 km/h Autonomie de până la 80 km Baterie plumb-acid 60V 20Ah Greutate maximă 300kg, Fără permis",
+            "sku": "049873",
+            "permalink": "https://rotakt.ro/produse/triciclu-electric-rotakt-navigator-cu-doua-motoare-de-400w-viteza-25-km-h-autonomie-80-km-baterie-plumb-acid-60v-20ah-greutate-maxima-300kg-fara-permis/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "triciclu-electric-rotakt-navigator-cu-doua-motoare-de-400w-viteza-25-km-h-autonomie-80-km-baterie-plumb-acid-60v-20ah-greutate-maxima-300kg-fara-permis",
+            "name_chars": 163
+          },
+          {
+            "id": 12646,
+            "name": "Triciclu Electric Rotakt Voyager Motor 1000W, Viteză 25 km/h Autonomie de până la 49 km Baterie plumb-acid 60V 20Ah Greutate maximă 199kg, Fără permis",
+            "sku": "049872",
+            "permalink": "https://rotakt.ro/produse/triciclu-electric-rotakt-voyager-motor-1000w-viteza-25-km-h-autonomie-49-km-baterie-plumb-acid-60v-20ah-greutate-maxima-199kg-fara-permis/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "triciclu-electric-rotakt-voyager-motor-1000w-viteza-25-km-h-autonomie-49-km-baterie-plumb-acid-60v-20ah-greutate-maxima-199kg-fara-permis",
+            "name_chars": 150
+          },
+          {
+            "id": 12636,
+            "name": "Triciclu Electric Rotakt Explorer Motor 1000W Viteză 25 km/h Autonomie pana la 45 km Baterie plumb-acid 60V 20Ah Greutate maximă 251kg, Fără permis",
+            "sku": "049871",
+            "permalink": "https://rotakt.ro/produse/triciclu-electric-rotakt-explorer-motor-500w-viteza-25-km-h-autonomie-24-km-baterie-plumb-acid-60v-20ah-greutate-maxima-251kg-fara-permis/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "triciclu-electric-rotakt-explorer-motor-500w-viteza-25-km-h-autonomie-24-km-baterie-plumb-acid-60v-20ah-greutate-maxima-251kg-fara-permis",
+            "name_chars": 147
+          },
+          {
+            "id": 12366,
+            "name": "Triciclu electric Rotakt Liberia 1400W 25 km/h autonomie pana la 48 km baterie plumb- acid 60V 20Ah greutate maxima 292 kg, Fara permis",
+            "sku": "049488",
+            "permalink": "https://rotakt.ro/produse/triciclu-electric-rotakt-liberia-1400w-25-km-h-autonomie-48-km-baterie-plumb-acid-60v-20ah-greutate-maxima-292-kg/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "triciclu-electric-rotakt-liberia-1400w-25-km-h-autonomie-48-km-baterie-plumb-acid-60v-20ah-greutate-maxima-292-kg",
+            "name_chars": 135
+          },
+          {
+            "id": 12377,
+            "name": "Triciclu Electric Rotakt Senior Motor 1000W Viteză 25 km/h Autonomie pana la 62 km Baterie plumb-acid 60V 20Ah Greutate maximă 187 kg, Fără permis",
+            "sku": "049487",
+            "permalink": "https://rotakt.ro/produse/triciclu-electric-rotakt-senior-motor-1000w-viteza-25-km-h-autonomie-62-km-baterie-plumb-acid-60v-20ah-greutate-maxima-187-kg-fara-permis/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "triciclu-electric-rotakt-senior-motor-1000w-viteza-25-km-h-autonomie-62-km-baterie-plumb-acid-60v-20ah-greutate-maxima-187-kg-fara-permis",
+            "name_chars": 146
+          },
+          {
+            "id": 12373,
+            "name": "Scuter electric 25 km/h Rotakt Saigon 1000W, autonomie pana la 80 km, baterie Plumb-acid 72V 20Ah, sarcină maximă 251 kg, fără permis",
+            "sku": "049685",
+            "permalink": "https://rotakt.ro/produse/scuter-electric-rotakt-saigon-1000w-25-km-h-autonomie-80-km-baterie-plumb-acid-72v-20ah-sarcina-maxima-251-kg-fara-permis/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "scuter-electric-rotakt-saigon-1000w-25-km-h-autonomie-80-km-baterie-plumb-acid-72v-20ah-sarcina-maxima-251-kg-fara-permis",
+            "name_chars": 133
+          },
+          {
+            "id": 12372,
+            "name": "Triciclu electric cu 3 roti Rotakt Safari Motor 1000W, 25 km/h, autonomie pana la 62 km, baterie plumb-acid 60V 20Ah, greutate maximă 187 kg, fără permis",
+            "sku": "049489",
+            "permalink": "https://rotakt.ro/produse/triciclu-electric-rotakt-safari-motor-1000w-25-km-h-autonomie-62-km-baterie-plumb-acid-60v-20ah-greutate-maxima-187-kg-fara-permis/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "triciclu-electric-rotakt-safari-motor-1000w-25-km-h-autonomie-62-km-baterie-plumb-acid-60v-20ah-greutate-maxima-187-kg-fara-permis",
+            "name_chars": 153
+          },
+          {
+            "id": 12371,
+            "name": "Triciclu Electric Cu Remorca Rotakt Nautilus 1600W 25 km/h Autonomie pana la 44 km Baterie plumb-acid 60V 32Ah Greutate maxima 364 kg, Fara permis",
+            "sku": "050305",
+            "permalink": "https://rotakt.ro/produse/triciclu-electric-cu-remorca-rotakt-nautilus-1600w-25-km-h-autonomie-44-km-baterie-plumb-acid-60v-32ah-greutate-maxima-364-kg/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "triciclu-electric-cu-remorca-rotakt-nautilus-1600w-25-km-h-autonomie-44-km-baterie-plumb-acid-60v-32ah-greutate-maxima-364-kg",
+            "name_chars": 146
+          },
+          {
+            "id": 12368,
+            "name": "Scuter electric 25 km/h fără permis Rotakt Mandarin, motor 1600W, autonomie pana la 55 km, baterie litiu-ion 60V 20Ah, 2 locuri",
+            "sku": "049396",
+            "permalink": "https://rotakt.ro/produse/scuter-electric-rotakt-mandarin-motor-1600w-viteza-maxima-45km-h-autonomie-55-km-baterie-litiu-ion-60v-20ah-2-locuri/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "scuter-electric-rotakt-mandarin-motor-1600w-viteza-maxima-45km-h-autonomie-55-km-baterie-litiu-ion-60v-20ah-2-locuri",
+            "name_chars": 127
+          },
+          {
+            "id": 12364,
+            "name": "Scuter electric 2400W Rotakt Galileo, autonomie pana la 45 Km, viteza maxima 25Km/h, acumulator 72V/20Ah",
+            "sku": "049691",
+            "permalink": "https://rotakt.ro/produse/scuter-rotakt-galileo-motor-2400w-autonomie-45-km-viteza-maxima-45km-h-acumulator-72v-20ah-timp-de-incarcare-6-8h/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "scuter-rotakt-galileo-motor-2400w-autonomie-45-km-viteza-maxima-45km-h-acumulator-72v-20ah-timp-de-incarcare-6-8h",
+            "name_chars": 104
+          },
+          {
+            "id": 12362,
+            "name": "Scuter Rotakt Avalanche, Motor 1500W, Autonomie pana la 53 Km, Viteza maxima 45Km/h, Acumulator 60V/20Ah, Timp de incarcare 6-8h",
+            "sku": "049686",
+            "permalink": "https://rotakt.ro/produse/scuter-rotakt-avalanche-motor-1500w-autonomie-53-km-viteza-maxima-45km-h-acumulator-60v-20ah-timp-de-incarcare-6-8h/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "scuter-rotakt-avalanche-motor-1500w-autonomie-53-km-viteza-maxima-45km-h-acumulator-60v-20ah-timp-de-incarcare-6-8h",
+            "name_chars": 128
+          },
+          {
+            "id": 12342,
+            "name": "Scuter Rotakt Galileo Ultra, Viteză maximă 45Km/h, Autonomie pana la 45Km, Putere 2400W, Acumulatori 72V / 30Ah, Timp de încărcare 6-8h, KeyLess Go, USB, NFC/Bluetooth",
+            "sku": "049692",
+            "permalink": "https://rotakt.ro/produse/scuter-rotakt-galileo-ultra-viteza-maxima-45km-h-autonomie-45km-h-putere-2400w-acumulatori-72v-30ah-timp-de-incarcare-6-8h/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "scuter-rotakt-galileo-ultra-viteza-maxima-45km-h-autonomie-45km-h-putere-2400w-acumulatori-72v-30ah-timp-de-incarcare-6-8h",
+            "name_chars": 167
+          },
+          {
+            "id": 12303,
+            "name": "Scuterul Electric Rotakt Mirage Motor Bosch Putere Maxima 3000W 25km/h,  Baterie Litiu-ion 60V 20Ah detașabilă, Autonomie pana la 55Km",
+            "sku": "048762",
+            "permalink": "https://rotakt.ro/produse/scuterul-electric-rotakt-mirage-motor-bosch-3000w-45km-h-baterie-litiu-ion-60v-20ah-detasabila-autonomie-42km/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "scuterul-electric-rotakt-mirage-motor-bosch-3000w-45km-h-baterie-litiu-ion-60v-20ah-detasabila-autonomie-42km",
+            "name_chars": 134
+          },
+          {
+            "id": 12278,
+            "name": "Scuter Electric Rotakt Casablanca Motor Bosch Putere Maxima 3000w 25km/h Autonomie pana la 55 km Baterie Litiu-ion 60V 26Ah, Timp încărcare 6-8h",
+            "sku": "048760",
+            "permalink": "https://rotakt.ro/produse/scuter-electric-rotakt-casablanca-3000w-45km-h-autonomie-55-km-baterie-litiu-ion-60v-26ah/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "scuter-electric-rotakt-casablanca-3000w-45km-h-autonomie-55-km-baterie-litiu-ion-60v-26ah",
+            "name_chars": 144
+          },
+          {
+            "id": 12275,
+            "name": "Triciclu Electric Rotakt Camarad Autonomie pana la 58Km, Viteză Maximă 25km/h, Putere 1000W, Acumulatori 60V/20Ah, Timp de încărcare 6-8h, Fără Permis",
+            "sku": "049486",
+            "permalink": "https://rotakt.ro/produse/triciclu-electric-rotakt-camarad-autonomie-58km-viteza-maxima-25km-h-putere-1000w-acumulatori-60v-20ah-timp-de-incarcare-6-8h-fara-permis/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "triciclu-electric-rotakt-camarad-autonomie-58km-viteza-maxima-25km-h-putere-1000w-acumulatori-60v-20ah-timp-de-incarcare-6-8h-fara-permis",
+            "name_chars": 150
+          },
+          {
+            "id": 12272,
+            "name": "Scuter electric Rotakt Supercargo Putere Maxima Motor 3000w 45km/h autonomie pana la 116km baterie Litiu-ion 60V 52Ah, Durată de încărcare 6-8h",
+            "sku": "048763",
+            "permalink": "https://rotakt.ro/produse/scuter-electric-rotakt-supercargo-3000w-45km-h-autonomie-116km-baterie-litiu-ion-60v-52ah/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "scuter-electric-rotakt-supercargo-3000w-45km-h-autonomie-116km-baterie-litiu-ion-60v-52ah",
+            "name_chars": 143
+          },
+          {
+            "id": 12122,
+            "name": "Scuter Electric Rotakt Cleopatra Motor Bosch Putere Maxima 3000W Autonomie pana la 55 km Viteza Maxima 25 km/h acumulator litiu-ion 60V/26Ah, Timp Incarcare 6-8 ore",
+            "sku": "048759",
+            "permalink": "https://rotakt.ro/produse/scuter-electric-rotakt-cleopatra-motor-bosch-autonomie-55-km-viteza-maxima-45-km-h-putere-3000w/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "scuter-electric-rotakt-cleopatra-motor-bosch-autonomie-55-km-viteza-maxima-45-km-h-putere-3000w",
+            "name_chars": 164
+          },
+          {
+            "id": 3866,
+            "name": "Generator DIESEL Rotakt RODE12000Q Tip Inverter, ATS &#8211; Pornire Automata Pana Curent, AVR",
+            "sku": "043616",
+            "permalink": "https://rotakt.ro/produse/generator-diesel-rotakt-rode12000q-tip-inverter-include-functia-de-automatizare-ats/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "generator-diesel-rotakt-rode12000q-tip-inverter-include-functia-de-automatizare-ats",
+            "name_chars": 94
+          },
+          {
+            "id": 3860,
+            "name": "Motoferăstrău ROTAKT MTF5810SW, 3 CP, 400 mm + Lant 33 dinti + 1 buc ulei amestec 0.600 L",
+            "sku": "040836-1",
+            "permalink": "https://rotakt.ro/produse/motofierastrau-rotakt-mtf5810sw-3-cp-400-mm-lant-33-dinti-1-buc-ulei-amestec-0-600-l/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "motofierastrau-rotakt-mtf5810sw-3-cp-400-mm-lant-33-dinti-1-buc-ulei-amestec-0-600-l",
+            "name_chars": 89
+          },
+          {
+            "id": 3859,
+            "name": "Motoferăstrău ROTAKT MTF5810S, 3 CP, 400 mm + Lant 33 dinti + 1 buc ulei amestec 0.600 L",
+            "sku": "040835-1",
+            "permalink": "https://rotakt.ro/produse/motofierastrau-rotakt-mtf5810s-3-cp-400-mm-lant-33-dinti-1-buc-ulei-amestec-0-600-l/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "motofierastrau-rotakt-mtf5810s-3-cp-400-mm-lant-33-dinti-1-buc-ulei-amestec-0-600-l",
+            "name_chars": 88
+          },
+          {
+            "id": 3858,
+            "name": "Motoferăstrău ROTAKT MTF4110SW, 1.9 CP, 350 mm + Lant 26.5 dinti + 1 buc ulei amestec 0.600 L",
+            "sku": "040834-1",
+            "permalink": "https://rotakt.ro/produse/motofierastrau-rotakt-mtf4110sw-1-9-cp-350-mm-lant-26-5-dinti-1-buc-ulei-amestec-0-600-l/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "motofierastrau-rotakt-mtf4110sw-1-9-cp-350-mm-lant-26-5-dinti-1-buc-ulei-amestec-0-600-l",
+            "name_chars": 93
+          },
+          {
+            "id": 3857,
+            "name": "Motoferăstrău ROTAKT MTF4110S, 1.9 CP, 350 mm + Lant 26.5 dinti+ 1 buc ulei amestec 0.600 ml",
+            "sku": "040833-1",
+            "permalink": "https://rotakt.ro/produse/motofierastrau-rotakt-mtf4110s-1-9-cp-350-mm-lant-26-5-dinti-1-buc-ulei-amestec-0-600-ml/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "motofierastrau-rotakt-mtf4110s-1-9-cp-350-mm-lant-26-5-dinti-1-buc-ulei-amestec-0-600-ml",
+            "name_chars": 92
+          },
+          {
+            "id": 3828,
+            "name": "Pachet Accesorii Plug Arat + Plug Bilonat + Plug Cartofi + Cultivator + Roti metalice 4.00-8  (tija Scurta,fara Tub Hexagonal)",
+            "sku": "041469",
+            "permalink": "https://rotakt.ro/produse/pachet-accesorii-plug-arat-plug-bilonat-plug-cartofi-cultivator-roti-metalice-4-00-8-tija-scurtafara-tub-hexagonal/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "pachet-accesorii-plug-arat-plug-bilonat-plug-cartofi-cultivator-roti-metalice-4-00-8-tija-scurtafara-tub-hexagonal",
+            "name_chars": 126
+          },
+          {
+            "id": 3827,
+            "name": "Pachet Accesorii plug Arat + Plug Cartofi + Plug Bilonat + Roti Metalice 4.00-8 (tija Scurta,fara Tub Hexagonal)",
+            "sku": "041468",
+            "permalink": "https://rotakt.ro/produse/pachet-accesorii-plug-arat-plug-cartofi-plug-bilonat-roti-metalice-4-00-8-tija-scurtafara-tub-hexagonal/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "pachet-accesorii-plug-arat-plug-cartofi-plug-bilonat-roti-metalice-4-00-8-tija-scurtafara-tub-hexagonal",
+            "name_chars": 112
+          },
+          {
+            "id": 3826,
+            "name": "Pachet Accesorii Plug Arat + Plug Bilonat + Roti Metalice 4.00-8 (tija Scurta,fara Tub Hexagonal)",
+            "sku": "041467",
+            "permalink": "https://rotakt.ro/produse/pachet-accesorii-plug-arat-plug-bilonat-roti-metalice-4-00-8-tija-scurtafara-tub-hexagonal/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "pachet-accesorii-plug-arat-plug-bilonat-roti-metalice-4-00-8-tija-scurtafara-tub-hexagonal",
+            "name_chars": 97
+          },
+          {
+            "id": 3825,
+            "name": "Pachet de accesorii motocultor, plug de arat, plug de bilonat, plug de scos cartofi, roti metalice 4.00-8",
+            "sku": "018050",
+            "permalink": "https://rotakt.ro/produse/pachet-de-accesorii-motocultor-plug-de-arat-plug-de-bilonat-plug-de-scos-cartofi-roti-metalice-4-00-8/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "pachet-de-accesorii-motocultor-plug-de-arat-plug-de-bilonat-plug-de-scos-cartofi-roti-metalice-4-00-8",
+            "name_chars": 105
+          },
+          {
+            "id": 3813,
+            "name": "Despicator de Bușteni ROTAKT VLS16TS‑PTO, Atasabil Priză de Putere Tractor, Forță Despicare 16T",
+            "sku": "033398",
+            "permalink": "https://rotakt.ro/produse/despicator-de-busteni-rotakt-vls16ts%e2%80%91pto-atasabil-priza-de-putere-tractor/",
+            "issues": [
+              "slug>80",
+              "slug-non-canonical"
+            ],
+            "slug": "despicator-de-busteni-rotakt-vls16ts%e2%80%91pto-atasabil-priza-de-putere-tractor",
+            "name_chars": 95
+          },
+          {
+            "id": 3811,
+            "name": "Despicator de busteni ROTAKT VLS12TS-1, Forță de Despicare 12 T, Motor Electric de 3.000W",
+            "sku": "033396",
+            "permalink": "https://rotakt.ro/produse/despicator-de-busteni-rotakt-vls12ts%e2%80%911/",
+            "issues": [
+              "slug-non-canonical"
+            ],
+            "slug": "despicator-de-busteni-rotakt-vls12ts%e2%80%911",
+            "name_chars": 89
+          },
+          {
+            "id": 3810,
+            "name": "Despicător de Bușteni ROTAKT VLS10TS-1, Motor Electric de 3.000W, Forță Despicare 10T",
+            "sku": "033395",
+            "permalink": "https://rotakt.ro/produse/despicator-de-busteni-rotakt-vls10ts%e2%80%911/",
+            "issues": [
+              "slug-non-canonical"
+            ],
+            "slug": "despicator-de-busteni-rotakt-vls10ts%e2%80%911",
+            "name_chars": 85
+          },
+          {
+            "id": 3805,
+            "name": "Tub / manicot Rotakt profil hexagonal, 32 mm, lungime 190 mm cu satelit, pentru roti motocultor",
+            "sku": "027504",
+            "permalink": "https://rotakt.ro/produse/tub-manicot-profil-hexagonal-32-mm-lungime-190-mm-cu-satelit-pentru-roti-motocultor-rotakt/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "tub-manicot-profil-hexagonal-32-mm-lungime-190-mm-cu-satelit-pentru-roti-motocultor-rotakt",
+            "name_chars": 95
+          },
+          {
+            "id": 3804,
+            "name": "Tub / manicot Rotakt profil hexagonal, 23 mm, lungime 150 mm cu satelit, pentru motocultoare cu o putere pana la 8.5 CP",
+            "sku": "022992",
+            "permalink": "https://rotakt.ro/produse/tub-manicot-profil-hexagonal-23-mm-lungime-150-mm-cu-satelit-pentru-roti-motocultor-rotakt/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "tub-manicot-profil-hexagonal-23-mm-lungime-150-mm-cu-satelit-pentru-roti-motocultor-rotakt",
+            "name_chars": 119
+          },
+          {
+            "id": 3785,
+            "name": "Motocoasă cu tambur Rotakt RO210, Motor Loncin, 3.9 CP, 140CC, Diametru taiere 640 mm, Roti cauciuc pline 13×5.00-6",
+            "sku": "038467",
+            "permalink": "https://rotakt.ro/produse/motocoasa-cu-tambur-rotakt-ro210-motor-loncin-3-9-cp-140cc-diametru-taiere-640-mm-roti-cauciuc-cu-camera-13x5-00-6/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "motocoasa-cu-tambur-rotakt-ro210-motor-loncin-3-9-cp-140cc-diametru-taiere-640-mm-roti-cauciuc-cu-camera-13x5-00-6",
+            "name_chars": 115
+          },
+          {
+            "id": 3766,
+            "name": "Compresor Cu Piston Rotakt ROCP‑100‑10, Putere 2.2 kW, Presiune 10 bar, Debit 250 l/min, Capacitate 100",
+            "sku": "036517",
+            "permalink": "https://rotakt.ro/produse/compresor-cu-piston-rocp%e2%80%91100%e2%80%9110/",
+            "issues": [
+              "slug-non-canonical"
+            ],
+            "slug": "compresor-cu-piston-rocp%e2%80%91100%e2%80%9110",
+            "name_chars": 103
+          },
+          {
+            "id": 3749,
+            "name": "Generator de Curent Rotakt ROGE1250IS Tip Inverter, 1.1 KW, Priză 220V, Iesire 12V, Autonomie 4 ore",
+            "sku": "029512",
+            "permalink": "https://rotakt.ro/produse/generator-de-curent-rotakt-roge1250is-tip-inverter-1-1-kw-priza-220v-iesire-12v-autonomie-4-ore/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "generator-de-curent-rotakt-roge1250is-tip-inverter-1-1-kw-priza-220v-iesire-12v-autonomie-4-ore",
+            "name_chars": 99
+          },
+          {
+            "id": 3704,
+            "name": "Motoburghiu de pamant Rotakt MTBG250/805 + Kit burghiu 100 mm si 200 mm si cuplaj elastic",
+            "sku": "029590",
+            "permalink": "https://rotakt.ro/produse/motoburghiu-de-pamant-rotakt-mtbg250-805-kit-burghiu-100-mm-si-200-mm-si-cuplaj-elastic/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "motoburghiu-de-pamant-rotakt-mtbg250-805-kit-burghiu-100-mm-si-200-mm-si-cuplaj-elastic",
+            "name_chars": 89
+          },
+          {
+            "id": 3606,
+            "name": "Unitate Motor Rotakt MF360, 6.5 CP, benzină + Freză de pământ TI360 + 2 x Ulei Rotakt SAE 15W-40",
+            "sku": "006932+006934+2&#215;035408",
+            "permalink": "https://rotakt.ro/produse/unitate-motor-rotakt-mf360-6-5-cp-benzina-freza-de-pamant-ti360-2-x-ulei-rotakt-sae-15w-40/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "unitate-motor-rotakt-mf360-6-5-cp-benzina-freza-de-pamant-ti360-2-x-ulei-rotakt-sae-15w-40",
+            "name_chars": 96
+          }
+        ]
+      },
+      "categories": {
+        "total": 85,
+        "empty_count": 2,
+        "empty": [
+          {
+            "id": 266,
+            "name": "Consumabile pompe",
+            "slug": "consumabile-pompe",
+            "permalink": "https://rotakt.ro/categorie/irigare-si-pompare-apa/consumabile-pompe/"
+          },
+          {
+            "id": 1264,
+            "name": "Oferta Săptămânii",
+            "slug": "oferta-saptamanii",
+            "permalink": "https://rotakt.ro/categorie/oferta-saptamanii/"
+          }
+        ],
+        "top": [
+          {
+            "id": 1890,
+            "name": "Scule si unelte",
+            "count": 417,
+            "permalink": "https://rotakt.ro/categorie/scule-si-unelte/"
+          },
+          {
+            "id": 231,
+            "name": "Motocultoare și motosape",
+            "count": 172,
+            "permalink": "https://rotakt.ro/categorie/motocultoare-si-motosape/"
+          },
+          {
+            "id": 1012,
+            "name": "Lichidare",
+            "count": 148,
+            "permalink": "https://rotakt.ro/categorie/lichidare/"
+          },
+          {
+            "id": 271,
+            "name": "Bricolaj",
+            "count": 96,
+            "permalink": "https://rotakt.ro/categorie/bricolaj/"
+          },
+          {
+            "id": 283,
+            "name": "Mobilitate",
+            "count": 96,
+            "permalink": "https://rotakt.ro/categorie/mobilitate/"
+          },
+          {
+            "id": 235,
+            "name": "Accesorii motocultoare",
+            "count": 68,
+            "permalink": "https://rotakt.ro/categorie/motocultoare-si-motosape/accesorii-motocultoare/"
+          },
+          {
+            "id": 237,
+            "name": "Motocoase și motocositoare",
+            "count": 58,
+            "permalink": "https://rotakt.ro/categorie/motocoase-si-motocositoare/"
+          },
+          {
+            "id": 245,
+            "name": "Drujbe &#8211; Motoferastraie",
+            "count": 57,
+            "permalink": "https://rotakt.ro/categorie/drujbe-motoferastraie/"
+          },
+          {
+            "id": 260,
+            "name": "Irigare și pompare apă",
+            "count": 49,
+            "permalink": "https://rotakt.ro/categorie/irigare-si-pompare-apa/"
+          },
+          {
+            "id": 1420,
+            "name": "Accesorii si consumabile bricolaj",
+            "count": 40,
+            "permalink": "https://rotakt.ro/categorie/bricolaj/accesorii-si-consumabile-bricolaj/"
+          },
+          {
+            "id": 278,
+            "name": "Uz casnic și gospodăresc",
+            "count": 40,
+            "permalink": "https://rotakt.ro/categorie/uz-casnic-si-gospodaresc/"
+          },
+          {
+            "id": 236,
+            "name": "Consumabile motocultoare",
+            "count": 37,
+            "permalink": "https://rotakt.ro/categorie/motocultoare-si-motosape/consumabile-motocultoare/"
+          },
+          {
+            "id": 232,
+            "name": "Motocultoare",
+            "count": 37,
+            "permalink": "https://rotakt.ro/categorie/motocultoare-si-motosape/motocultor/"
+          },
+          {
+            "id": 275,
+            "name": "Echipamente de protecție",
+            "count": 36,
+            "permalink": "https://rotakt.ro/categorie/bricolaj/echipamente-de-protectie/"
+          },
+          {
+            "id": 1285,
+            "name": "Piese de schimb",
+            "count": 36,
+            "permalink": "https://rotakt.ro/categorie/mobilitate/piese-de-schimb/"
+          }
+        ]
+      },
+      "diff": {
+        "baseline": true,
+        "added": [],
+        "removed": []
+      }
     },
     "micromobilitate.ro": {
       "total": 96,
       "in_stock": 55,
       "out_of_stock": 41,
-      "missing_description_count": 0,
-      "missing_description": []
+      "health_score": 47,
+      "products_with_issues": 51,
+      "checks": {
+        "missing_description": [],
+        "missing_image": [],
+        "missing_price": [],
+        "missing_brand": [
+          {
+            "id": 1193,
+            "name": "Triciclu Electric Utilitar Rotakt GAGARIN – Fara Permis, 25Km/h, Autonomie Până la 69 km",
+            "sku": "055193",
+            "permalink": "https://micromobilitate.ro/produs/triciclu-electric-utilitar-rotakt-gagarin-fara-permis-25km-h-autonomie-pana-la-69-km/"
+          },
+          {
+            "id": 1191,
+            "name": "Cvadriciclu Electric Basculabil Rotakt Rabota, Fara Permis, 25 km/h",
+            "sku": "055505",
+            "permalink": "https://micromobilitate.ro/produs/cvadriciclu-electric-basculabil-rotakt-rabota-fara-permis-25-km-h/"
+          },
+          {
+            "id": 1189,
+            "name": "Triciclu Transport Marfa Rotakt Goliat Plus, Motor 2000W, Autonomie Până la 68 km, Fara Permis",
+            "sku": "054989",
+            "permalink": "https://micromobilitate.ro/produs/triciclu-transport-marfa-rotakt-goliat-plus-motor-2000w-autonomie-pana-la-68-km-fara-permis/"
+          },
+          {
+            "id": 1187,
+            "name": "Triciclu Electric Rotakt Goliath130 – motor 1200W, autonomie de până la 110 km",
+            "sku": "052232",
+            "permalink": "https://micromobilitate.ro/produs/triciclu-electric-rotakt-goliath130-motor-1200w-autonomie-de-pana-la-110-km/"
+          },
+          {
+            "id": 1185,
+            "name": "Triciclu Electric Guliver Ultra 1200W – 25Km/h, Autonomie de până la 60 km",
+            "sku": "055656",
+            "permalink": "https://micromobilitate.ro/produs/triciclu-electric-guliver-ultra-1200w-25km-h-autonomie-de-pana-la-60-km/"
+          },
+          {
+            "id": 1180,
+            "name": "Scuter Rotakt Bad Boy Electric Strada 45km/h off-road",
+            "sku": "055242",
+            "permalink": "https://micromobilitate.ro/produs/scuter-rotakt-bad-boy-electric-strada-45km-h-off-road/"
+          }
+        ],
+        "low_stock": [],
+        "seo_issues": [
+          {
+            "id": 1193,
+            "name": "Triciclu Electric Utilitar Rotakt GAGARIN – Fara Permis, 25Km/h, Autonomie Până la 69 km",
+            "sku": "055193",
+            "permalink": "https://micromobilitate.ro/produs/triciclu-electric-utilitar-rotakt-gagarin-fara-permis-25km-h-autonomie-pana-la-69-km/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "triciclu-electric-utilitar-rotakt-gagarin-fara-permis-25km-h-autonomie-pana-la-69-km",
+            "name_chars": 88
+          },
+          {
+            "id": 1189,
+            "name": "Triciclu Transport Marfa Rotakt Goliat Plus, Motor 2000W, Autonomie Până la 68 km, Fara Permis",
+            "sku": "054989",
+            "permalink": "https://micromobilitate.ro/produs/triciclu-transport-marfa-rotakt-goliat-plus-motor-2000w-autonomie-pana-la-68-km-fara-permis/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "triciclu-transport-marfa-rotakt-goliat-plus-motor-2000w-autonomie-pana-la-68-km-fara-permis",
+            "name_chars": 94
+          },
+          {
+            "id": 606,
+            "name": "Scuter Electric Nitro 800W Verde 25km/h Autonomie de până la 70 km Baterie plumb-acid 60V, Fără permis",
+            "sku": "055247",
+            "permalink": "https://micromobilitate.ro/produs/scuter-electric-nitro-800w-verde-25km-h-autonomie-de-pana-la-70-km-baterie-plumb-acid-60v-fara-permis/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "scuter-electric-nitro-800w-verde-25km-h-autonomie-de-pana-la-70-km-baterie-plumb-acid-60v-fara-permis",
+            "name_chars": 102
+          },
+          {
+            "id": 600,
+            "name": "Triciclu Electric Rotakt Courier Motor 2000W 25 km/h Autonomie pana la 79 km Baterie plumb-acid 72V 32Ah Greutate maximă admisa 478kg, Fără permis",
+            "sku": "053595",
+            "permalink": "https://micromobilitate.ro/produs/triciclu-electric-rotakt-courier-motor-2000w-25-km-h-autonomie-pana-la-79-km-baterie-plumb-acid-72v-32ah-greutate-maxima-admisa-478kg-fara-permis/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "triciclu-electric-rotakt-courier-motor-2000w-25-km-h-autonomie-pana-la-79-km-baterie-plumb-acid-72v-32ah-greutate-maxima-admisa-478kg-fara-permis",
+            "name_chars": 146
+          },
+          {
+            "id": 599,
+            "name": "Triciclu Electric Rotakt Voyager 2 Motor 1000W 25 km/h Autonomie de până la 41 km Baterie plumb-acid 60V 20Ah Greutate maximă 251 kg, Fără permis",
+            "sku": "053548",
+            "permalink": "https://micromobilitate.ro/produs/triciclu-electric-rotakt-voyager-2-motor-1000w-25-km-h-autonomie-de-pana-la-41-km-baterie-plumb-acid-60v-20ah-greutate-maxima-251-kg-fara-permis/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "triciclu-electric-rotakt-voyager-2-motor-1000w-25-km-h-autonomie-de-pana-la-41-km-baterie-plumb-acid-60v-20ah-greutate-maxima-251-kg-fara-permis",
+            "name_chars": 145
+          },
+          {
+            "id": 219,
+            "name": "Scuter pe benzină Rotakt Intercity, motor 125cc, viteză maximă 85 Km/h, 6,5 kW /7500 rpm, Euro 5",
+            "sku": "050992",
+            "permalink": "https://micromobilitate.ro/produs/scuter-pe-benzina-rotakt-intercity-motor-125cc-viteza-maxima-85-km-h-65-kw-7500-rpm-euro-5/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "scuter-pe-benzina-rotakt-intercity-motor-125cc-viteza-maxima-85-km-h-65-kw-7500-rpm-euro-5",
+            "name_chars": 96
+          },
+          {
+            "id": 208,
+            "name": "Triciclu Electric Rotakt Navigator cu Doua Motoare De 400W Viteză 25 km/h Autonomie de până la 80 km Baterie plumb-acid 60V 20Ah Greutate maximă 300kg, Fără permis",
+            "sku": "049873",
+            "permalink": "https://micromobilitate.ro/produs/triciclu-electric-rotakt-navigator-cu-doua-motoare-de-400w-viteza-25-km-h-autonomie-de-pana-la-80-km-baterie-plumb-acid-60v-20ah-greutate-maxima-300kg-fara-permis/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "triciclu-electric-rotakt-navigator-cu-doua-motoare-de-400w-viteza-25-km-h-autonomie-de-pana-la-80-km-baterie-plumb-acid-60v-20ah-greutate-maxima-300kg-fara-permis",
+            "name_chars": 163
+          },
+          {
+            "id": 207,
+            "name": "Triciclu Electric Rotakt Explorer Motor 1000W Viteză 25 km/h Autonomie pana la 45 km Baterie plumb-acid 60V 20Ah Greutate maximă 251kg, Fără permis",
+            "sku": "049871",
+            "permalink": "https://micromobilitate.ro/produs/triciclu-electric-rotakt-explorer-motor-1000w-viteza-25-km-h-autonomie-pana-la-45-km-baterie-plumb-acid-60v-20ah-greutate-maxima-251kg-fara-permis/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "triciclu-electric-rotakt-explorer-motor-1000w-viteza-25-km-h-autonomie-pana-la-45-km-baterie-plumb-acid-60v-20ah-greutate-maxima-251kg-fara-permis",
+            "name_chars": 147
+          },
+          {
+            "id": 206,
+            "name": "Triciclu Electric Rotakt Senior Motor 1000W Viteză 25 km/h Autonomie pana la 62 km Baterie plumb-acid 60V 20Ah Greutate maximă 187 kg, Fără permis",
+            "sku": "049487",
+            "permalink": "https://micromobilitate.ro/produs/triciclu-electric-rotakt-senior-motor-1000w-viteza-25-km-h-autonomie-pana-la-62-km-baterie-plumb-acid-60v-20ah-greutate-maxima-187-kg-fara-permis/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "triciclu-electric-rotakt-senior-motor-1000w-viteza-25-km-h-autonomie-pana-la-62-km-baterie-plumb-acid-60v-20ah-greutate-maxima-187-kg-fara-permis",
+            "name_chars": 146
+          },
+          {
+            "id": 205,
+            "name": "Scuter electric 25 km/h Rotakt Saigon 1000W, autonomie pana la 80 km, baterie Plumb-acid 72V 20Ah, sarcină maximă 251 kg, fără permis",
+            "sku": "049685",
+            "permalink": "https://micromobilitate.ro/produs/scuter-electric-25-km-h-rotakt-saigon-1000w-autonomie-pana-la-80-km-baterie-plumb-acid-72v-20ah-sarcina-maxima-251-kg-fara-permis/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "scuter-electric-25-km-h-rotakt-saigon-1000w-autonomie-pana-la-80-km-baterie-plumb-acid-72v-20ah-sarcina-maxima-251-kg-fara-permis",
+            "name_chars": 133
+          },
+          {
+            "id": 204,
+            "name": "Triciclu electric cu 3 roti Rotakt Safari Motor 1000W, 25 km/h, autonomie pana la 62 km, baterie plumb-acid 60V 20Ah, greutate maximă 187 kg, fără permis",
+            "sku": "049489",
+            "permalink": "https://micromobilitate.ro/produs/triciclu-electric-cu-3-roti-rotakt-safari-motor-1000w-25-km-h-autonomie-pana-la-62-km-baterie-plumb-acid-60v-20ah-greutate-maxima-187-kg-fara-permis/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "triciclu-electric-cu-3-roti-rotakt-safari-motor-1000w-25-km-h-autonomie-pana-la-62-km-baterie-plumb-acid-60v-20ah-greutate-maxima-187-kg-fara-permis",
+            "name_chars": 153
+          },
+          {
+            "id": 203,
+            "name": "Triciclu Electric Cu Remorca Rotakt Nautilus 1600W 25 km/h Autonomie pana la 44 km Baterie plumb-acid 60V 32Ah Greutate maxima 364 kg, Fara permis",
+            "sku": "050305",
+            "permalink": "https://micromobilitate.ro/produs/triciclu-electric-cu-remorca-rotakt-nautilus-1600w-25-km-h-autonomie-pana-la-44-km-baterie-plumb-acid-60v-32ah-greutate-maxima-364-kg-fara-permis/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "triciclu-electric-cu-remorca-rotakt-nautilus-1600w-25-km-h-autonomie-pana-la-44-km-baterie-plumb-acid-60v-32ah-greutate-maxima-364-kg-fara-permis",
+            "name_chars": 146
+          },
+          {
+            "id": 202,
+            "name": "Scuter electric 25 km/h fără permis Rotakt Mandarin, motor 1600W, autonomie pana la 55 km, baterie litiu-ion 60V 20Ah, 2 locuri",
+            "sku": "049396",
+            "permalink": "https://micromobilitate.ro/produs/scuter-electric-25-km-h-fara-permis-rotakt-mandarin-motor-1600w-autonomie-pana-la-55-km-baterie-litiu-ion-60v-20ah-2-locuri/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "scuter-electric-25-km-h-fara-permis-rotakt-mandarin-motor-1600w-autonomie-pana-la-55-km-baterie-litiu-ion-60v-20ah-2-locuri",
+            "name_chars": 127
+          },
+          {
+            "id": 201,
+            "name": "Triciclu electric Rotakt Liberia 1400W 25 km/h autonomie pana la 48 km baterie plumb- acid 60V 20Ah greutate maxima 292 kg, Fara permis",
+            "sku": "049488",
+            "permalink": "https://micromobilitate.ro/produs/triciclu-electric-rotakt-liberia-1400w-25-km-h-autonomie-pana-la-48-km-baterie-plumb-acid-60v-20ah-greutate-maxima-292-kg-fara-permis/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "triciclu-electric-rotakt-liberia-1400w-25-km-h-autonomie-pana-la-48-km-baterie-plumb-acid-60v-20ah-greutate-maxima-292-kg-fara-permis",
+            "name_chars": 135
+          },
+          {
+            "id": 200,
+            "name": "Triciclu Electric cu Remorca Rotakt Guliver 2000W 25 km/h Autonomie pana la 68 km Baterie Plumb-acid 72V 58Ah Greutate maxima 617 kg, Fara permis",
+            "sku": "050304",
+            "permalink": "https://micromobilitate.ro/produs/triciclu-electric-cu-remorca-rotakt-guliver-2000w-25-km-h-autonomie-pana-la-68-km-baterie-plumb-acid-72v-58ah-greutate-maxima-617-kg-fara-permis/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "triciclu-electric-cu-remorca-rotakt-guliver-2000w-25-km-h-autonomie-pana-la-68-km-baterie-plumb-acid-72v-58ah-greutate-maxima-617-kg-fara-permis",
+            "name_chars": 145
+          },
+          {
+            "id": 199,
+            "name": "Scuter electric 2400W Rotakt Galileo, autonomie pana la 45 Km, viteza maxima 25Km/h, acumulator 72V/20Ah",
+            "sku": "049691",
+            "permalink": "https://micromobilitate.ro/produs/scuter-electric-2400w-rotakt-galileo-autonomie-pana-la-45-km-viteza-maxima-25km-h-acumulator-72v-20ah/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "scuter-electric-2400w-rotakt-galileo-autonomie-pana-la-45-km-viteza-maxima-25km-h-acumulator-72v-20ah",
+            "name_chars": 104
+          },
+          {
+            "id": 198,
+            "name": "Scuter Rotakt Avalanche, Motor 1500W, Autonomie pana la 53 Km, Viteza maxima 45Km/h, Acumulator 60V/20Ah, Timp de incarcare 6-8h",
+            "sku": "049686",
+            "permalink": "https://micromobilitate.ro/produs/scuter-rotakt-avalanche-motor-1500w-autonomie-pana-la-53-km-viteza-maxima-45km-h-acumulator-60v-20ah-timp-de-incarcare-6-8h/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "scuter-rotakt-avalanche-motor-1500w-autonomie-pana-la-53-km-viteza-maxima-45km-h-acumulator-60v-20ah-timp-de-incarcare-6-8h",
+            "name_chars": 128
+          },
+          {
+            "id": 196,
+            "name": "Scuterul Electric Rotakt Mirage Motor Bosch Putere Maxima 3000W 25km/h,  Baterie Litiu-ion 60V 20Ah detașabilă, Autonomie pana la 55Km",
+            "sku": "048762",
+            "permalink": "https://micromobilitate.ro/produs/scuterul-electric-rotakt-mirage-motor-bosch-putere-maxima-3000w-25km-h-baterie-litiu-ion-60v-20ah-detasabila-autonomie-pana-la-55km/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "scuterul-electric-rotakt-mirage-motor-bosch-putere-maxima-3000w-25km-h-baterie-litiu-ion-60v-20ah-detasabila-autonomie-pana-la-55km",
+            "name_chars": 134
+          },
+          {
+            "id": 195,
+            "name": "Scuter Electric Rotakt Casablanca Motor Bosch Putere Maxima 3000w 25km/h Autonomie pana la 55 km Baterie Litiu-ion 60V 26Ah, Timp încărcare 6-8h",
+            "sku": "048760",
+            "permalink": "https://micromobilitate.ro/produs/scuter-electric-rotakt-casablanca-motor-bosch-putere-maxima-3000w-25km-h-autonomie-pana-la-55-km-baterie-litiu-ion-60v-26ah-timp-incarcare-6-8h/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "scuter-electric-rotakt-casablanca-motor-bosch-putere-maxima-3000w-25km-h-autonomie-pana-la-55-km-baterie-litiu-ion-60v-26ah-timp-incarcare-6-8h",
+            "name_chars": 144
+          },
+          {
+            "id": 194,
+            "name": "Triciclu Electric Rotakt Camarad Autonomie pana la 58Km, Viteză Maximă 25km/h, Putere 1000W, Acumulatori 60V/20Ah, Timp de încărcare 6-8h, Fără Permis",
+            "sku": "049486",
+            "permalink": "https://micromobilitate.ro/produs/triciclu-electric-rotakt-camarad-autonomie-pana-la-58km-viteza-maxima-25km-h-putere-1000w-acumulatori-60v-20ah-timp-de-incarcare-6-8h-fara-permis/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "triciclu-electric-rotakt-camarad-autonomie-pana-la-58km-viteza-maxima-25km-h-putere-1000w-acumulatori-60v-20ah-timp-de-incarcare-6-8h-fara-permis",
+            "name_chars": 150
+          },
+          {
+            "id": 193,
+            "name": "Scuter electric Rotakt Supercargo Putere Maxima Motor 3000w 45km/h autonomie pana la 116km baterie Litiu-ion 60V 52Ah, Durată de încărcare 6-8h",
+            "sku": "048763",
+            "permalink": "https://micromobilitate.ro/produs/scuter-electric-rotakt-supercargo-putere-maxima-motor-3000w-45km-h-autonomie-pana-la-116km-baterie-litiu-ion-60v-52ah-durata-de-incarcare-6-8h/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "scuter-electric-rotakt-supercargo-putere-maxima-motor-3000w-45km-h-autonomie-pana-la-116km-baterie-litiu-ion-60v-52ah-durata-de-incarcare-6-8h",
+            "name_chars": 143
+          },
+          {
+            "id": 192,
+            "name": "Scuter Electric Rotakt Cleopatra Motor Bosch Putere Maxima 3000W Autonomie pana la 55 km Viteza Maxima 25 km/h acumulator litiu-ion 60V/26Ah, Timp Incarcare 6-8 ore",
+            "sku": "048759",
+            "permalink": "https://micromobilitate.ro/produs/scuter-electric-rotakt-cleopatra-motor-bosch-putere-maxima-3000w-autonomie-pana-la-55-km-viteza-maxima-25-km-h-acumulator-litiu-ion-60v-26ah-timp-incarcare-6-8-ore/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "scuter-electric-rotakt-cleopatra-motor-bosch-putere-maxima-3000w-autonomie-pana-la-55-km-viteza-maxima-25-km-h-acumulator-litiu-ion-60v-26ah-timp-incarcare-6-8-ore",
+            "name_chars": 164
+          },
+          {
+            "id": 601,
+            "name": "Scuter Electric Rotakt Magellan 1000W 25 km/h Autonomie de până la 80 km Baterie plumb-acid 72V, Fără permis",
+            "sku": "053336",
+            "permalink": "https://micromobilitate.ro/produs/scuter-electric-rotakt-magellan-1000w-25-km-h-autonomie-de-pana-la-80-km-baterie-plumb-acid-72v-fara-permis/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "scuter-electric-rotakt-magellan-1000w-25-km-h-autonomie-de-pana-la-80-km-baterie-plumb-acid-72v-fara-permis",
+            "name_chars": 108
+          },
+          {
+            "id": 585,
+            "name": "Statie de incarcare vehicule electrice LXAC-J4-EU7/230 7kW 230V conector tip 2 cablu de incarcare 5m comunicatie 4G",
+            "sku": "051455",
+            "permalink": "https://micromobilitate.ro/produs/statie-de-incarcare-vehicule-electrice-lxac-j4-eu7-230-7kw-230v-conector-tip-2-cablu-de-incarcare-5m-comunicatie-4g/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "statie-de-incarcare-vehicule-electrice-lxac-j4-eu7-230-7kw-230v-conector-tip-2-cablu-de-incarcare-5m-comunicatie-4g",
+            "name_chars": 115
+          },
+          {
+            "id": 584,
+            "name": "Statie de incarcare vehicule electrice LXAC-J4-EU22/400 22kW 400V trifazat conector tip 2 cablu de incarcare 5m comunicatie 4G",
+            "sku": "051457",
+            "permalink": "https://micromobilitate.ro/produs/statie-de-incarcare-vehicule-electrice-lxac-j4-eu22-400-22kw-400v-trifazat-conector-tip-2-cablu-de-incarcare-5m-comunicatie-4g/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "statie-de-incarcare-vehicule-electrice-lxac-j4-eu22-400-22kw-400v-trifazat-conector-tip-2-cablu-de-incarcare-5m-comunicatie-4g",
+            "name_chars": 126
+          },
+          {
+            "id": 583,
+            "name": "Incarcator portabil PC100-3k6 pentru masini electrice conector type 2 3,6 kW 6-16A reglabil 230V cablu de incarcare 6m",
+            "sku": "052927",
+            "permalink": "https://micromobilitate.ro/produs/incarcator-portabil-pc100-3k6-pentru-masini-electrice-conector-type-2-36-kw-6-16a-reglabil-230v-cablu-de-incarcare-6m/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "incarcator-portabil-pc100-3k6-pentru-masini-electrice-conector-type-2-36-kw-6-16a-reglabil-230v-cablu-de-incarcare-6m",
+            "name_chars": 118
+          },
+          {
+            "id": 582,
+            "name": "Incarcator portabil PC100-11k pentru masini electrice conector type 2 11kW 6-16A reglabil 400V cablu de incarcare 6m",
+            "sku": "052922",
+            "permalink": "https://micromobilitate.ro/produs/incarcator-portabil-pc100-11k-pentru-masini-electrice-conector-type-2-11kw-6-16a-reglabil-400v-cablu-de-incarcare-6m/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "incarcator-portabil-pc100-11k-pentru-masini-electrice-conector-type-2-11kw-6-16a-reglabil-400v-cablu-de-incarcare-6m",
+            "name_chars": 116
+          },
+          {
+            "id": 581,
+            "name": "Statie de incarcare vehicule electrice WB500 -11K 400V trifazat, conector tip 2, cablu incarcare 6m, control WiFi",
+            "sku": "052921",
+            "permalink": "https://micromobilitate.ro/produs/statie-de-incarcare-vehicule-electrice-wb500-11k-400v-trifazat-conector-tip-2-cablu-incarcare-6m-control-wifi/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "statie-de-incarcare-vehicule-electrice-wb500-11k-400v-trifazat-conector-tip-2-cablu-incarcare-6m-control-wifi",
+            "name_chars": 113
+          },
+          {
+            "id": 566,
+            "name": "Statie de incarcare vehicule electrice WB500 -7K2 230V monofazat, conector tip 2, cablu incarcare 6m, control WiFi",
+            "sku": "052920",
+            "permalink": "https://micromobilitate.ro/produs/statie-de-incarcare-vehicule-electrice-wb500-7k2-230v-monofazat-conector-tip-2-cablu-incarcare-6m-control-wifi/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "statie-de-incarcare-vehicule-electrice-wb500-7k2-230v-monofazat-conector-tip-2-cablu-incarcare-6m-control-wifi",
+            "name_chars": 114
+          },
+          {
+            "id": 350,
+            "name": "Baterie semitractiune Deep Cycle Xupai 6-DZF-20, 12V 20Ah VRLA GEL pentru scutere si tricicluri electrice",
+            "sku": "051463",
+            "permalink": "https://micromobilitate.ro/produs/baterie-semitractiune-deep-cycle-xupai-6-dzf-20-12v-20ah-vrla-gel-pentru-scutere-si-tricicluri-electrice/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "baterie-semitractiune-deep-cycle-xupai-6-dzf-20-12v-20ah-vrla-gel-pentru-scutere-si-tricicluri-electrice",
+            "name_chars": 105
+          },
+          {
+            "id": 317,
+            "name": "Casca Motocicleta, Scuter, Triciclu,  Rotakt OP12, ABS, Certificare ECE.R22.06, Gri, Marime XL",
+            "sku": "050942",
+            "permalink": "https://micromobilitate.ro/produs/casca-motocicleta-scuter-triciclu-rotakt-op12-abs-certificare-ece-r22-06-gri-marime-xl/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "casca-motocicleta-scuter-triciclu-rotakt-op12-abs-certificare-ece-r22-06-gri-marime-xl",
+            "name_chars": 94
+          },
+          {
+            "id": 316,
+            "name": "Casca Motocicleta, Scuter, Triciclu,  Rotakt OP12, ABS, Certificare ECE.R22.06, Gri, Marime L",
+            "sku": "050940",
+            "permalink": "https://micromobilitate.ro/produs/casca-motocicleta-scuter-triciclu-rotakt-op12-abs-certificare-ece-r22-06-gri-marime-l/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "casca-motocicleta-scuter-triciclu-rotakt-op12-abs-certificare-ece-r22-06-gri-marime-l",
+            "name_chars": 93
+          },
+          {
+            "id": 286,
+            "name": "Casca Motocicleta, Scuter, Triciclu,  Rotakt OP12, ABS, Certificare ECE.R22.06, Gri, Marime M",
+            "sku": "050938",
+            "permalink": "https://micromobilitate.ro/produs/casca-motocicleta-scuter-triciclu-rotakt-op12-abs-certificare-ece-r22-06-gri-marime-m/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "casca-motocicleta-scuter-triciclu-rotakt-op12-abs-certificare-ece-r22-06-gri-marime-m",
+            "name_chars": 93
+          },
+          {
+            "id": 285,
+            "name": "Casca Motocicleta, Scuter, Triciclu,  Rotakt OP11, ABS, Certificare ECE.R22.06, Alb, Marime XL",
+            "sku": "050936",
+            "permalink": "https://micromobilitate.ro/produs/casca-motocicleta-scuter-triciclu-rotakt-op11-abs-certificare-ece-r22-06-alb-marime-xl/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "casca-motocicleta-scuter-triciclu-rotakt-op11-abs-certificare-ece-r22-06-alb-marime-xl",
+            "name_chars": 94
+          },
+          {
+            "id": 254,
+            "name": "Casca Motocicleta, Scuter, Triciclu,  Rotakt OP11, ABS, Certificare ECE.R22.06, Alb, Marime L",
+            "sku": "050933",
+            "permalink": "https://micromobilitate.ro/produs/casca-motocicleta-scuter-triciclu-rotakt-op11-abs-certificare-ece-r22-06-alb-marime-l/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "casca-motocicleta-scuter-triciclu-rotakt-op11-abs-certificare-ece-r22-06-alb-marime-l",
+            "name_chars": 93
+          },
+          {
+            "id": 253,
+            "name": "Casca Motocicleta, Scuter, Triciclu,  Rotakt OP11, ABS, Certificare ECE.R22.06, Alb, Marime M",
+            "sku": "050931",
+            "permalink": "https://micromobilitate.ro/produs/casca-motocicleta-scuter-triciclu-rotakt-op11-abs-certificare-ece-r22-06-alb-marime-m/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "casca-motocicleta-scuter-triciclu-rotakt-op11-abs-certificare-ece-r22-06-alb-marime-m",
+            "name_chars": 93
+          },
+          {
+            "id": 252,
+            "name": "Statie de incarcare vehicule electrice LXAC-J4-EU22/400 22kW 400V trifazat conector tip 2 cablu de incarcare 5m",
+            "sku": "051456",
+            "permalink": "https://micromobilitate.ro/produs/statie-de-incarcare-vehicule-electrice-lxac-j4-eu22-400-22kw-400v-trifazat-conector-tip-2-cablu-de-incarcare-5m/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "statie-de-incarcare-vehicule-electrice-lxac-j4-eu22-400-22kw-400v-trifazat-conector-tip-2-cablu-de-incarcare-5m",
+            "name_chars": 111
+          },
+          {
+            "id": 220,
+            "name": "Statie de incarcare vehicule electrice LXAC-J4-EU7/230 7kW 230V conector tip 2 cablu de incarcare 5m",
+            "sku": "051454",
+            "permalink": "https://micromobilitate.ro/produs/statie-de-incarcare-vehicule-electrice-lxac-j4-eu7-230-7kw-230v-conector-tip-2-cablu-de-incarcare-5m/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "statie-de-incarcare-vehicule-electrice-lxac-j4-eu7-230-7kw-230v-conector-tip-2-cablu-de-incarcare-5m",
+            "name_chars": 100
+          },
+          {
+            "id": 218,
+            "name": "Scuter Rotakt Adventure Albastru-Gri 49 cmc, 2.2kW, Euro 5, Benzină, Viteză Maximă 45km/h",
+            "sku": "050993A",
+            "permalink": "https://micromobilitate.ro/produs/scuter-rotakt-adventure-albastru-gri-49-cmc-2-2kw-euro-5-benzina-viteza-maxima-45km-h/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "scuter-rotakt-adventure-albastru-gri-49-cmc-2-2kw-euro-5-benzina-viteza-maxima-45km-h",
+            "name_chars": 89
+          },
+          {
+            "id": 215,
+            "name": "Stalp de sustinere metalic pentru incarcator vehicule electrice, compatibil cu EVD02-07RD si EVD02-22RD",
+            "sku": "050983",
+            "permalink": "https://micromobilitate.ro/produs/stalp-de-sustinere-metalic-pentru-incarcator-vehicule-electrice-compatibil-cu-evd02-07rd-si-evd02-22rd/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "stalp-de-sustinere-metalic-pentru-incarcator-vehicule-electrice-compatibil-cu-evd02-07rd-si-evd02-22rd",
+            "name_chars": 103
+          },
+          {
+            "id": 214,
+            "name": "Stația de încărcare pentru vehicule electrice EVD02-22RD 400V/50Hz 8A-32A reglabil in trepte conector tip 2 comanda RFID si aplicatie",
+            "sku": "050981",
+            "permalink": "https://micromobilitate.ro/produs/statia-de-incarcare-pentru-vehicule-electrice-evd02-22rd-400v-50hz-8a-32a-reglabil-in-trepte-conector-tip-2-comanda-rfid-si-aplicatie/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "statia-de-incarcare-pentru-vehicule-electrice-evd02-22rd-400v-50hz-8a-32a-reglabil-in-trepte-conector-tip-2-comanda-rfid-si-aplicatie",
+            "name_chars": 133
+          },
+          {
+            "id": 213,
+            "name": "Stația de încărcare pentru vehicule electrice EVD02-07RD 230V/50Hz 8A-32A reglabil in trepte conector tip 2 comanda RFID si aplicatie",
+            "sku": "050982",
+            "permalink": "https://micromobilitate.ro/produs/statia-de-incarcare-pentru-vehicule-electrice-evd02-07rd-230v-50hz-8a-32a-reglabil-in-trepte-conector-tip-2-comanda-rfid-si-aplicatie/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "statia-de-incarcare-pentru-vehicule-electrice-evd02-07rd-230v-50hz-8a-32a-reglabil-in-trepte-conector-tip-2-comanda-rfid-si-aplicatie",
+            "name_chars": 133
+          },
+          {
+            "id": 212,
+            "name": "Suport de perete pentru conector de incarcare vehicule electrice tip 2 -EV Plug Holder type 2",
+            "sku": "050907",
+            "permalink": "https://micromobilitate.ro/produs/suport-de-perete-pentru-conector-de-incarcare-vehicule-electrice-tip-2-ev-plug-holder-type-2/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "suport-de-perete-pentru-conector-de-incarcare-vehicule-electrice-tip-2-ev-plug-holder-type-2",
+            "name_chars": 93
+          },
+          {
+            "id": 211,
+            "name": "Incarcator portabil PC280 pentru masini electrice conector type 2 7,2kW 6-32A reglabil 230V 6m cablu de incarcare",
+            "sku": "050905",
+            "permalink": "https://micromobilitate.ro/produs/incarcator-portabil-pc280-pentru-masini-electrice-conector-type-2-72kw-6-32a-reglabil-230v-6m-cablu-de-incarcare/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "incarcator-portabil-pc280-pentru-masini-electrice-conector-type-2-72kw-6-32a-reglabil-230v-6m-cablu-de-incarcare",
+            "name_chars": 113
+          },
+          {
+            "id": 210,
+            "name": "Incarcator portabil PC200 pentru masini electrice conector type 2 3,6kW 6-16A reglabil 230V 6m cablu de incarcare",
+            "sku": "050904",
+            "permalink": "https://micromobilitate.ro/produs/incarcator-portabil-pc200-pentru-masini-electrice-conector-type-2-36kw-6-16a-reglabil-230v-6m-cablu-de-incarcare/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "incarcator-portabil-pc200-pentru-masini-electrice-conector-type-2-36kw-6-16a-reglabil-230v-6m-cablu-de-incarcare",
+            "name_chars": 113
+          },
+          {
+            "id": 209,
+            "name": "Triciclu Electric Rotakt Voyager Motor 1000W, Viteză 25 km/h Autonomie de până la 49 km Baterie plumb-acid 60V 20Ah Greutate maximă 199kg, Fără permis",
+            "sku": "049872",
+            "permalink": "https://micromobilitate.ro/produs/triciclu-electric-rotakt-voyager-motor-1000w-viteza-25-km-h-autonomie-de-pana-la-49-km-baterie-plumb-acid-60v-20ah-greutate-maxima-199kg-fara-permis/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "triciclu-electric-rotakt-voyager-motor-1000w-viteza-25-km-h-autonomie-de-pana-la-49-km-baterie-plumb-acid-60v-20ah-greutate-maxima-199kg-fara-permis",
+            "name_chars": 150
+          },
+          {
+            "id": 197,
+            "name": "Scuter Rotakt Galileo Ultra, Viteză maximă 45Km/h, Autonomie pana la 45Km, Putere 2400W, Acumulatori 72V / 30Ah, Timp de încărcare 6-8h, KeyLess Go, USB, NFC/Bluetooth",
+            "sku": "049692",
+            "permalink": "https://micromobilitate.ro/produs/scuter-rotakt-galileo-ultra-viteza-maxima-45km-h-autonomie-pana-la-45km-putere-2400w-acumulatori-72v-30ah-timp-de-incarcare-6-8h-keyless-go-usb-nfc-bluetooth/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "scuter-rotakt-galileo-ultra-viteza-maxima-45km-h-autonomie-pana-la-45km-putere-2400w-acumulatori-72v-30ah-timp-de-incarcare-6-8h-keyless-go-usb-nfc-bluetooth",
+            "name_chars": 167
+          }
+        ]
+      },
+      "categories": {
+        "total": 17,
+        "empty_count": 3,
+        "empty": [
+          {
+            "id": 41,
+            "name": "Fără categorie",
+            "slug": "fara-categorie",
+            "permalink": "https://micromobilitate.ro/categorie-produs/fara-categorie/"
+          },
+          {
+            "id": 297,
+            "name": "Scutere pe benzină",
+            "slug": "scutere-pe-benzina-mobilitate",
+            "permalink": "https://micromobilitate.ro/categorie-produs/mobilitate/scutere-pe-benzina-mobilitate/"
+          },
+          {
+            "id": 296,
+            "name": "Stații încărcare vehicule electrice",
+            "slug": "statii-incarcare-vehicule-electrice-mobilitate",
+            "permalink": "https://micromobilitate.ro/categorie-produs/mobilitate/statii-incarcare-vehicule-electrice-mobilitate/"
+          }
+        ],
+        "top": [
+          {
+            "id": 42,
+            "name": "Mobilitate",
+            "count": 82,
+            "permalink": "https://micromobilitate.ro/categorie-produs/mobilitate/"
+          },
+          {
+            "id": 113,
+            "name": "Piese de schimb",
+            "count": 36,
+            "permalink": "https://micromobilitate.ro/categorie-produs/mobilitate/piese-de-schimb/"
+          },
+          {
+            "id": 45,
+            "name": "Scutere electrice",
+            "count": 25,
+            "permalink": "https://micromobilitate.ro/categorie-produs/mobilitate/scutere-electrice/"
+          },
+          {
+            "id": 46,
+            "name": "Fără permis",
+            "count": 20,
+            "permalink": "https://micromobilitate.ro/categorie-produs/mobilitate/scutere-electrice/fara-permis/"
+          },
+          {
+            "id": 49,
+            "name": "Tricicluri electrice",
+            "count": 17,
+            "permalink": "https://micromobilitate.ro/categorie-produs/mobilitate/tricicluri-electrice/"
+          },
+          {
+            "id": 50,
+            "name": "Stații încărcare vehicule electrice",
+            "count": 14,
+            "permalink": "https://micromobilitate.ro/categorie-produs/statii-incarcare-vehicule-electrice/"
+          },
+          {
+            "id": 47,
+            "name": "Lichidare",
+            "count": 8,
+            "permalink": "https://micromobilitate.ro/categorie-produs/lichidare/"
+          },
+          {
+            "id": 80,
+            "name": "Căști moto",
+            "count": 6,
+            "permalink": "https://micromobilitate.ro/categorie-produs/mobilitate/casti-moto/"
+          },
+          {
+            "id": 48,
+            "name": "Cu permis",
+            "count": 5,
+            "permalink": "https://micromobilitate.ro/categorie-produs/mobilitate/scutere-electrice/cu-permis/"
+          },
+          {
+            "id": 53,
+            "name": "Scutere pe benzina",
+            "count": 4,
+            "permalink": "https://micromobilitate.ro/categorie-produs/mobilitate/scutere-pe-benzina/"
+          },
+          {
+            "id": 224,
+            "name": "Scaune cu rotile",
+            "count": 3,
+            "permalink": "https://micromobilitate.ro/categorie-produs/mobilitate/scaune-cu-rotile/"
+          },
+          {
+            "id": 114,
+            "name": "Baterii",
+            "count": 1,
+            "permalink": "https://micromobilitate.ro/categorie-produs/mobilitate/piese-de-schimb/baterii/"
+          },
+          {
+            "id": 52,
+            "name": "Consumabile mobilitate",
+            "count": 1,
+            "permalink": "https://micromobilitate.ro/categorie-produs/mobilitate/consumabile-mobilitate/"
+          },
+          {
+            "id": 43,
+            "name": "Trotinete electrice",
+            "count": 1,
+            "permalink": "https://micromobilitate.ro/categorie-produs/mobilitate/trotinete-electrice/"
+          },
+          {
+            "id": 41,
+            "name": "Fără categorie",
+            "count": 0,
+            "permalink": "https://micromobilitate.ro/categorie-produs/fara-categorie/"
+          }
+        ]
+      },
+      "diff": {
+        "baseline": true,
+        "added": [],
+        "removed": []
+      }
     }
   }
 }

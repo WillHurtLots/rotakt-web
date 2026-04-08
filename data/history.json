@@ -6,13 +6,31 @@
         "total": 1082,
         "in_stock": 810,
         "out_of_stock": 272,
-        "missing_description_count": 74
+        "health_score": 83,
+        "products_with_issues": 184,
+        "missing_description_count": 74,
+        "missing_image_count": 0,
+        "missing_price_count": 0,
+        "missing_brand_count": 16,
+        "low_stock_count": 0,
+        "seo_issues_count": 99,
+        "categories_total": 85,
+        "categories_empty": 2
       },
       "micromobilitate.ro": {
         "total": 96,
         "in_stock": 55,
         "out_of_stock": 41,
-        "missing_description_count": 0
+        "health_score": 47,
+        "products_with_issues": 51,
+        "missing_description_count": 0,
+        "missing_image_count": 0,
+        "missing_price_count": 0,
+        "missing_brand_count": 6,
+        "low_stock_count": 0,
+        "seo_issues_count": 47,
+        "categories_total": 17,
+        "categories_empty": 3
       }
     }
   }
