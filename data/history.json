@@ -7,6 +7,12 @@
         "in_stock": 810,
         "out_of_stock": 272,
         "missing_description_count": 74
+      },
+      "micromobilitate.ro": {
+        "total": 96,
+        "in_stock": 55,
+        "out_of_stock": 41,
+        "missing_description_count": 0
       }
     }
   }

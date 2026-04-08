@@ -44,8 +44,6 @@ DEFAULT_HEADERS = {
     "User-Agent": USER_AGENT,
     "Accept": "application/json, text/plain, */*",
     "Accept-Language": "ro-RO,ro;q=0.9,en;q=0.8",
-    "Accept-Encoding": "gzip, deflate, br",
-    "Cache-Control": "no-cache",
 }
 PER_PAGE = 50
 TIMEOUT = 90.0
