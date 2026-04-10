@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-04-09T05:49:31.938344+00:00",
-  "date": "2026-04-09",
+  "generated_at": "2026-04-10T06:21:25.533085+00:00",
+  "date": "2026-04-10",
   "sites": {
     "rotakt.ro": {
       "total": 1082,
-      "in_stock": 809,
-      "out_of_stock": 273,
+      "in_stock": 806,
+      "out_of_stock": 276,
       "health_score": 83,
       "products_with_issues": 184,
       "checks": {
@@ -2599,7 +2599,7 @@
         ]
       },
       "diff": {
-        "baseline": true,
+        "baseline": false,
         "added": [],
         "removed": []
       }
