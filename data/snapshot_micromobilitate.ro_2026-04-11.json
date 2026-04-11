@@ -1,0 +1,1274 @@
+{
+  "site": "micromobilitate.ro",
+  "date": "2026-04-11",
+  "fetched_at": "2026-04-11T05:21:05.797977+00:00",
+  "analysis": {
+    "total": 96,
+    "in_stock": 55,
+    "out_of_stock": 41,
+    "products_with_issues": 51,
+    "health_score": 47,
+    "checks": {
+      "missing_description": [],
+      "missing_image": [],
+      "missing_price": [],
+      "missing_brand": [
+        {
+          "id": 1193,
+          "name": "Triciclu Electric Utilitar Rotakt GAGARIN – Fara Permis, 25Km/h, Autonomie Până la 69 km",
+          "sku": "055193",
+          "permalink": "https://micromobilitate.ro/produs/triciclu-electric-utilitar-rotakt-gagarin-fara-permis-25km-h-autonomie-pana-la-69-km/"
+        },
+        {
+          "id": 1191,
+          "name": "Cvadriciclu Electric Basculabil Rotakt Rabota, Fara Permis, 25 km/h",
+          "sku": "055505",
+          "permalink": "https://micromobilitate.ro/produs/cvadriciclu-electric-basculabil-rotakt-rabota-fara-permis-25-km-h/"
+        },
+        {
+          "id": 1189,
+          "name": "Triciclu Transport Marfa Rotakt Goliat Plus, Motor 2000W, Autonomie Până la 68 km, Fara Permis",
+          "sku": "054989",
+          "permalink": "https://micromobilitate.ro/produs/triciclu-transport-marfa-rotakt-goliat-plus-motor-2000w-autonomie-pana-la-68-km-fara-permis/"
+        },
+        {
+          "id": 1187,
+          "name": "Triciclu Electric Rotakt Goliath130 – motor 1200W, autonomie de până la 110 km",
+          "sku": "052232",
+          "permalink": "https://micromobilitate.ro/produs/triciclu-electric-rotakt-goliath130-motor-1200w-autonomie-de-pana-la-110-km/"
+        },
+        {
+          "id": 1185,
+          "name": "Triciclu Electric Guliver Ultra 1200W – 25Km/h, Autonomie de până la 60 km",
+          "sku": "055656",
+          "permalink": "https://micromobilitate.ro/produs/triciclu-electric-guliver-ultra-1200w-25km-h-autonomie-de-pana-la-60-km/"
+        },
+        {
+          "id": 1180,
+          "name": "Scuter Rotakt Bad Boy Electric Strada 45km/h off-road",
+          "sku": "055242",
+          "permalink": "https://micromobilitate.ro/produs/scuter-rotakt-bad-boy-electric-strada-45km-h-off-road/"
+        }
+      ],
+      "low_stock": [],
+      "seo_issues": [
+        {
+          "id": 1193,
+          "name": "Triciclu Electric Utilitar Rotakt GAGARIN – Fara Permis, 25Km/h, Autonomie Până la 69 km",
+          "sku": "055193",
+          "permalink": "https://micromobilitate.ro/produs/triciclu-electric-utilitar-rotakt-gagarin-fara-permis-25km-h-autonomie-pana-la-69-km/",
+          "issues": [
+            "slug>80"
+          ],
+          "slug": "triciclu-electric-utilitar-rotakt-gagarin-fara-permis-25km-h-autonomie-pana-la-69-km",
+          "name_chars": 88
+        },
+        {
+          "id": 1189,
+          "name": "Triciclu Transport Marfa Rotakt Goliat Plus, Motor 2000W, Autonomie Până la 68 km, Fara Permis",
+          "sku": "054989",
+          "permalink": "https://micromobilitate.ro/produs/triciclu-transport-marfa-rotakt-goliat-plus-motor-2000w-autonomie-pana-la-68-km-fara-permis/",
+          "issues": [
+            "slug>80"
+          ],
+          "slug": "triciclu-transport-marfa-rotakt-goliat-plus-motor-2000w-autonomie-pana-la-68-km-fara-permis",
+          "name_chars": 94
+        },
+        {
+          "id": 606,
+          "name": "Scuter Electric Nitro 800W Verde 25km/h Autonomie de până la 70 km Baterie plumb-acid 60V, Fără permis",
+          "sku": "055247",
+          "permalink": "https://micromobilitate.ro/produs/scuter-electric-nitro-800w-verde-25km-h-autonomie-de-pana-la-70-km-baterie-plumb-acid-60v-fara-permis/",
+          "issues": [
+            "slug>80"
+          ],
+          "slug": "scuter-electric-nitro-800w-verde-25km-h-autonomie-de-pana-la-70-km-baterie-plumb-acid-60v-fara-permis",
+          "name_chars": 102
+        },
+        {
+          "id": 600,
+          "name": "Triciclu Electric Rotakt Courier Motor 2000W 25 km/h Autonomie pana la 79 km Baterie plumb-acid 72V 32Ah Greutate maximă admisa 478kg, Fără permis",
+          "sku": "053595",
+          "permalink": "https://micromobilitate.ro/produs/triciclu-electric-rotakt-courier-motor-2000w-25-km-h-autonomie-pana-la-79-km-baterie-plumb-acid-72v-32ah-greutate-maxima-admisa-478kg-fara-permis/",
+          "issues": [
+            "slug>80"
+          ],
+          "slug": "triciclu-electric-rotakt-courier-motor-2000w-25-km-h-autonomie-pana-la-79-km-baterie-plumb-acid-72v-32ah-greutate-maxima-admisa-478kg-fara-permis",
+          "name_chars": 146
+        },
+        {
+          "id": 599,
+          "name": "Triciclu Electric Rotakt Voyager 2 Motor 1000W 25 km/h Autonomie de până la 41 km Baterie plumb-acid 60V 20Ah Greutate maximă 251 kg, Fără permis",
+          "sku": "053548",
+          "permalink": "https://micromobilitate.ro/produs/triciclu-electric-rotakt-voyager-2-motor-1000w-25-km-h-autonomie-de-pana-la-41-km-baterie-plumb-acid-60v-20ah-greutate-maxima-251-kg-fara-permis/",
+          "issues": [
+            "slug>80"
+          ],
+          "slug": "triciclu-electric-rotakt-voyager-2-motor-1000w-25-km-h-autonomie-de-pana-la-41-km-baterie-plumb-acid-60v-20ah-greutate-maxima-251-kg-fara-permis",
+          "name_chars": 145
+        },
+        {
+          "id": 219,
+          "name": "Scuter pe benzină Rotakt Intercity, motor 125cc, viteză maximă 85 Km/h, 6,5 kW /7500 rpm, Euro 5",
+          "sku": "050992",
+          "permalink": "https://micromobilitate.ro/produs/scuter-pe-benzina-rotakt-intercity-motor-125cc-viteza-maxima-85-km-h-65-kw-7500-rpm-euro-5/",
+          "issues": [
+            "slug>80"
+          ],
+          "slug": "scuter-pe-benzina-rotakt-intercity-motor-125cc-viteza-maxima-85-km-h-65-kw-7500-rpm-euro-5",
+          "name_chars": 96
+        },
+        {
+          "id": 208,
+          "name": "Triciclu Electric Rotakt Navigator cu Doua Motoare De 400W Viteză 25 km/h Autonomie de până la 80 km Baterie plumb-acid 60V 20Ah Greutate maximă 300kg, Fără permis",
+          "sku": "049873",
+          "permalink": "https://micromobilitate.ro/produs/triciclu-electric-rotakt-navigator-cu-doua-motoare-de-400w-viteza-25-km-h-autonomie-de-pana-la-80-km-baterie-plumb-acid-60v-20ah-greutate-maxima-300kg-fara-permis/",
+          "issues": [
+            "slug>80"
+          ],
+          "slug": "triciclu-electric-rotakt-navigator-cu-doua-motoare-de-400w-viteza-25-km-h-autonomie-de-pana-la-80-km-baterie-plumb-acid-60v-20ah-greutate-maxima-300kg-fara-permis",
+          "name_chars": 163
+        },
+        {
+          "id": 207,
+          "name": "Triciclu Electric Rotakt Explorer Motor 1000W Viteză 25 km/h Autonomie pana la 45 km Baterie plumb-acid 60V 20Ah Greutate maximă 251kg, Fără permis",
+          "sku": "049871",
+          "permalink": "https://micromobilitate.ro/produs/triciclu-electric-rotakt-explorer-motor-1000w-viteza-25-km-h-autonomie-pana-la-45-km-baterie-plumb-acid-60v-20ah-greutate-maxima-251kg-fara-permis/",
+          "issues": [
+            "slug>80"
+          ],
+          "slug": "triciclu-electric-rotakt-explorer-motor-1000w-viteza-25-km-h-autonomie-pana-la-45-km-baterie-plumb-acid-60v-20ah-greutate-maxima-251kg-fara-permis",
+          "name_chars": 147
+        },
+        {
+          "id": 206,
+          "name": "Triciclu Electric Rotakt Senior Motor 1000W Viteză 25 km/h Autonomie pana la 62 km Baterie plumb-acid 60V 20Ah Greutate maximă 187 kg, Fără permis",
+          "sku": "049487",
+          "permalink": "https://micromobilitate.ro/produs/triciclu-electric-rotakt-senior-motor-1000w-viteza-25-km-h-autonomie-pana-la-62-km-baterie-plumb-acid-60v-20ah-greutate-maxima-187-kg-fara-permis/",
+          "issues": [
+            "slug>80"
+          ],
+          "slug": "triciclu-electric-rotakt-senior-motor-1000w-viteza-25-km-h-autonomie-pana-la-62-km-baterie-plumb-acid-60v-20ah-greutate-maxima-187-kg-fara-permis",
+          "name_chars": 146
+        },
+        {
+          "id": 205,
+          "name": "Scuter electric 25 km/h Rotakt Saigon 1000W, autonomie pana la 80 km, baterie Plumb-acid 72V 20Ah, sarcină maximă 251 kg, fără permis",
+          "sku": "049685",
+          "permalink": "https://micromobilitate.ro/produs/scuter-electric-25-km-h-rotakt-saigon-1000w-autonomie-pana-la-80-km-baterie-plumb-acid-72v-20ah-sarcina-maxima-251-kg-fara-permis/",
+          "issues": [
+            "slug>80"
+          ],
+          "slug": "scuter-electric-25-km-h-rotakt-saigon-1000w-autonomie-pana-la-80-km-baterie-plumb-acid-72v-20ah-sarcina-maxima-251-kg-fara-permis",
+          "name_chars": 133
+        },
+        {
+          "id": 204,
+          "name": "Triciclu electric cu 3 roti Rotakt Safari Motor 1000W, 25 km/h, autonomie pana la 62 km, baterie plumb-acid 60V 20Ah, greutate maximă 187 kg, fără permis",
+          "sku": "049489",
+          "permalink": "https://micromobilitate.ro/produs/triciclu-electric-cu-3-roti-rotakt-safari-motor-1000w-25-km-h-autonomie-pana-la-62-km-baterie-plumb-acid-60v-20ah-greutate-maxima-187-kg-fara-permis/",
+          "issues": [
+            "slug>80"
+          ],
+          "slug": "triciclu-electric-cu-3-roti-rotakt-safari-motor-1000w-25-km-h-autonomie-pana-la-62-km-baterie-plumb-acid-60v-20ah-greutate-maxima-187-kg-fara-permis",
+          "name_chars": 153
+        },
+        {
+          "id": 203,
+          "name": "Triciclu Electric Cu Remorca Rotakt Nautilus 1600W 25 km/h Autonomie pana la 44 km Baterie plumb-acid 60V 32Ah Greutate maxima 364 kg, Fara permis",
+          "sku": "050305",
+          "permalink": "https://micromobilitate.ro/produs/triciclu-electric-cu-remorca-rotakt-nautilus-1600w-25-km-h-autonomie-pana-la-44-km-baterie-plumb-acid-60v-32ah-greutate-maxima-364-kg-fara-permis/",
+          "issues": [
+            "slug>80"
+          ],
+          "slug": "triciclu-electric-cu-remorca-rotakt-nautilus-1600w-25-km-h-autonomie-pana-la-44-km-baterie-plumb-acid-60v-32ah-greutate-maxima-364-kg-fara-permis",
+          "name_chars": 146
+        },
+        {
+          "id": 202,
+          "name": "Scuter electric 25 km/h fără permis Rotakt Mandarin, motor 1600W, autonomie pana la 55 km, baterie litiu-ion 60V 20Ah, 2 locuri",
+          "sku": "049396",
+          "permalink": "https://micromobilitate.ro/produs/scuter-electric-25-km-h-fara-permis-rotakt-mandarin-motor-1600w-autonomie-pana-la-55-km-baterie-litiu-ion-60v-20ah-2-locuri/",
+          "issues": [
+            "slug>80"
+          ],
+          "slug": "scuter-electric-25-km-h-fara-permis-rotakt-mandarin-motor-1600w-autonomie-pana-la-55-km-baterie-litiu-ion-60v-20ah-2-locuri",
+          "name_chars": 127
+        },
+        {
+          "id": 201,
+          "name": "Triciclu electric Rotakt Liberia 1400W 25 km/h autonomie pana la 48 km baterie plumb- acid 60V 20Ah greutate maxima 292 kg, Fara permis",
+          "sku": "049488",
+          "permalink": "https://micromobilitate.ro/produs/triciclu-electric-rotakt-liberia-1400w-25-km-h-autonomie-pana-la-48-km-baterie-plumb-acid-60v-20ah-greutate-maxima-292-kg-fara-permis/",
+          "issues": [
+            "slug>80"
+          ],
+          "slug": "triciclu-electric-rotakt-liberia-1400w-25-km-h-autonomie-pana-la-48-km-baterie-plumb-acid-60v-20ah-greutate-maxima-292-kg-fara-permis",
+          "name_chars": 135
+        },
+        {
+          "id": 200,
+          "name": "Triciclu Electric cu Remorca Rotakt Guliver 2000W 25 km/h Autonomie pana la 68 km Baterie Plumb-acid 72V 58Ah Greutate maxima 617 kg, Fara permis",
+          "sku": "050304",
+          "permalink": "https://micromobilitate.ro/produs/triciclu-electric-cu-remorca-rotakt-guliver-2000w-25-km-h-autonomie-pana-la-68-km-baterie-plumb-acid-72v-58ah-greutate-maxima-617-kg-fara-permis/",
+          "issues": [
+            "slug>80"
+          ],
+          "slug": "triciclu-electric-cu-remorca-rotakt-guliver-2000w-25-km-h-autonomie-pana-la-68-km-baterie-plumb-acid-72v-58ah-greutate-maxima-617-kg-fara-permis",
+          "name_chars": 145
+        },
+        {
+          "id": 199,
+          "name": "Scuter electric 2400W Rotakt Galileo, autonomie pana la 45 Km, viteza maxima 25Km/h, acumulator 72V/20Ah",
+          "sku": "049691",
+          "permalink": "https://micromobilitate.ro/produs/scuter-electric-2400w-rotakt-galileo-autonomie-pana-la-45-km-viteza-maxima-25km-h-acumulator-72v-20ah/",
+          "issues": [
+            "slug>80"
+          ],
+          "slug": "scuter-electric-2400w-rotakt-galileo-autonomie-pana-la-45-km-viteza-maxima-25km-h-acumulator-72v-20ah",
+          "name_chars": 104
+        },
+        {
+          "id": 198,
+          "name": "Scuter Rotakt Avalanche, Motor 1500W, Autonomie pana la 53 Km, Viteza maxima 45Km/h, Acumulator 60V/20Ah, Timp de incarcare 6-8h",
+          "sku": "049686",
+          "permalink": "https://micromobilitate.ro/produs/scuter-rotakt-avalanche-motor-1500w-autonomie-pana-la-53-km-viteza-maxima-45km-h-acumulator-60v-20ah-timp-de-incarcare-6-8h/",
+          "issues": [
+            "slug>80"
+          ],
+          "slug": "scuter-rotakt-avalanche-motor-1500w-autonomie-pana-la-53-km-viteza-maxima-45km-h-acumulator-60v-20ah-timp-de-incarcare-6-8h",
+          "name_chars": 128
+        },
+        {
+          "id": 196,
+          "name": "Scuterul Electric Rotakt Mirage Motor Bosch Putere Maxima 3000W 25km/h,  Baterie Litiu-ion 60V 20Ah detașabilă, Autonomie pana la 55Km",
+          "sku": "048762",
+          "permalink": "https://micromobilitate.ro/produs/scuterul-electric-rotakt-mirage-motor-bosch-putere-maxima-3000w-25km-h-baterie-litiu-ion-60v-20ah-detasabila-autonomie-pana-la-55km/",
+          "issues": [
+            "slug>80"
+          ],
+          "slug": "scuterul-electric-rotakt-mirage-motor-bosch-putere-maxima-3000w-25km-h-baterie-litiu-ion-60v-20ah-detasabila-autonomie-pana-la-55km",
+          "name_chars": 134
+        },
+        {
+          "id": 195,
+          "name": "Scuter Electric Rotakt Casablanca Motor Bosch Putere Maxima 3000w 25km/h Autonomie pana la 55 km Baterie Litiu-ion 60V 26Ah, Timp încărcare 6-8h",
+          "sku": "048760",
+          "permalink": "https://micromobilitate.ro/produs/scuter-electric-rotakt-casablanca-motor-bosch-putere-maxima-3000w-25km-h-autonomie-pana-la-55-km-baterie-litiu-ion-60v-26ah-timp-incarcare-6-8h/",
+          "issues": [
+            "slug>80"
+          ],
+          "slug": "scuter-electric-rotakt-casablanca-motor-bosch-putere-maxima-3000w-25km-h-autonomie-pana-la-55-km-baterie-litiu-ion-60v-26ah-timp-incarcare-6-8h",
+          "name_chars": 144
+        },
+        {
+          "id": 194,
+          "name": "Triciclu Electric Rotakt Camarad Autonomie pana la 58Km, Viteză Maximă 25km/h, Putere 1000W, Acumulatori 60V/20Ah, Timp de încărcare 6-8h, Fără Permis",
+          "sku": "049486",
+          "permalink": "https://micromobilitate.ro/produs/triciclu-electric-rotakt-camarad-autonomie-pana-la-58km-viteza-maxima-25km-h-putere-1000w-acumulatori-60v-20ah-timp-de-incarcare-6-8h-fara-permis/",
+          "issues": [
+            "slug>80"
+          ],
+          "slug": "triciclu-electric-rotakt-camarad-autonomie-pana-la-58km-viteza-maxima-25km-h-putere-1000w-acumulatori-60v-20ah-timp-de-incarcare-6-8h-fara-permis",
+          "name_chars": 150
+        },
+        {
+          "id": 193,
+          "name": "Scuter electric Rotakt Supercargo Putere Maxima Motor 3000w 45km/h autonomie pana la 116km baterie Litiu-ion 60V 52Ah, Durată de încărcare 6-8h",
+          "sku": "048763",
+          "permalink": "https://micromobilitate.ro/produs/scuter-electric-rotakt-supercargo-putere-maxima-motor-3000w-45km-h-autonomie-pana-la-116km-baterie-litiu-ion-60v-52ah-durata-de-incarcare-6-8h/",
+          "issues": [
+            "slug>80"
+          ],
+          "slug": "scuter-electric-rotakt-supercargo-putere-maxima-motor-3000w-45km-h-autonomie-pana-la-116km-baterie-litiu-ion-60v-52ah-durata-de-incarcare-6-8h",
+          "name_chars": 143
+        },
+        {
+          "id": 192,
+          "name": "Scuter Electric Rotakt Cleopatra Motor Bosch Putere Maxima 3000W Autonomie pana la 55 km Viteza Maxima 25 km/h acumulator litiu-ion 60V/26Ah, Timp Incarcare 6-8 ore",
+          "sku": "048759",
+          "permalink": "https://micromobilitate.ro/produs/scuter-electric-rotakt-cleopatra-motor-bosch-putere-maxima-3000w-autonomie-pana-la-55-km-viteza-maxima-25-km-h-acumulator-litiu-ion-60v-26ah-timp-incarcare-6-8-ore/",
+          "issues": [
+            "slug>80"
+          ],
+          "slug": "scuter-electric-rotakt-cleopatra-motor-bosch-putere-maxima-3000w-autonomie-pana-la-55-km-viteza-maxima-25-km-h-acumulator-litiu-ion-60v-26ah-timp-incarcare-6-8-ore",
+          "name_chars": 164
+        },
+        {
+          "id": 601,
+          "name": "Scuter Electric Rotakt Magellan 1000W 25 km/h Autonomie de până la 80 km Baterie plumb-acid 72V, Fără permis",
+          "sku": "053336",
+          "permalink": "https://micromobilitate.ro/produs/scuter-electric-rotakt-magellan-1000w-25-km-h-autonomie-de-pana-la-80-km-baterie-plumb-acid-72v-fara-permis/",
+          "issues": [
+            "slug>80"
+          ],
+          "slug": "scuter-electric-rotakt-magellan-1000w-25-km-h-autonomie-de-pana-la-80-km-baterie-plumb-acid-72v-fara-permis",
+          "name_chars": 108
+        },
+        {
+          "id": 585,
+          "name": "Statie de incarcare vehicule electrice LXAC-J4-EU7/230 7kW 230V conector tip 2 cablu de incarcare 5m comunicatie 4G",
+          "sku": "051455",
+          "permalink": "https://micromobilitate.ro/produs/statie-de-incarcare-vehicule-electrice-lxac-j4-eu7-230-7kw-230v-conector-tip-2-cablu-de-incarcare-5m-comunicatie-4g/",
+          "issues": [
+            "slug>80"
+          ],
+          "slug": "statie-de-incarcare-vehicule-electrice-lxac-j4-eu7-230-7kw-230v-conector-tip-2-cablu-de-incarcare-5m-comunicatie-4g",
+          "name_chars": 115
+        },
+        {
+          "id": 584,
+          "name": "Statie de incarcare vehicule electrice LXAC-J4-EU22/400 22kW 400V trifazat conector tip 2 cablu de incarcare 5m comunicatie 4G",
+          "sku": "051457",
+          "permalink": "https://micromobilitate.ro/produs/statie-de-incarcare-vehicule-electrice-lxac-j4-eu22-400-22kw-400v-trifazat-conector-tip-2-cablu-de-incarcare-5m-comunicatie-4g/",
+          "issues": [
+            "slug>80"
+          ],
+          "slug": "statie-de-incarcare-vehicule-electrice-lxac-j4-eu22-400-22kw-400v-trifazat-conector-tip-2-cablu-de-incarcare-5m-comunicatie-4g",
+          "name_chars": 126
+        },
+        {
+          "id": 583,
+          "name": "Incarcator portabil PC100-3k6 pentru masini electrice conector type 2 3,6 kW 6-16A reglabil 230V cablu de incarcare 6m",
+          "sku": "052927",
+          "permalink": "https://micromobilitate.ro/produs/incarcator-portabil-pc100-3k6-pentru-masini-electrice-conector-type-2-36-kw-6-16a-reglabil-230v-cablu-de-incarcare-6m/",
+          "issues": [
+            "slug>80"
+          ],
+          "slug": "incarcator-portabil-pc100-3k6-pentru-masini-electrice-conector-type-2-36-kw-6-16a-reglabil-230v-cablu-de-incarcare-6m",
+          "name_chars": 118
+        },
+        {
+          "id": 582,
+          "name": "Incarcator portabil PC100-11k pentru masini electrice conector type 2 11kW 6-16A reglabil 400V cablu de incarcare 6m",
+          "sku": "052922",
+          "permalink": "https://micromobilitate.ro/produs/incarcator-portabil-pc100-11k-pentru-masini-electrice-conector-type-2-11kw-6-16a-reglabil-400v-cablu-de-incarcare-6m/",
+          "issues": [
+            "slug>80"
+          ],
+          "slug": "incarcator-portabil-pc100-11k-pentru-masini-electrice-conector-type-2-11kw-6-16a-reglabil-400v-cablu-de-incarcare-6m",
+          "name_chars": 116
+        },
+        {
+          "id": 581,
+          "name": "Statie de incarcare vehicule electrice WB500 -11K 400V trifazat, conector tip 2, cablu incarcare 6m, control WiFi",
+          "sku": "052921",
+          "permalink": "https://micromobilitate.ro/produs/statie-de-incarcare-vehicule-electrice-wb500-11k-400v-trifazat-conector-tip-2-cablu-incarcare-6m-control-wifi/",
+          "issues": [
+            "slug>80"
+          ],
+          "slug": "statie-de-incarcare-vehicule-electrice-wb500-11k-400v-trifazat-conector-tip-2-cablu-incarcare-6m-control-wifi",
+          "name_chars": 113
+        },
+        {
+          "id": 566,
+          "name": "Statie de incarcare vehicule electrice WB500 -7K2 230V monofazat, conector tip 2, cablu incarcare 6m, control WiFi",
+          "sku": "052920",
+          "permalink": "https://micromobilitate.ro/produs/statie-de-incarcare-vehicule-electrice-wb500-7k2-230v-monofazat-conector-tip-2-cablu-incarcare-6m-control-wifi/",
+          "issues": [
+            "slug>80"
+          ],
+          "slug": "statie-de-incarcare-vehicule-electrice-wb500-7k2-230v-monofazat-conector-tip-2-cablu-incarcare-6m-control-wifi",
+          "name_chars": 114
+        },
+        {
+          "id": 350,
+          "name": "Baterie semitractiune Deep Cycle Xupai 6-DZF-20, 12V 20Ah VRLA GEL pentru scutere si tricicluri electrice",
+          "sku": "051463",
+          "permalink": "https://micromobilitate.ro/produs/baterie-semitractiune-deep-cycle-xupai-6-dzf-20-12v-20ah-vrla-gel-pentru-scutere-si-tricicluri-electrice/",
+          "issues": [
+            "slug>80"
+          ],
+          "slug": "baterie-semitractiune-deep-cycle-xupai-6-dzf-20-12v-20ah-vrla-gel-pentru-scutere-si-tricicluri-electrice",
+          "name_chars": 105
+        },
+        {
+          "id": 317,
+          "name": "Casca Motocicleta, Scuter, Triciclu,  Rotakt OP12, ABS, Certificare ECE.R22.06, Gri, Marime XL",
+          "sku": "050942",
+          "permalink": "https://micromobilitate.ro/produs/casca-motocicleta-scuter-triciclu-rotakt-op12-abs-certificare-ece-r22-06-gri-marime-xl/",
+          "issues": [
+            "slug>80"
+          ],
+          "slug": "casca-motocicleta-scuter-triciclu-rotakt-op12-abs-certificare-ece-r22-06-gri-marime-xl",
+          "name_chars": 94
+        },
+        {
+          "id": 316,
+          "name": "Casca Motocicleta, Scuter, Triciclu,  Rotakt OP12, ABS, Certificare ECE.R22.06, Gri, Marime L",
+          "sku": "050940",
+          "permalink": "https://micromobilitate.ro/produs/casca-motocicleta-scuter-triciclu-rotakt-op12-abs-certificare-ece-r22-06-gri-marime-l/",
+          "issues": [
+            "slug>80"
+          ],
+          "slug": "casca-motocicleta-scuter-triciclu-rotakt-op12-abs-certificare-ece-r22-06-gri-marime-l",
+          "name_chars": 93
+        },
+        {
+          "id": 286,
+          "name": "Casca Motocicleta, Scuter, Triciclu,  Rotakt OP12, ABS, Certificare ECE.R22.06, Gri, Marime M",
+          "sku": "050938",
+          "permalink": "https://micromobilitate.ro/produs/casca-motocicleta-scuter-triciclu-rotakt-op12-abs-certificare-ece-r22-06-gri-marime-m/",
+          "issues": [
+            "slug>80"
+          ],
+          "slug": "casca-motocicleta-scuter-triciclu-rotakt-op12-abs-certificare-ece-r22-06-gri-marime-m",
+          "name_chars": 93
+        },
+        {
+          "id": 285,
+          "name": "Casca Motocicleta, Scuter, Triciclu,  Rotakt OP11, ABS, Certificare ECE.R22.06, Alb, Marime XL",
+          "sku": "050936",
+          "permalink": "https://micromobilitate.ro/produs/casca-motocicleta-scuter-triciclu-rotakt-op11-abs-certificare-ece-r22-06-alb-marime-xl/",
+          "issues": [
+            "slug>80"
+          ],
+          "slug": "casca-motocicleta-scuter-triciclu-rotakt-op11-abs-certificare-ece-r22-06-alb-marime-xl",
+          "name_chars": 94
+        },
+        {
+          "id": 254,
+          "name": "Casca Motocicleta, Scuter, Triciclu,  Rotakt OP11, ABS, Certificare ECE.R22.06, Alb, Marime L",
+          "sku": "050933",
+          "permalink": "https://micromobilitate.ro/produs/casca-motocicleta-scuter-triciclu-rotakt-op11-abs-certificare-ece-r22-06-alb-marime-l/",
+          "issues": [
+            "slug>80"
+          ],
+          "slug": "casca-motocicleta-scuter-triciclu-rotakt-op11-abs-certificare-ece-r22-06-alb-marime-l",
+          "name_chars": 93
+        },
+        {
+          "id": 253,
+          "name": "Casca Motocicleta, Scuter, Triciclu,  Rotakt OP11, ABS, Certificare ECE.R22.06, Alb, Marime M",
+          "sku": "050931",
+          "permalink": "https://micromobilitate.ro/produs/casca-motocicleta-scuter-triciclu-rotakt-op11-abs-certificare-ece-r22-06-alb-marime-m/",
+          "issues": [
+            "slug>80"
+          ],
+          "slug": "casca-motocicleta-scuter-triciclu-rotakt-op11-abs-certificare-ece-r22-06-alb-marime-m",
+          "name_chars": 93
+        },
+        {
+          "id": 252,
+          "name": "Statie de incarcare vehicule electrice LXAC-J4-EU22/400 22kW 400V trifazat conector tip 2 cablu de incarcare 5m",
+          "sku": "051456",
+          "permalink": "https://micromobilitate.ro/produs/statie-de-incarcare-vehicule-electrice-lxac-j4-eu22-400-22kw-400v-trifazat-conector-tip-2-cablu-de-incarcare-5m/",
+          "issues": [
+            "slug>80"
+          ],
+          "slug": "statie-de-incarcare-vehicule-electrice-lxac-j4-eu22-400-22kw-400v-trifazat-conector-tip-2-cablu-de-incarcare-5m",
+          "name_chars": 111
+        },
+        {
+          "id": 220,
+          "name": "Statie de incarcare vehicule electrice LXAC-J4-EU7/230 7kW 230V conector tip 2 cablu de incarcare 5m",
+          "sku": "051454",
+          "permalink": "https://micromobilitate.ro/produs/statie-de-incarcare-vehicule-electrice-lxac-j4-eu7-230-7kw-230v-conector-tip-2-cablu-de-incarcare-5m/",
+          "issues": [
+            "slug>80"
+          ],
+          "slug": "statie-de-incarcare-vehicule-electrice-lxac-j4-eu7-230-7kw-230v-conector-tip-2-cablu-de-incarcare-5m",
+          "name_chars": 100
+        },
+        {
+          "id": 218,
+          "name": "Scuter Rotakt Adventure Albastru-Gri 49 cmc, 2.2kW, Euro 5, Benzină, Viteză Maximă 45km/h",
+          "sku": "050993A",
+          "permalink": "https://micromobilitate.ro/produs/scuter-rotakt-adventure-albastru-gri-49-cmc-2-2kw-euro-5-benzina-viteza-maxima-45km-h/",
+          "issues": [
+            "slug>80"
+          ],
+          "slug": "scuter-rotakt-adventure-albastru-gri-49-cmc-2-2kw-euro-5-benzina-viteza-maxima-45km-h",
+          "name_chars": 89
+        },
+        {
+          "id": 215,
+          "name": "Stalp de sustinere metalic pentru incarcator vehicule electrice, compatibil cu EVD02-07RD si EVD02-22RD",
+          "sku": "050983",
+          "permalink": "https://micromobilitate.ro/produs/stalp-de-sustinere-metalic-pentru-incarcator-vehicule-electrice-compatibil-cu-evd02-07rd-si-evd02-22rd/",
+          "issues": [
+            "slug>80"
+          ],
+          "slug": "stalp-de-sustinere-metalic-pentru-incarcator-vehicule-electrice-compatibil-cu-evd02-07rd-si-evd02-22rd",
+          "name_chars": 103
+        },
+        {
+          "id": 214,
+          "name": "Stația de încărcare pentru vehicule electrice EVD02-22RD 400V/50Hz 8A-32A reglabil in trepte conector tip 2 comanda RFID si aplicatie",
+          "sku": "050981",
+          "permalink": "https://micromobilitate.ro/produs/statia-de-incarcare-pentru-vehicule-electrice-evd02-22rd-400v-50hz-8a-32a-reglabil-in-trepte-conector-tip-2-comanda-rfid-si-aplicatie/",
+          "issues": [
+            "slug>80"
+          ],
+          "slug": "statia-de-incarcare-pentru-vehicule-electrice-evd02-22rd-400v-50hz-8a-32a-reglabil-in-trepte-conector-tip-2-comanda-rfid-si-aplicatie",
+          "name_chars": 133
+        },
+        {
+          "id": 213,
+          "name": "Stația de încărcare pentru vehicule electrice EVD02-07RD 230V/50Hz 8A-32A reglabil in trepte conector tip 2 comanda RFID si aplicatie",
+          "sku": "050982",
+          "permalink": "https://micromobilitate.ro/produs/statia-de-incarcare-pentru-vehicule-electrice-evd02-07rd-230v-50hz-8a-32a-reglabil-in-trepte-conector-tip-2-comanda-rfid-si-aplicatie/",
+          "issues": [
+            "slug>80"
+          ],
+          "slug": "statia-de-incarcare-pentru-vehicule-electrice-evd02-07rd-230v-50hz-8a-32a-reglabil-in-trepte-conector-tip-2-comanda-rfid-si-aplicatie",
+          "name_chars": 133
+        },
+        {
+          "id": 212,
+          "name": "Suport de perete pentru conector de incarcare vehicule electrice tip 2 -EV Plug Holder type 2",
+          "sku": "050907",
+          "permalink": "https://micromobilitate.ro/produs/suport-de-perete-pentru-conector-de-incarcare-vehicule-electrice-tip-2-ev-plug-holder-type-2/",
+          "issues": [
+            "slug>80"
+          ],
+          "slug": "suport-de-perete-pentru-conector-de-incarcare-vehicule-electrice-tip-2-ev-plug-holder-type-2",
+          "name_chars": 93
+        },
+        {
+          "id": 211,
+          "name": "Incarcator portabil PC280 pentru masini electrice conector type 2 7,2kW 6-32A reglabil 230V 6m cablu de incarcare",
+          "sku": "050905",
+          "permalink": "https://micromobilitate.ro/produs/incarcator-portabil-pc280-pentru-masini-electrice-conector-type-2-72kw-6-32a-reglabil-230v-6m-cablu-de-incarcare/",
+          "issues": [
+            "slug>80"
+          ],
+          "slug": "incarcator-portabil-pc280-pentru-masini-electrice-conector-type-2-72kw-6-32a-reglabil-230v-6m-cablu-de-incarcare",
+          "name_chars": 113
+        },
+        {
+          "id": 210,
+          "name": "Incarcator portabil PC200 pentru masini electrice conector type 2 3,6kW 6-16A reglabil 230V 6m cablu de incarcare",
+          "sku": "050904",
+          "permalink": "https://micromobilitate.ro/produs/incarcator-portabil-pc200-pentru-masini-electrice-conector-type-2-36kw-6-16a-reglabil-230v-6m-cablu-de-incarcare/",
+          "issues": [
+            "slug>80"
+          ],
+          "slug": "incarcator-portabil-pc200-pentru-masini-electrice-conector-type-2-36kw-6-16a-reglabil-230v-6m-cablu-de-incarcare",
+          "name_chars": 113
+        },
+        {
+          "id": 209,
+          "name": "Triciclu Electric Rotakt Voyager Motor 1000W, Viteză 25 km/h Autonomie de până la 49 km Baterie plumb-acid 60V 20Ah Greutate maximă 199kg, Fără permis",
+          "sku": "049872",
+          "permalink": "https://micromobilitate.ro/produs/triciclu-electric-rotakt-voyager-motor-1000w-viteza-25-km-h-autonomie-de-pana-la-49-km-baterie-plumb-acid-60v-20ah-greutate-maxima-199kg-fara-permis/",
+          "issues": [
+            "slug>80"
+          ],
+          "slug": "triciclu-electric-rotakt-voyager-motor-1000w-viteza-25-km-h-autonomie-de-pana-la-49-km-baterie-plumb-acid-60v-20ah-greutate-maxima-199kg-fara-permis",
+          "name_chars": 150
+        },
+        {
+          "id": 197,
+          "name": "Scuter Rotakt Galileo Ultra, Viteză maximă 45Km/h, Autonomie pana la 45Km, Putere 2400W, Acumulatori 72V / 30Ah, Timp de încărcare 6-8h, KeyLess Go, USB, NFC/Bluetooth",
+          "sku": "049692",
+          "permalink": "https://micromobilitate.ro/produs/scuter-rotakt-galileo-ultra-viteza-maxima-45km-h-autonomie-pana-la-45km-putere-2400w-acumulatori-72v-30ah-timp-de-incarcare-6-8h-keyless-go-usb-nfc-bluetooth/",
+          "issues": [
+            "slug>80"
+          ],
+          "slug": "scuter-rotakt-galileo-ultra-viteza-maxima-45km-h-autonomie-pana-la-45km-putere-2400w-acumulatori-72v-30ah-timp-de-incarcare-6-8h-keyless-go-usb-nfc-bluetooth",
+          "name_chars": 167
+        }
+      ]
+    }
+  },
+  "categories": {
+    "total": 17,
+    "empty_count": 3,
+    "empty": [
+      {
+        "id": 41,
+        "name": "Fără categorie",
+        "slug": "fara-categorie",
+        "permalink": "https://micromobilitate.ro/categorie-produs/fara-categorie/"
+      },
+      {
+        "id": 297,
+        "name": "Scutere pe benzină",
+        "slug": "scutere-pe-benzina-mobilitate",
+        "permalink": "https://micromobilitate.ro/categorie-produs/mobilitate/scutere-pe-benzina-mobilitate/"
+      },
+      {
+        "id": 296,
+        "name": "Stații încărcare vehicule electrice",
+        "slug": "statii-incarcare-vehicule-electrice-mobilitate",
+        "permalink": "https://micromobilitate.ro/categorie-produs/mobilitate/statii-incarcare-vehicule-electrice-mobilitate/"
+      }
+    ],
+    "top": [
+      {
+        "id": 42,
+        "name": "Mobilitate",
+        "count": 82,
+        "permalink": "https://micromobilitate.ro/categorie-produs/mobilitate/"
+      },
+      {
+        "id": 113,
+        "name": "Piese de schimb",
+        "count": 36,
+        "permalink": "https://micromobilitate.ro/categorie-produs/mobilitate/piese-de-schimb/"
+      },
+      {
+        "id": 45,
+        "name": "Scutere electrice",
+        "count": 25,
+        "permalink": "https://micromobilitate.ro/categorie-produs/mobilitate/scutere-electrice/"
+      },
+      {
+        "id": 46,
+        "name": "Fără permis",
+        "count": 20,
+        "permalink": "https://micromobilitate.ro/categorie-produs/mobilitate/scutere-electrice/fara-permis/"
+      },
+      {
+        "id": 49,
+        "name": "Tricicluri electrice",
+        "count": 17,
+        "permalink": "https://micromobilitate.ro/categorie-produs/mobilitate/tricicluri-electrice/"
+      },
+      {
+        "id": 50,
+        "name": "Stații încărcare vehicule electrice",
+        "count": 14,
+        "permalink": "https://micromobilitate.ro/categorie-produs/statii-incarcare-vehicule-electrice/"
+      },
+      {
+        "id": 47,
+        "name": "Lichidare",
+        "count": 8,
+        "permalink": "https://micromobilitate.ro/categorie-produs/lichidare/"
+      },
+      {
+        "id": 80,
+        "name": "Căști moto",
+        "count": 6,
+        "permalink": "https://micromobilitate.ro/categorie-produs/mobilitate/casti-moto/"
+      },
+      {
+        "id": 48,
+        "name": "Cu permis",
+        "count": 5,
+        "permalink": "https://micromobilitate.ro/categorie-produs/mobilitate/scutere-electrice/cu-permis/"
+      },
+      {
+        "id": 53,
+        "name": "Scutere pe benzina",
+        "count": 4,
+        "permalink": "https://micromobilitate.ro/categorie-produs/mobilitate/scutere-pe-benzina/"
+      },
+      {
+        "id": 224,
+        "name": "Scaune cu rotile",
+        "count": 3,
+        "permalink": "https://micromobilitate.ro/categorie-produs/mobilitate/scaune-cu-rotile/"
+      },
+      {
+        "id": 114,
+        "name": "Baterii",
+        "count": 1,
+        "permalink": "https://micromobilitate.ro/categorie-produs/mobilitate/piese-de-schimb/baterii/"
+      },
+      {
+        "id": 52,
+        "name": "Consumabile mobilitate",
+        "count": 1,
+        "permalink": "https://micromobilitate.ro/categorie-produs/mobilitate/consumabile-mobilitate/"
+      },
+      {
+        "id": 43,
+        "name": "Trotinete electrice",
+        "count": 1,
+        "permalink": "https://micromobilitate.ro/categorie-produs/mobilitate/trotinete-electrice/"
+      },
+      {
+        "id": 41,
+        "name": "Fără categorie",
+        "count": 0,
+        "permalink": "https://micromobilitate.ro/categorie-produs/fara-categorie/"
+      }
+    ]
+  },
+  "diff": {
+    "baseline": false,
+    "added": [],
+    "removed": []
+  },
+  "products_lite": [
+    {
+      "id": 1193,
+      "name": "Triciclu Electric Utilitar Rotakt GAGARIN – Fara Permis, 25Km/h, Autonomie Până la 69 km",
+      "sku": "055193",
+      "permalink": "https://micromobilitate.ro/produs/triciclu-electric-utilitar-rotakt-gagarin-fara-permis-25km-h-autonomie-pana-la-69-km/"
+    },
+    {
+      "id": 1191,
+      "name": "Cvadriciclu Electric Basculabil Rotakt Rabota, Fara Permis, 25 km/h",
+      "sku": "055505",
+      "permalink": "https://micromobilitate.ro/produs/cvadriciclu-electric-basculabil-rotakt-rabota-fara-permis-25-km-h/"
+    },
+    {
+      "id": 1189,
+      "name": "Triciclu Transport Marfa Rotakt Goliat Plus, Motor 2000W, Autonomie Până la 68 km, Fara Permis",
+      "sku": "054989",
+      "permalink": "https://micromobilitate.ro/produs/triciclu-transport-marfa-rotakt-goliat-plus-motor-2000w-autonomie-pana-la-68-km-fara-permis/"
+    },
+    {
+      "id": 1187,
+      "name": "Triciclu Electric Rotakt Goliath130 – motor 1200W, autonomie de până la 110 km",
+      "sku": "052232",
+      "permalink": "https://micromobilitate.ro/produs/triciclu-electric-rotakt-goliath130-motor-1200w-autonomie-de-pana-la-110-km/"
+    },
+    {
+      "id": 1185,
+      "name": "Triciclu Electric Guliver Ultra 1200W – 25Km/h, Autonomie de până la 60 km",
+      "sku": "055656",
+      "permalink": "https://micromobilitate.ro/produs/triciclu-electric-guliver-ultra-1200w-25km-h-autonomie-de-pana-la-60-km/"
+    },
+    {
+      "id": 1180,
+      "name": "Scuter Rotakt Bad Boy Electric Strada 45km/h off-road",
+      "sku": "055242",
+      "permalink": "https://micromobilitate.ro/produs/scuter-rotakt-bad-boy-electric-strada-45km-h-off-road/"
+    },
+    {
+      "id": 609,
+      "name": "Scuter cu motor termic Rotakt JetSetter 50cc, Euro 5, frâne disc față-spate",
+      "sku": "055032",
+      "permalink": "https://micromobilitate.ro/produs/scuter-cu-motor-termic-rotakt-jetsetter-50cc-euro-5-frane-disc-fata-spate/"
+    },
+    {
+      "id": 608,
+      "name": "Triciclu Electric Rotakt Godiva – 2000W, 72V, Benă Basculabilă Hidraulic, 25Km/h",
+      "sku": "055757",
+      "permalink": "https://micromobilitate.ro/produs/triciclu-electric-rotakt-godiva-2000w-72v-bena-basculabila-hidraulic-25km-h/"
+    },
+    {
+      "id": 607,
+      "name": "Rotakt Cruiser – Scuter Electric 1500W, 2 Locuri, 25 km/h",
+      "sku": "055405",
+      "permalink": "https://micromobilitate.ro/produs/rotakt-cruiser-scuter-electric-1500w-2-locuri-25-km-h/"
+    },
+    {
+      "id": 606,
+      "name": "Scuter Electric Nitro 800W Verde 25km/h Autonomie de până la 70 km Baterie plumb-acid 60V, Fără permis",
+      "sku": "055247",
+      "permalink": "https://micromobilitate.ro/produs/scuter-electric-nitro-800w-verde-25km-h-autonomie-de-pana-la-70-km-baterie-plumb-acid-60v-fara-permis/"
+    },
+    {
+      "id": 600,
+      "name": "Triciclu Electric Rotakt Courier Motor 2000W 25 km/h Autonomie pana la 79 km Baterie plumb-acid 72V 32Ah Greutate maximă admisa 478kg, Fără permis",
+      "sku": "053595",
+      "permalink": "https://micromobilitate.ro/produs/triciclu-electric-rotakt-courier-motor-2000w-25-km-h-autonomie-pana-la-79-km-baterie-plumb-acid-72v-32ah-greutate-maxima-admisa-478kg-fara-permis/"
+    },
+    {
+      "id": 599,
+      "name": "Triciclu Electric Rotakt Voyager 2 Motor 1000W 25 km/h Autonomie de până la 41 km Baterie plumb-acid 60V 20Ah Greutate maximă 251 kg, Fără permis",
+      "sku": "053548",
+      "permalink": "https://micromobilitate.ro/produs/triciclu-electric-rotakt-voyager-2-motor-1000w-25-km-h-autonomie-de-pana-la-41-km-baterie-plumb-acid-60v-20ah-greutate-maxima-251-kg-fara-permis/"
+    },
+    {
+      "id": 219,
+      "name": "Scuter pe benzină Rotakt Intercity, motor 125cc, viteză maximă 85 Km/h, 6,5 kW /7500 rpm, Euro 5",
+      "sku": "050992",
+      "permalink": "https://micromobilitate.ro/produs/scuter-pe-benzina-rotakt-intercity-motor-125cc-viteza-maxima-85-km-h-65-kw-7500-rpm-euro-5/"
+    },
+    {
+      "id": 208,
+      "name": "Triciclu Electric Rotakt Navigator cu Doua Motoare De 400W Viteză 25 km/h Autonomie de până la 80 km Baterie plumb-acid 60V 20Ah Greutate maximă 300kg, Fără permis",
+      "sku": "049873",
+      "permalink": "https://micromobilitate.ro/produs/triciclu-electric-rotakt-navigator-cu-doua-motoare-de-400w-viteza-25-km-h-autonomie-de-pana-la-80-km-baterie-plumb-acid-60v-20ah-greutate-maxima-300kg-fara-permis/"
+    },
+    {
+      "id": 207,
+      "name": "Triciclu Electric Rotakt Explorer Motor 1000W Viteză 25 km/h Autonomie pana la 45 km Baterie plumb-acid 60V 20Ah Greutate maximă 251kg, Fără permis",
+      "sku": "049871",
+      "permalink": "https://micromobilitate.ro/produs/triciclu-electric-rotakt-explorer-motor-1000w-viteza-25-km-h-autonomie-pana-la-45-km-baterie-plumb-acid-60v-20ah-greutate-maxima-251kg-fara-permis/"
+    },
+    {
+      "id": 206,
+      "name": "Triciclu Electric Rotakt Senior Motor 1000W Viteză 25 km/h Autonomie pana la 62 km Baterie plumb-acid 60V 20Ah Greutate maximă 187 kg, Fără permis",
+      "sku": "049487",
+      "permalink": "https://micromobilitate.ro/produs/triciclu-electric-rotakt-senior-motor-1000w-viteza-25-km-h-autonomie-pana-la-62-km-baterie-plumb-acid-60v-20ah-greutate-maxima-187-kg-fara-permis/"
+    },
+    {
+      "id": 205,
+      "name": "Scuter electric 25 km/h Rotakt Saigon 1000W, autonomie pana la 80 km, baterie Plumb-acid 72V 20Ah, sarcină maximă 251 kg, fără permis",
+      "sku": "049685",
+      "permalink": "https://micromobilitate.ro/produs/scuter-electric-25-km-h-rotakt-saigon-1000w-autonomie-pana-la-80-km-baterie-plumb-acid-72v-20ah-sarcina-maxima-251-kg-fara-permis/"
+    },
+    {
+      "id": 204,
+      "name": "Triciclu electric cu 3 roti Rotakt Safari Motor 1000W, 25 km/h, autonomie pana la 62 km, baterie plumb-acid 60V 20Ah, greutate maximă 187 kg, fără permis",
+      "sku": "049489",
+      "permalink": "https://micromobilitate.ro/produs/triciclu-electric-cu-3-roti-rotakt-safari-motor-1000w-25-km-h-autonomie-pana-la-62-km-baterie-plumb-acid-60v-20ah-greutate-maxima-187-kg-fara-permis/"
+    },
+    {
+      "id": 203,
+      "name": "Triciclu Electric Cu Remorca Rotakt Nautilus 1600W 25 km/h Autonomie pana la 44 km Baterie plumb-acid 60V 32Ah Greutate maxima 364 kg, Fara permis",
+      "sku": "050305",
+      "permalink": "https://micromobilitate.ro/produs/triciclu-electric-cu-remorca-rotakt-nautilus-1600w-25-km-h-autonomie-pana-la-44-km-baterie-plumb-acid-60v-32ah-greutate-maxima-364-kg-fara-permis/"
+    },
+    {
+      "id": 202,
+      "name": "Scuter electric 25 km/h fără permis Rotakt Mandarin, motor 1600W, autonomie pana la 55 km, baterie litiu-ion 60V 20Ah, 2 locuri",
+      "sku": "049396",
+      "permalink": "https://micromobilitate.ro/produs/scuter-electric-25-km-h-fara-permis-rotakt-mandarin-motor-1600w-autonomie-pana-la-55-km-baterie-litiu-ion-60v-20ah-2-locuri/"
+    },
+    {
+      "id": 201,
+      "name": "Triciclu electric Rotakt Liberia 1400W 25 km/h autonomie pana la 48 km baterie plumb- acid 60V 20Ah greutate maxima 292 kg, Fara permis",
+      "sku": "049488",
+      "permalink": "https://micromobilitate.ro/produs/triciclu-electric-rotakt-liberia-1400w-25-km-h-autonomie-pana-la-48-km-baterie-plumb-acid-60v-20ah-greutate-maxima-292-kg-fara-permis/"
+    },
+    {
+      "id": 200,
+      "name": "Triciclu Electric cu Remorca Rotakt Guliver 2000W 25 km/h Autonomie pana la 68 km Baterie Plumb-acid 72V 58Ah Greutate maxima 617 kg, Fara permis",
+      "sku": "050304",
+      "permalink": "https://micromobilitate.ro/produs/triciclu-electric-cu-remorca-rotakt-guliver-2000w-25-km-h-autonomie-pana-la-68-km-baterie-plumb-acid-72v-58ah-greutate-maxima-617-kg-fara-permis/"
+    },
+    {
+      "id": 199,
+      "name": "Scuter electric 2400W Rotakt Galileo, autonomie pana la 45 Km, viteza maxima 25Km/h, acumulator 72V/20Ah",
+      "sku": "049691",
+      "permalink": "https://micromobilitate.ro/produs/scuter-electric-2400w-rotakt-galileo-autonomie-pana-la-45-km-viteza-maxima-25km-h-acumulator-72v-20ah/"
+    },
+    {
+      "id": 198,
+      "name": "Scuter Rotakt Avalanche, Motor 1500W, Autonomie pana la 53 Km, Viteza maxima 45Km/h, Acumulator 60V/20Ah, Timp de incarcare 6-8h",
+      "sku": "049686",
+      "permalink": "https://micromobilitate.ro/produs/scuter-rotakt-avalanche-motor-1500w-autonomie-pana-la-53-km-viteza-maxima-45km-h-acumulator-60v-20ah-timp-de-incarcare-6-8h/"
+    },
+    {
+      "id": 196,
+      "name": "Scuterul Electric Rotakt Mirage Motor Bosch Putere Maxima 3000W 25km/h,  Baterie Litiu-ion 60V 20Ah detașabilă, Autonomie pana la 55Km",
+      "sku": "048762",
+      "permalink": "https://micromobilitate.ro/produs/scuterul-electric-rotakt-mirage-motor-bosch-putere-maxima-3000w-25km-h-baterie-litiu-ion-60v-20ah-detasabila-autonomie-pana-la-55km/"
+    },
+    {
+      "id": 195,
+      "name": "Scuter Electric Rotakt Casablanca Motor Bosch Putere Maxima 3000w 25km/h Autonomie pana la 55 km Baterie Litiu-ion 60V 26Ah, Timp încărcare 6-8h",
+      "sku": "048760",
+      "permalink": "https://micromobilitate.ro/produs/scuter-electric-rotakt-casablanca-motor-bosch-putere-maxima-3000w-25km-h-autonomie-pana-la-55-km-baterie-litiu-ion-60v-26ah-timp-incarcare-6-8h/"
+    },
+    {
+      "id": 194,
+      "name": "Triciclu Electric Rotakt Camarad Autonomie pana la 58Km, Viteză Maximă 25km/h, Putere 1000W, Acumulatori 60V/20Ah, Timp de încărcare 6-8h, Fără Permis",
+      "sku": "049486",
+      "permalink": "https://micromobilitate.ro/produs/triciclu-electric-rotakt-camarad-autonomie-pana-la-58km-viteza-maxima-25km-h-putere-1000w-acumulatori-60v-20ah-timp-de-incarcare-6-8h-fara-permis/"
+    },
+    {
+      "id": 193,
+      "name": "Scuter electric Rotakt Supercargo Putere Maxima Motor 3000w 45km/h autonomie pana la 116km baterie Litiu-ion 60V 52Ah, Durată de încărcare 6-8h",
+      "sku": "048763",
+      "permalink": "https://micromobilitate.ro/produs/scuter-electric-rotakt-supercargo-putere-maxima-motor-3000w-45km-h-autonomie-pana-la-116km-baterie-litiu-ion-60v-52ah-durata-de-incarcare-6-8h/"
+    },
+    {
+      "id": 192,
+      "name": "Scuter Electric Rotakt Cleopatra Motor Bosch Putere Maxima 3000W Autonomie pana la 55 km Viteza Maxima 25 km/h acumulator litiu-ion 60V/26Ah, Timp Incarcare 6-8 ore",
+      "sku": "048759",
+      "permalink": "https://micromobilitate.ro/produs/scuter-electric-rotakt-cleopatra-motor-bosch-putere-maxima-3000w-autonomie-pana-la-55-km-viteza-maxima-25-km-h-acumulator-litiu-ion-60v-26ah-timp-incarcare-6-8-ore/"
+    },
+    {
+      "id": 605,
+      "name": "Sistem hidraulic de franare pentru triciclul electric Guliver",
+      "sku": "050714",
+      "permalink": "https://micromobilitate.ro/produs/sistem-hidraulic-de-franare-pentru-triciclul-electric-guliver/"
+    },
+    {
+      "id": 604,
+      "name": "Scaun cu rotile motorizat Rotakt Gazell – Ușor de folosit, design modern",
+      "sku": "054015",
+      "permalink": "https://micromobilitate.ro/produs/scaun-cu-rotile-motorizat-rotakt-gazell-usor-de-folosit-design-modern/"
+    },
+    {
+      "id": 603,
+      "name": "Scaun cu Rotile Electric Rotakt Synergy – Autonomie și Ușurință în Deplasare",
+      "sku": "054013",
+      "permalink": "https://micromobilitate.ro/produs/scaun-cu-rotile-electric-rotakt-synergy-autonomie-si-usurinta-in-deplasare/"
+    },
+    {
+      "id": 602,
+      "name": "Scaun cu rotile electric motorizat Rotakt Papillon – confort și autonomie sporită",
+      "sku": "054014",
+      "permalink": "https://micromobilitate.ro/produs/scaun-cu-rotile-electric-motorizat-rotakt-papillon-confort-si-autonomie-sporita/"
+    },
+    {
+      "id": 601,
+      "name": "Scuter Electric Rotakt Magellan 1000W 25 km/h Autonomie de până la 80 km Baterie plumb-acid 72V, Fără permis",
+      "sku": "053336",
+      "permalink": "https://micromobilitate.ro/produs/scuter-electric-rotakt-magellan-1000w-25-km-h-autonomie-de-pana-la-80-km-baterie-plumb-acid-72v-fara-permis/"
+    },
+    {
+      "id": 585,
+      "name": "Statie de incarcare vehicule electrice LXAC-J4-EU7/230 7kW 230V conector tip 2 cablu de incarcare 5m comunicatie 4G",
+      "sku": "051455",
+      "permalink": "https://micromobilitate.ro/produs/statie-de-incarcare-vehicule-electrice-lxac-j4-eu7-230-7kw-230v-conector-tip-2-cablu-de-incarcare-5m-comunicatie-4g/"
+    },
+    {
+      "id": 584,
+      "name": "Statie de incarcare vehicule electrice LXAC-J4-EU22/400 22kW 400V trifazat conector tip 2 cablu de incarcare 5m comunicatie 4G",
+      "sku": "051457",
+      "permalink": "https://micromobilitate.ro/produs/statie-de-incarcare-vehicule-electrice-lxac-j4-eu22-400-22kw-400v-trifazat-conector-tip-2-cablu-de-incarcare-5m-comunicatie-4g/"
+    },
+    {
+      "id": 583,
+      "name": "Incarcator portabil PC100-3k6 pentru masini electrice conector type 2 3,6 kW 6-16A reglabil 230V cablu de incarcare 6m",
+      "sku": "052927",
+      "permalink": "https://micromobilitate.ro/produs/incarcator-portabil-pc100-3k6-pentru-masini-electrice-conector-type-2-36-kw-6-16a-reglabil-230v-cablu-de-incarcare-6m/"
+    },
+    {
+      "id": 582,
+      "name": "Incarcator portabil PC100-11k pentru masini electrice conector type 2 11kW 6-16A reglabil 400V cablu de incarcare 6m",
+      "sku": "052922",
+      "permalink": "https://micromobilitate.ro/produs/incarcator-portabil-pc100-11k-pentru-masini-electrice-conector-type-2-11kw-6-16a-reglabil-400v-cablu-de-incarcare-6m/"
+    },
+    {
+      "id": 581,
+      "name": "Statie de incarcare vehicule electrice WB500 -11K 400V trifazat, conector tip 2, cablu incarcare 6m, control WiFi",
+      "sku": "052921",
+      "permalink": "https://micromobilitate.ro/produs/statie-de-incarcare-vehicule-electrice-wb500-11k-400v-trifazat-conector-tip-2-cablu-incarcare-6m-control-wifi/"
+    },
+    {
+      "id": 566,
+      "name": "Statie de incarcare vehicule electrice WB500 -7K2 230V monofazat, conector tip 2, cablu incarcare 6m, control WiFi",
+      "sku": "052920",
+      "permalink": "https://micromobilitate.ro/produs/statie-de-incarcare-vehicule-electrice-wb500-7k2-230v-monofazat-conector-tip-2-cablu-incarcare-6m-control-wifi/"
+    },
+    {
+      "id": 565,
+      "name": "Arc lamelar suspensie spate pentru triciclu electric Nautilus",
+      "sku": "050682",
+      "permalink": "https://micromobilitate.ro/produs/arc-lamelar-suspensie-spate-pentru-triciclu-electric-nautilus/"
+    },
+    {
+      "id": 564,
+      "name": "Arc lamelar suspensie spate pentru triciclu electric Guliver",
+      "sku": "050721",
+      "permalink": "https://micromobilitate.ro/produs/arc-lamelar-suspensie-spate-pentru-triciclu-electric-guliver/"
+    },
+    {
+      "id": 563,
+      "name": "Amortizor fata stanga pentru triciclu electric Guliver &#8211; XYA24/02/29T",
+      "sku": "051538",
+      "permalink": "https://micromobilitate.ro/produs/amortizor-fata-stanga-pentru-triciclu-electric-guliver-xya24-02-29t/"
+    },
+    {
+      "id": 550,
+      "name": "Amortizor fata dreapta pentru triciclu electric Guliver &#8211; XYA24/02/29T",
+      "sku": "052227",
+      "permalink": "https://micromobilitate.ro/produs/amortizor-fata-dreapta-pentru-triciclu-electric-guliver-xya24-02-29t/"
+    },
+    {
+      "id": 549,
+      "name": "Amortizor fata dreapta pentru triciclu electric &#8211; SRD 24 7wzlk",
+      "sku": "051570",
+      "permalink": "https://micromobilitate.ro/produs/amortizor-fata-dreapta-pentru-triciclu-electric-srd-24-7wzlk/"
+    },
+    {
+      "id": 548,
+      "name": "Amortizor fata stanga pentru triciclu electric &#8211; SRD 24 7wzlk",
+      "sku": "050679",
+      "permalink": "https://micromobilitate.ro/produs/amortizor-fata-stanga-pentru-triciclu-electric-srd-24-7wzlk/"
+    },
+    {
+      "id": 547,
+      "name": "Releu semnalizare 3 pini 12V pentru tricicluri si scutere electrice",
+      "sku": "050691",
+      "permalink": "https://micromobilitate.ro/produs/releu-semnalizare-3-pini-12v-pentru-tricicluri-si-scutere-electrice/"
+    },
+    {
+      "id": 546,
+      "name": "Display LED 60-72 V pentru monitorizarea triciclurilor electrice",
+      "sku": "050268",
+      "permalink": "https://micromobilitate.ro/produs/display-led-60-72-v-pentru-monitorizarea-triciclurilor-electrice/"
+    },
+    {
+      "id": 545,
+      "name": "Sirena marsarier, alarma 12 V pentru scutere si tricicluri electrice",
+      "sku": "050702",
+      "permalink": "https://micromobilitate.ro/produs/sirena-marsarier-alarma-12-v-pentru-scutere-si-tricicluri-electrice/"
+    },
+    {
+      "id": 544,
+      "name": "Claxon 12 V pentru tricicluri si scutere",
+      "sku": "050692",
+      "permalink": "https://micromobilitate.ro/produs/claxon-12-v-pentru-tricicluri-si-scutere/"
+    },
+    {
+      "id": 543,
+      "name": "Lampa numar inmatriculare LED 12V pentru triciclu electric",
+      "sku": "050703",
+      "permalink": "https://micromobilitate.ro/produs/lampa-numar-inmatriculare-led-12v-pentru-triciclu-electric/"
+    },
+    {
+      "id": 522,
+      "name": "Lampa stop spate stanga/dreapta cu LED-uri 12V pentru tricicluri electrice",
+      "sku": "050272-049583",
+      "permalink": "https://micromobilitate.ro/produs/lampa-stop-spate-stanga-dreapta-cu-led-uri-12v-pentru-tricicluri-electrice-2/"
+    },
+    {
+      "id": 521,
+      "name": "Lampa stop spate stanga/dreapta cu LED-uri 12V pentru tricicluri electrice",
+      "sku": "050701",
+      "permalink": "https://micromobilitate.ro/produs/lampa-stop-spate-stanga-dreapta-cu-led-uri-12v-pentru-tricicluri-electrice/"
+    },
+    {
+      "id": 514,
+      "name": "Set maneta acceleratie si manson cauciuc pentru triciclu electric",
+      "sku": "050269",
+      "permalink": "https://micromobilitate.ro/produs/set-maneta-acceleratie-si-manson-cauciuc-pentru-triciclu-electric-2/"
+    },
+    {
+      "id": 513,
+      "name": "Set maneta acceleratie si manson cauciuc pentru triciclu electric",
+      "sku": "050698",
+      "permalink": "https://micromobilitate.ro/produs/set-maneta-acceleratie-si-manson-cauciuc-pentru-triciclu-electric/"
+    },
+    {
+      "id": 498,
+      "name": "Set comutatoare multifunctionale pentru tricicluri electrice",
+      "sku": "050699",
+      "permalink": "https://micromobilitate.ro/produs/set-comutatoare-multifunctionale-pentru-tricicluri-electrice/"
+    },
+    {
+      "id": 497,
+      "name": "Set semnalizatoare fata cu LED 12V pentru triciclu electric",
+      "sku": "050700",
+      "permalink": "https://micromobilitate.ro/produs/set-semnalizatoare-fata-cu-led-12v-pentru-triciclu-electric-2/"
+    },
+    {
+      "id": 496,
+      "name": "Set semnalizatoare fata cu LED 12V pentru triciclu electric",
+      "sku": "050271",
+      "permalink": "https://micromobilitate.ro/produs/set-semnalizatoare-fata-cu-led-12v-pentru-triciclu-electric/"
+    },
+    {
+      "id": 495,
+      "name": "Set oglinzi retrovizoare pentru triciclu electric Guliver si Nautilus",
+      "sku": "050684",
+      "permalink": "https://micromobilitate.ro/produs/set-oglinzi-retrovizoare-pentru-triciclu-electric-guliver-si-nautilus/"
+    },
+    {
+      "id": 494,
+      "name": "Cotiera pentru triciclu electric Guliver si Nautilus",
+      "sku": "051539",
+      "permalink": "https://micromobilitate.ro/produs/cotiera-pentru-triciclu-electric-guliver-si-nautilus/"
+    },
+    {
+      "id": 470,
+      "name": "Far cu becuri 12V triciclu electric Guliver si Nautilus",
+      "sku": "050706",
+      "permalink": "https://micromobilitate.ro/produs/far-cu-becuri-12v-triciclu-electric-guliver-si-nautilus/"
+    },
+    {
+      "id": 469,
+      "name": "Far LED 12V triciclu electric Guliver si Nautilus",
+      "sku": "050277",
+      "permalink": "https://micromobilitate.ro/produs/far-led-12v-triciclu-electric-guliver-si-nautilus/"
+    },
+    {
+      "id": 468,
+      "name": "Anvelopa 90/90-10 50J TL",
+      "sku": "050042",
+      "permalink": "https://micromobilitate.ro/produs/anvelopa-90-90-10-50j-tl/"
+    },
+    {
+      "id": 458,
+      "name": "Anvelopa 90/70-12 37J DOT17Y",
+      "sku": "049991",
+      "permalink": "https://micromobilitate.ro/produs/anvelopa-90-70-12-37j-dot17y/"
+    },
+    {
+      "id": 457,
+      "name": "Anvelopa 100/80-14 48P DOT 1B0",
+      "sku": "051228",
+      "permalink": "https://micromobilitate.ro/produs/anvelopa-100-80-14-48p-dot-1b0/"
+    },
+    {
+      "id": 456,
+      "name": "Anvelopa 120/70-12 51M DOT 17Y",
+      "sku": "051210",
+      "permalink": "https://micromobilitate.ro/produs/anvelopa-120-70-12-51m-dot-17y/"
+    },
+    {
+      "id": 431,
+      "name": "Rotakt Bad Boy Electric Cross Super Bike 3000W 80km/h off-road",
+      "sku": "051329",
+      "permalink": "https://micromobilitate.ro/produs/rotakt-bad-boy-electric-cross-super-bike-3000w-80km-h-off-road/"
+    },
+    {
+      "id": 430,
+      "name": "Anvelopa 90/80-16 51J DOT 1B0",
+      "sku": "051214",
+      "permalink": "https://micromobilitate.ro/produs/anvelopa-90-80-16-51j-dot-1b0/"
+    },
+    {
+      "id": 429,
+      "name": "Anvelopa 3.00-10/42J DOT 17Y",
+      "sku": "051875",
+      "permalink": "https://micromobilitate.ro/produs/anvelopa-3-00-10-42j-dot-17y/"
+    },
+    {
+      "id": 402,
+      "name": "Anvelopa 3.00-10/47J",
+      "sku": "049938",
+      "permalink": "https://micromobilitate.ro/produs/anvelopa-3-00-10-47j/"
+    },
+    {
+      "id": 401,
+      "name": "Anvelopa 3.00-10/47J DOT 013",
+      "sku": "051876",
+      "permalink": "https://micromobilitate.ro/produs/anvelopa-3-00-10-47j-dot-013/"
+    },
+    {
+      "id": 374,
+      "name": "Anvelopa 3.00-10/42J DOT B0",
+      "sku": "050238",
+      "permalink": "https://micromobilitate.ro/produs/anvelopa-3-00-10-42j-dot-b0/"
+    },
+    {
+      "id": 373,
+      "name": "Roata triciclu 3.00-12/47J",
+      "sku": "050680",
+      "permalink": "https://micromobilitate.ro/produs/roata-triciclu-3-00-12-47j/"
+    },
+    {
+      "id": 352,
+      "name": "Roata triciclu 3.75-12/66J",
+      "sku": "050720",
+      "permalink": "https://micromobilitate.ro/produs/roata-triciclu-3-75-12-66j/"
+    },
+    {
+      "id": 351,
+      "name": "Roata triciclu 3.50-12/57J",
+      "sku": "050719",
+      "permalink": "https://micromobilitate.ro/produs/roata-triciclu-3-50-12-57j/"
+    },
+    {
+      "id": 350,
+      "name": "Baterie semitractiune Deep Cycle Xupai 6-DZF-20, 12V 20Ah VRLA GEL pentru scutere si tricicluri electrice",
+      "sku": "051463",
+      "permalink": "https://micromobilitate.ro/produs/baterie-semitractiune-deep-cycle-xupai-6-dzf-20-12v-20ah-vrla-gel-pentru-scutere-si-tricicluri-electrice/"
+    },
+    {
+      "id": 317,
+      "name": "Casca Motocicleta, Scuter, Triciclu,  Rotakt OP12, ABS, Certificare ECE.R22.06, Gri, Marime XL",
+      "sku": "050942",
+      "permalink": "https://micromobilitate.ro/produs/casca-motocicleta-scuter-triciclu-rotakt-op12-abs-certificare-ece-r22-06-gri-marime-xl/"
+    },
+    {
+      "id": 316,
+      "name": "Casca Motocicleta, Scuter, Triciclu,  Rotakt OP12, ABS, Certificare ECE.R22.06, Gri, Marime L",
+      "sku": "050940",
+      "permalink": "https://micromobilitate.ro/produs/casca-motocicleta-scuter-triciclu-rotakt-op12-abs-certificare-ece-r22-06-gri-marime-l/"
+    },
+    {
+      "id": 286,
+      "name": "Casca Motocicleta, Scuter, Triciclu,  Rotakt OP12, ABS, Certificare ECE.R22.06, Gri, Marime M",
+      "sku": "050938",
+      "permalink": "https://micromobilitate.ro/produs/casca-motocicleta-scuter-triciclu-rotakt-op12-abs-certificare-ece-r22-06-gri-marime-m/"
+    },
+    {
+      "id": 285,
+      "name": "Casca Motocicleta, Scuter, Triciclu,  Rotakt OP11, ABS, Certificare ECE.R22.06, Alb, Marime XL",
+      "sku": "050936",
+      "permalink": "https://micromobilitate.ro/produs/casca-motocicleta-scuter-triciclu-rotakt-op11-abs-certificare-ece-r22-06-alb-marime-xl/"
+    },
+    {
+      "id": 254,
+      "name": "Casca Motocicleta, Scuter, Triciclu,  Rotakt OP11, ABS, Certificare ECE.R22.06, Alb, Marime L",
+      "sku": "050933",
+      "permalink": "https://micromobilitate.ro/produs/casca-motocicleta-scuter-triciclu-rotakt-op11-abs-certificare-ece-r22-06-alb-marime-l/"
+    },
+    {
+      "id": 253,
+      "name": "Casca Motocicleta, Scuter, Triciclu,  Rotakt OP11, ABS, Certificare ECE.R22.06, Alb, Marime M",
+      "sku": "050931",
+      "permalink": "https://micromobilitate.ro/produs/casca-motocicleta-scuter-triciclu-rotakt-op11-abs-certificare-ece-r22-06-alb-marime-m/"
+    },
+    {
+      "id": 252,
+      "name": "Statie de incarcare vehicule electrice LXAC-J4-EU22/400 22kW 400V trifazat conector tip 2 cablu de incarcare 5m",
+      "sku": "051456",
+      "permalink": "https://micromobilitate.ro/produs/statie-de-incarcare-vehicule-electrice-lxac-j4-eu22-400-22kw-400v-trifazat-conector-tip-2-cablu-de-incarcare-5m/"
+    },
+    {
+      "id": 220,
+      "name": "Statie de incarcare vehicule electrice LXAC-J4-EU7/230 7kW 230V conector tip 2 cablu de incarcare 5m",
+      "sku": "051454",
+      "permalink": "https://micromobilitate.ro/produs/statie-de-incarcare-vehicule-electrice-lxac-j4-eu7-230-7kw-230v-conector-tip-2-cablu-de-incarcare-5m/"
+    },
+    {
+      "id": 218,
+      "name": "Scuter Rotakt Adventure Albastru-Gri 49 cmc, 2.2kW, Euro 5, Benzină, Viteză Maximă 45km/h",
+      "sku": "050993A",
+      "permalink": "https://micromobilitate.ro/produs/scuter-rotakt-adventure-albastru-gri-49-cmc-2-2kw-euro-5-benzina-viteza-maxima-45km-h/"
+    },
+    {
+      "id": 217,
+      "name": "Scuter benzina 49cc Rotakt Adventure rosu-gri, 2.2kW, Euro 5, viteză maximă 45km/h",
+      "sku": "050993",
+      "permalink": "https://micromobilitate.ro/produs/scuter-benzina-49cc-rotakt-adventure-rosu-gri-2-2kw-euro-5-viteza-maxima-45km-h/"
+    },
+    {
+      "id": 216,
+      "name": "Ulei transmisie pentru Scuterele Rotakt API GL-5 SAE 80W90",
+      "sku": "050514",
+      "permalink": "https://micromobilitate.ro/produs/ulei-transmisie-pentru-scuterele-rotakt-api-gl-5-sae-80w90/"
+    },
+    {
+      "id": 215,
+      "name": "Stalp de sustinere metalic pentru incarcator vehicule electrice, compatibil cu EVD02-07RD si EVD02-22RD",
+      "sku": "050983",
+      "permalink": "https://micromobilitate.ro/produs/stalp-de-sustinere-metalic-pentru-incarcator-vehicule-electrice-compatibil-cu-evd02-07rd-si-evd02-22rd/"
+    },
+    {
+      "id": 214,
+      "name": "Stația de încărcare pentru vehicule electrice EVD02-22RD 400V/50Hz 8A-32A reglabil in trepte conector tip 2 comanda RFID si aplicatie",
+      "sku": "050981",
+      "permalink": "https://micromobilitate.ro/produs/statia-de-incarcare-pentru-vehicule-electrice-evd02-22rd-400v-50hz-8a-32a-reglabil-in-trepte-conector-tip-2-comanda-rfid-si-aplicatie/"
+    },
+    {
+      "id": 213,
+      "name": "Stația de încărcare pentru vehicule electrice EVD02-07RD 230V/50Hz 8A-32A reglabil in trepte conector tip 2 comanda RFID si aplicatie",
+      "sku": "050982",
+      "permalink": "https://micromobilitate.ro/produs/statia-de-incarcare-pentru-vehicule-electrice-evd02-07rd-230v-50hz-8a-32a-reglabil-in-trepte-conector-tip-2-comanda-rfid-si-aplicatie/"
+    },
+    {
+      "id": 212,
+      "name": "Suport de perete pentru conector de incarcare vehicule electrice tip 2 -EV Plug Holder type 2",
+      "sku": "050907",
+      "permalink": "https://micromobilitate.ro/produs/suport-de-perete-pentru-conector-de-incarcare-vehicule-electrice-tip-2-ev-plug-holder-type-2/"
+    },
+    {
+      "id": 211,
+      "name": "Incarcator portabil PC280 pentru masini electrice conector type 2 7,2kW 6-32A reglabil 230V 6m cablu de incarcare",
+      "sku": "050905",
+      "permalink": "https://micromobilitate.ro/produs/incarcator-portabil-pc280-pentru-masini-electrice-conector-type-2-72kw-6-32a-reglabil-230v-6m-cablu-de-incarcare/"
+    },
+    {
+      "id": 210,
+      "name": "Incarcator portabil PC200 pentru masini electrice conector type 2 3,6kW 6-16A reglabil 230V 6m cablu de incarcare",
+      "sku": "050904",
+      "permalink": "https://micromobilitate.ro/produs/incarcator-portabil-pc200-pentru-masini-electrice-conector-type-2-36kw-6-16a-reglabil-230v-6m-cablu-de-incarcare/"
+    },
+    {
+      "id": 209,
+      "name": "Triciclu Electric Rotakt Voyager Motor 1000W, Viteză 25 km/h Autonomie de până la 49 km Baterie plumb-acid 60V 20Ah Greutate maximă 199kg, Fără permis",
+      "sku": "049872",
+      "permalink": "https://micromobilitate.ro/produs/triciclu-electric-rotakt-voyager-motor-1000w-viteza-25-km-h-autonomie-de-pana-la-49-km-baterie-plumb-acid-60v-20ah-greutate-maxima-199kg-fara-permis/"
+    },
+    {
+      "id": 197,
+      "name": "Scuter Rotakt Galileo Ultra, Viteză maximă 45Km/h, Autonomie pana la 45Km, Putere 2400W, Acumulatori 72V / 30Ah, Timp de încărcare 6-8h, KeyLess Go, USB, NFC/Bluetooth",
+      "sku": "049692",
+      "permalink": "https://micromobilitate.ro/produs/scuter-rotakt-galileo-ultra-viteza-maxima-45km-h-autonomie-pana-la-45km-putere-2400w-acumulatori-72v-30ah-timp-de-incarcare-6-8h-keyless-go-usb-nfc-bluetooth/"
+    },
+    {
+      "id": 191,
+      "name": "Trotineta electrica ROTAKT TE-400",
+      "sku": "040503",
+      "permalink": "https://micromobilitate.ro/produs/trotineta-electrica-rotakt-te-400/"
+    }
+  ]
+}
