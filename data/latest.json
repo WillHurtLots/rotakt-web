@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-04-15T06:22:28.100296+00:00",
-  "date": "2026-04-15",
+  "generated_at": "2026-05-04T05:53:04.791379+00:00",
+  "date": "2026-05-04",
   "sites": {
     "rotakt.ro": {
       "total": 1082,
-      "in_stock": 806,
-      "out_of_stock": 276,
+      "in_stock": 796,
+      "out_of_stock": 286,
       "health_score": 83,
-      "products_with_issues": 184,
+      "products_with_issues": 179,
       "checks": {
         "missing_description": [
           {
@@ -607,18 +607,6 @@
         "missing_price": [],
         "missing_brand": [
           {
-            "id": 22493,
-            "name": "Dispozitiv ascutit lant Rotakt R00403009",
-            "sku": "001790",
-            "permalink": "https://rotakt.ro/produse/dispozitiv-ascutit-lant-rotakt-r00403009/"
-          },
-          {
-            "id": 21239,
-            "name": "Cvadriciclu Electric Basculabil Rotakt Rabota, Fara Permis, 25 km/h",
-            "sku": "055505",
-            "permalink": "https://rotakt.ro/produse/cvadriciclu-electric-basculabil-rotakt-rabota-fara-permis-25-km-h/"
-          },
-          {
             "id": 21053,
             "name": "CARTE IDENTIFICARE AUTO (CIV) 400",
             "sku": "056018",
@@ -629,12 +617,6 @@
             "name": "CARTE IDENTIFICARE AUTO (CIV) 200",
             "sku": "051169",
             "permalink": "https://rotakt.ro/produse/carte-identificare-auto-civ-200/"
-          },
-          {
-            "id": 20884,
-            "name": "SEMERING MOARA Rotakt 20X40X7TCM",
-            "sku": "000296",
-            "permalink": "https://rotakt.ro/produse/semering-moara-rotakt-20x40x7tcm/"
           },
           {
             "id": 20881,
@@ -649,12 +631,6 @@
             "permalink": "https://rotakt.ro/produse/roata-dintata-melcata-din-bronz-pentru-antrenarea-axului-rotii-mf360/"
           },
           {
-            "id": 20866,
-            "name": "Mecanism Complet Cosire Motocoasă Rotakt ROMTC87",
-            "sku": "001822",
-            "permalink": "https://rotakt.ro/produse/mecanism-complet-cosire-motocoasa-rotakt-romtc87/"
-          },
-          {
             "id": 20837,
             "name": "Motor 4T 10CP 300cc Pentru Motocultor Rotakt RO10R Cu Pornire Electrica Rato",
             "sku": "054831",
@@ -665,42 +641,6 @@
             "name": "Motor 4T Loncin G200F – 6.5 CP pentru MF360 196cc",
             "sku": "007576",
             "permalink": "https://rotakt.ro/produse/motor-4t-loncin-g200f-6-5-cp-pentru-mf360-196cc/"
-          },
-          {
-            "id": 20708,
-            "name": "Lamă superioară Motocoasă ROTAKT ROMTC-87, 17 dinti",
-            "sku": "010493",
-            "permalink": "https://rotakt.ro/produse/lama-superioara-motocoasa-rotakt-romtc-87-17-dinti/"
-          },
-          {
-            "id": 20699,
-            "name": "Remorca agricola Rotakt 1T pentru tractor cu basculare hidraulica,dimensiune bena 200x106cm",
-            "sku": "055909",
-            "permalink": "https://rotakt.ro/produse/remorca-agricola-rotakt-1t-pentru-tractor-cu-basculare-hidraulicadimensiune-bena-200x106cm/"
-          },
-          {
-            "id": 20613,
-            "name": "Compresor Cu 2 Pistoane Rotakt ROCP‑S200, Putere 4 kW, 400V, Presiune 10 bar, Debit 460 lmin, Capacitate 200l",
-            "sku": "055828",
-            "permalink": "https://rotakt.ro/produse/compresor-cu-2-pistoane-rotakt-rocp-s200-putere-4-kw-400v-presiune-10-bar-debit-460-lmin-capacitate-200l/"
-          },
-          {
-            "id": 20546,
-            "name": "Compresor Cu 2 Pistoane Rotakt ROCP‑S100, Putere 2.2 kW, Presiune 10 bar, Debit 250 l/min, Capacitate 100l",
-            "sku": "055829",
-            "permalink": "https://rotakt.ro/produse/compresor-cu-2-pistoane-rotakt-rocp-s100-putere-2-2-kw-presiune-10-bar-debit-250-l-min-capacitate-100l/"
-          },
-          {
-            "id": 20537,
-            "name": "Compresor Aer Cu 2 Cilindrii Fara ulei Rotakt ROCP-S50 Putere 2.0CP/1.5kW, Presiune 8 bar, Debit 220l/min, Capacitate 50l",
-            "sku": "055827",
-            "permalink": "https://rotakt.ro/produse/compresor-aer-cu-2-cilindrii-fara-ulei-rotakt-rocp-s50-putere-2-0cp-1-5kw-presiune-8-bar-debit-220l-min-capacitate-50l/"
-          },
-          {
-            "id": 20509,
-            "name": "Compresor Aer Cu 2 Cilindrii Fara ulei Rotakt ROCP-S24 Putere 1.5CP/1.1kW, Presiune 8 bar, Debit 160l/min, Capacitate 24l",
-            "sku": "055826",
-            "permalink": "https://rotakt.ro/produse/compresor-aer-cu-2-cilindrii-fara-ulei-rotakt-rocp-s24-putere-1-5cp-1-1kw-presiune-8-bar-debit-160l-min-capacitate-24l/"
           }
         ],
         "low_stock": [],
