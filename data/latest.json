@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-05T03:20:46.657903+00:00",
-  "date": "2026-05-05",
+  "generated_at": "2026-05-14T05:31:46.666371+00:00",
+  "date": "2026-05-14",
   "sites": {
     "rotakt.ro": {
       "total": 1082,
-      "in_stock": 796,
-      "out_of_stock": 286,
+      "in_stock": 789,
+      "out_of_stock": 293,
       "health_score": 83,
       "products_with_issues": 179,
       "checks": {
@@ -1770,7 +1770,7 @@
           {
             "id": 1012,
             "name": "Lichidare",
-            "count": 148,
+            "count": 155,
             "permalink": "https://rotakt.ro/categorie/lichidare/"
           },
           {
@@ -1855,8 +1855,8 @@
     },
     "micromobilitate.ro": {
       "total": 96,
-      "in_stock": 55,
-      "out_of_stock": 41,
+      "in_stock": 54,
+      "out_of_stock": 42,
       "health_score": 47,
       "products_with_issues": 51,
       "checks": {
