@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-05-14T05:31:46.666371+00:00",
-  "date": "2026-05-14",
+  "generated_at": "2026-05-25T05:35:38.726250+00:00",
+  "date": "2026-05-25",
   "sites": {
     "rotakt.ro": {
-      "total": 1082,
-      "in_stock": 789,
-      "out_of_stock": 293,
+      "total": 1083,
+      "in_stock": 768,
+      "out_of_stock": 315,
       "health_score": 83,
-      "products_with_issues": 179,
+      "products_with_issues": 180,
       "checks": {
         "missing_description": [
           {
@@ -645,6 +645,17 @@
         ],
         "low_stock": [],
         "seo_issues": [
+          {
+            "id": 22987,
+            "name": "Mini Tractor 4X4 Rotakt RTZ15HP Zeppelin, 15 CP diesel, 135cm latime de lucru, control accesori din buton",
+            "sku": "056121",
+            "permalink": "https://rotakt.ro/produse/mini-tractor-4x4-rotakt-rtz15hp-zeppelin-15-cp-diesel-135cm-latime-de-lucru-control-accesori-din-buton/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "mini-tractor-4x4-rotakt-rtz15hp-zeppelin-15-cp-diesel-135cm-latime-de-lucru-control-accesori-din-buton",
+            "name_chars": 105
+          },
           {
             "id": 21432,
             "name": "Motocultor Rotakt RO101RS Agile Roti 5.00-8 motor 7 CP benzina 2+1 viteze latime lucru 56-90 cm freze",
@@ -1849,7 +1860,14 @@
       },
       "diff": {
         "baseline": false,
-        "added": [],
+        "added": [
+          {
+            "id": 22987,
+            "name": "Mini Tractor 4X4 Rotakt RTZ15HP Zeppelin, 15 CP diesel, 135cm latime de lucru, control accesori din buton",
+            "permalink": "https://rotakt.ro/produse/mini-tractor-4x4-rotakt-rtz15hp-zeppelin-15-cp-diesel-135cm-latime-de-lucru-control-accesori-din-buton/",
+            "sku": "056121"
+          }
+        ],
         "removed": []
       }
     },
