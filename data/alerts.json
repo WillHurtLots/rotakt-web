@@ -1,6 +1,6 @@
 {
-  "date": "2026-05-25",
-  "generated_at": "2026-05-25T05:35:38.748251+00:00",
+  "date": "2026-05-27",
+  "generated_at": "2026-05-27T05:27:29.349829+00:00",
   "sites": {
     "rotakt.ro": {
       "missing_description": 74,
@@ -10,7 +10,7 @@
       "low_stock": 0,
       "seo_issues": 100,
       "empty_categories": 2,
-      "added_today": 1,
+      "added_today": 0,
       "removed_today": 0
     },
     "micromobilitate.ro": {

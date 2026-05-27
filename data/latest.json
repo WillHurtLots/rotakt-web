@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-25T05:35:38.726250+00:00",
-  "date": "2026-05-25",
+  "generated_at": "2026-05-27T05:27:29.343511+00:00",
+  "date": "2026-05-27",
   "sites": {
     "rotakt.ro": {
       "total": 1083,
-      "in_stock": 768,
-      "out_of_stock": 315,
+      "in_stock": 773,
+      "out_of_stock": 310,
       "health_score": 83,
       "products_with_issues": 180,
       "checks": {
@@ -1860,14 +1860,7 @@
       },
       "diff": {
         "baseline": false,
-        "added": [
-          {
-            "id": 22987,
-            "name": "Mini Tractor 4X4 Rotakt RTZ15HP Zeppelin, 15 CP diesel, 135cm latime de lucru, control accesori din buton",
-            "permalink": "https://rotakt.ro/produse/mini-tractor-4x4-rotakt-rtz15hp-zeppelin-15-cp-diesel-135cm-latime-de-lucru-control-accesori-din-buton/",
-            "sku": "056121"
-          }
-        ],
+        "added": [],
         "removed": []
       }
     },
