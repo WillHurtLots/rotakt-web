@@ -1,6 +1,6 @@
 {
-  "date": "2026-05-27",
-  "generated_at": "2026-05-27T05:27:29.349829+00:00",
+  "date": "2026-06-05",
+  "generated_at": "2026-06-05T07:45:33.904060+00:00",
   "sites": {
     "rotakt.ro": {
       "missing_description": 74,
@@ -8,7 +8,7 @@
       "missing_price": 0,
       "missing_brand": 6,
       "low_stock": 0,
-      "seo_issues": 100,
+      "seo_issues": 101,
       "empty_categories": 2,
       "added_today": 0,
       "removed_today": 0
@@ -25,5 +25,5 @@
       "removed_today": 0
     }
   },
-  "total_alerts": 238
+  "total_alerts": 239
 }

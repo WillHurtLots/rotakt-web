@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-05-27T05:27:29.343511+00:00",
-  "date": "2026-05-27",
+  "generated_at": "2026-06-05T07:45:33.896661+00:00",
+  "date": "2026-06-05",
   "sites": {
     "rotakt.ro": {
       "total": 1083,
-      "in_stock": 773,
-      "out_of_stock": 310,
+      "in_stock": 764,
+      "out_of_stock": 319,
       "health_score": 83,
-      "products_with_issues": 180,
+      "products_with_issues": 181,
       "checks": {
         "missing_description": [
           {
@@ -1701,6 +1701,17 @@
             ],
             "slug": "motocoasa-cu-tambur-rotakt-ro210-motor-loncin-3-9-cp-140cc-diametru-taiere-640-mm-roti-cauciuc-cu-camera-13x5-00-6",
             "name_chars": 115
+          },
+          {
+            "id": 3769,
+            "name": "Robot inteligent de tuns iarba cu GPS Rotakt ROBT-1000M, electric, lățime cosire 180 mm",
+            "sku": "038905",
+            "permalink": "https://rotakt.ro/produse/robot-inteligent-de-tuns-iarba-cu-gps-rotakt-robt-1000m-electric-latime-cosire-180-mm/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "robot-inteligent-de-tuns-iarba-cu-gps-rotakt-robt-1000m-electric-latime-cosire-180-mm",
+            "name_chars": 87
           },
           {
             "id": 3766,
