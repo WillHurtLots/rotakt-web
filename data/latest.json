@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-16T05:45:29.634688+00:00",
-  "date": "2026-07-16",
+  "generated_at": "2026-07-17T02:51:25.632431+00:00",
+  "date": "2026-07-17",
   "sites": {
     "rotakt.ro": {
       "total": 1085,
-      "in_stock": 770,
-      "out_of_stock": 315,
+      "in_stock": 768,
+      "out_of_stock": 317,
       "health_score": 83,
       "products_with_issues": 183,
       "checks": {
@@ -1893,46 +1893,8 @@
       },
       "diff": {
         "baseline": false,
-        "added": [
-          {
-            "id": 23509,
-            "name": "Triciclu electric Rotakt Infinity, motor 1000w, viteza maxima 25km/h, autonomie pana la 45km",
-            "permalink": "https://rotakt.ro/produse/triciclu-electric-rotakt-infinity-motor-1000w-viteza-maxima-25km-h-autonomie-pana-la-45km/",
-            "sku": "056392-NEW"
-          },
-          {
-            "id": 23501,
-            "name": "Tractor ROTAKT Trident 4&#215;4 25CP, 1132 cmc, Diesel, Euro 5, Iesire hidraulica",
-            "permalink": "https://rotakt.ro/produse/tractor-rotakt-trident-4x4-25cp-1132-cmc-diesel-euro-5-iesire-hidraulica/",
-            "sku": "055514"
-          },
-          {
-            "id": 23358,
-            "name": "Motopompă Rotakt ROMP80ZB28-3,8-C Pentru Apă Curată 3&#8243;, Debit Maxim 1000L/min",
-            "permalink": "https://rotakt.ro/produse/motopompa-rotakt-romp80zb28-38-c-pentru-apa-curata-3-debit-maxim-1000l-min/",
-            "sku": "056127"
-          },
-          {
-            "id": 23359,
-            "name": "Motocultor Rotakt RO70ECO STARTER, 7CP, Motor 212cmc Benzină, Freze, Lățime de lucru, 560-830mm",
-            "permalink": "https://rotakt.ro/produse/motocultor-rotakt-ro70eco-starter-7cp-motor-212cmc-benzina-freze-latime-de-lucru-560-830mm/",
-            "sku": "056119"
-          }
-        ],
-        "removed": [
-          {
-            "id": 15248,
-            "name": "Far cu becuri 12V triciclu electric Guliver si Nautilus",
-            "permalink": "https://rotakt.ro/produse/far-cu-becuri-12v-triciclu-electric-guliver-si-nautilus/",
-            "sku": "050706"
-          },
-          {
-            "id": 15293,
-            "name": "Set maneta acceleratie si manson cauciuc pentru triciclu electric",
-            "permalink": "https://rotakt.ro/produse/set-maneta-acceleratie-si-manson-cauciuc-pentru-triciclu-electric/",
-            "sku": "050698"
-          }
-        ]
+        "added": [],
+        "removed": []
       }
     },
     "micromobilitate.ro": {
@@ -2640,20 +2602,7 @@
       },
       "diff": {
         "baseline": false,
-        "added": [
-          {
-            "id": 1267,
-            "name": "CARTE IDENTIFICARE AUTO (CIV) 400",
-            "permalink": "https://micromobilitate.ro/produs/carte-identificare-auto-civ-400/",
-            "sku": "056018"
-          },
-          {
-            "id": 1269,
-            "name": "CARTE IDENTIFICARE AUTO (CIV) 200",
-            "permalink": "https://micromobilitate.ro/produs/carte-identificare-auto-civ-200/",
-            "sku": "051169"
-          }
-        ],
+        "added": [],
         "removed": []
       }
     }
