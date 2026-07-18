@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-17T02:51:25.632431+00:00",
-  "date": "2026-07-17",
+  "generated_at": "2026-07-18T02:43:44.974522+00:00",
+  "date": "2026-07-18",
   "sites": {
     "rotakt.ro": {
       "total": 1085,
-      "in_stock": 768,
-      "out_of_stock": 317,
+      "in_stock": 767,
+      "out_of_stock": 318,
       "health_score": 83,
       "products_with_issues": 183,
       "checks": {
@@ -1406,7 +1406,7 @@
           },
           {
             "id": 12366,
-            "name": "Triciclu Electric Liberia 1400w 25km/h autonomie pana la 48km",
+            "name": "Triciclu Electric Liberia 1400w 25km/h autonomie pana la 25km",
             "sku": "049488",
             "permalink": "https://rotakt.ro/produse/triciclu-electric-rotakt-liberia-1400w-25-km-h-autonomie-48-km-baterie-plumb-acid-60v-20ah-greutate-maxima-292-kg/",
             "issues": [
