@@ -683,5 +683,40 @@
         "categories_empty": 4
       }
     }
+  },
+  {
+    "date": "2026-07-20",
+    "sites": {
+      "rotakt.ro": {
+        "total": 1085,
+        "in_stock": 766,
+        "out_of_stock": 319,
+        "health_score": 83,
+        "products_with_issues": 183,
+        "missing_description_count": 74,
+        "missing_image_count": 0,
+        "missing_price_count": 0,
+        "missing_brand_count": 6,
+        "low_stock_count": 0,
+        "seo_issues_count": 103,
+        "categories_total": 85,
+        "categories_empty": 2
+      },
+      "micromobilitate.ro": {
+        "total": 98,
+        "in_stock": 67,
+        "out_of_stock": 31,
+        "health_score": 46,
+        "products_with_issues": 53,
+        "missing_description_count": 0,
+        "missing_image_count": 0,
+        "missing_price_count": 0,
+        "missing_brand_count": 8,
+        "low_stock_count": 0,
+        "seo_issues_count": 47,
+        "categories_total": 19,
+        "categories_empty": 4
+      }
+    }
   }
 ]
