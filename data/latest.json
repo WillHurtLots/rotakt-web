@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-21T02:54:12.906118+00:00",
-  "date": "2026-07-21",
+  "generated_at": "2026-07-27T06:05:28.868784+00:00",
+  "date": "2026-07-27",
   "sites": {
     "rotakt.ro": {
-      "total": 1085,
-      "in_stock": 766,
-      "out_of_stock": 319,
+      "total": 1087,
+      "in_stock": 767,
+      "out_of_stock": 320,
       "health_score": 83,
-      "products_with_issues": 183,
+      "products_with_issues": 184,
       "checks": {
         "missing_description": [
           {
@@ -606,6 +606,12 @@
         "missing_image": [],
         "missing_price": [],
         "missing_brand": [
+          {
+            "id": 23667,
+            "name": "Plug Arat Pentru Mini Tractor Rotakt  Zeppelin",
+            "sku": "056122",
+            "permalink": "https://rotakt.ro/produse/plug-arat-pentru-mini-tractor-rotakt-zeppelin/"
+          },
           {
             "id": 21053,
             "name": "CARTE IDENTIFICARE AUTO (CIV) 400",
@@ -1406,7 +1412,7 @@
           },
           {
             "id": 12366,
-            "name": "Triciclu Electric Liberia 1400w 25km/h autonomie pana la 25km",
+            "name": "Triciclu Electric Liberia 1400w 25km/h autonomie pana la 35km",
             "sku": "049488",
             "permalink": "https://rotakt.ro/produse/triciclu-electric-rotakt-liberia-1400w-25-km-h-autonomie-48-km-baterie-plumb-acid-60v-20ah-greutate-maxima-292-kg/",
             "issues": [
@@ -1893,14 +1899,27 @@
       },
       "diff": {
         "baseline": false,
-        "added": [],
+        "added": [
+          {
+            "id": 23658,
+            "name": "Tractor Rotakt Transalpin 2, 26.5 CP, diesel 3 cilindri,1.532 cmc, tracțiune 4&#215;4",
+            "permalink": "https://rotakt.ro/produse/tractor-rotakt-transalpin-2-26-5-cp-diesel-3-cilindri1-532-cmc-tractiune-4x4/",
+            "sku": "056998"
+          },
+          {
+            "id": 23667,
+            "name": "Plug Arat Pentru Mini Tractor Rotakt  Zeppelin",
+            "permalink": "https://rotakt.ro/produse/plug-arat-pentru-mini-tractor-rotakt-zeppelin/",
+            "sku": "056122"
+          }
+        ],
         "removed": []
       }
     },
     "micromobilitate.ro": {
       "total": 98,
-      "in_stock": 67,
-      "out_of_stock": 31,
+      "in_stock": 66,
+      "out_of_stock": 32,
       "health_score": 46,
       "products_with_issues": 53,
       "checks": {
