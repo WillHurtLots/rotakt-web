@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-28T02:44:17.240670+00:00",
-  "date": "2026-07-28",
+  "generated_at": "2026-08-03T05:32:02.222484+00:00",
+  "date": "2026-08-03",
   "sites": {
     "rotakt.ro": {
       "total": 1088,
-      "in_stock": 773,
-      "out_of_stock": 315,
+      "in_stock": 764,
+      "out_of_stock": 324,
       "health_score": 83,
       "products_with_issues": 184,
       "checks": {
@@ -1788,7 +1788,7 @@
         ]
       },
       "categories": {
-        "total": 86,
+        "total": 87,
         "empty_count": 1,
         "empty": [
           {
@@ -1814,7 +1814,7 @@
           {
             "id": 1012,
             "name": "Lichidare",
-            "count": 155,
+            "count": 143,
             "permalink": "https://rotakt.ro/categorie/lichidare/"
           },
           {
@@ -1893,21 +1893,14 @@
       },
       "diff": {
         "baseline": false,
-        "added": [
-          {
-            "id": 23709,
-            "name": "Suflantă Rotakt SFA521 cu Acumulator 4AH si Statie de incarcare",
-            "permalink": "https://rotakt.ro/produse/suflanta-rotakt-sfa521-cu-acumulator-4ah-si-statie-de-incarcare/",
-            "sku": "032816-023288-023287"
-          }
-        ],
+        "added": [],
         "removed": []
       }
     },
     "micromobilitate.ro": {
       "total": 98,
-      "in_stock": 66,
-      "out_of_stock": 32,
+      "in_stock": 65,
+      "out_of_stock": 33,
       "health_score": 46,
       "products_with_issues": 53,
       "checks": {
