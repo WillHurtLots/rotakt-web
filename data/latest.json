@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-03T05:32:02.222484+00:00",
-  "date": "2026-08-03",
+  "generated_at": "2026-08-12T05:40:01.283518+00:00",
+  "date": "2026-08-12",
   "sites": {
     "rotakt.ro": {
-      "total": 1088,
-      "in_stock": 764,
-      "out_of_stock": 324,
+      "total": 1087,
+      "in_stock": 759,
+      "out_of_stock": 328,
       "health_score": 83,
-      "products_with_issues": 184,
+      "products_with_issues": 183,
       "checks": {
         "missing_description": [
           {
@@ -651,17 +651,6 @@
         ],
         "low_stock": [],
         "seo_issues": [
-          {
-            "id": 23509,
-            "name": "Triciclu electric Rotakt Infinity, motor 1000w, viteza maxima 25km/h, autonomie pana la 45km",
-            "sku": "056392-NEW",
-            "permalink": "https://rotakt.ro/produse/triciclu-electric-rotakt-infinity-motor-1000w-viteza-maxima-25km-h-autonomie-pana-la-45km/",
-            "issues": [
-              "slug>80"
-            ],
-            "slug": "triciclu-electric-rotakt-infinity-motor-1000w-viteza-maxima-25km-h-autonomie-pana-la-45km",
-            "name_chars": 92
-          },
           {
             "id": 23359,
             "name": "Motocultor Rotakt RO70ECO STARTER, 7CP, Motor 212cmc Benzină, Freze, Lățime de lucru, 560-830mm",
@@ -1826,7 +1815,7 @@
           {
             "id": 283,
             "name": "Mobilitate",
-            "count": 95,
+            "count": 94,
             "permalink": "https://rotakt.ro/categorie/mobilitate/"
           },
           {
@@ -1894,13 +1883,20 @@
       "diff": {
         "baseline": false,
         "added": [],
-        "removed": []
+        "removed": [
+          {
+            "id": 23509,
+            "name": "Triciclu electric Rotakt Infinity, motor 1000w, viteza maxima 25km/h, autonomie pana la 45km",
+            "permalink": "https://rotakt.ro/produse/triciclu-electric-rotakt-infinity-motor-1000w-viteza-maxima-25km-h-autonomie-pana-la-45km/",
+            "sku": "056392-NEW"
+          }
+        ]
       }
     },
     "micromobilitate.ro": {
       "total": 98,
-      "in_stock": 65,
-      "out_of_stock": 33,
+      "in_stock": 64,
+      "out_of_stock": 34,
       "health_score": 46,
       "products_with_issues": 53,
       "checks": {
