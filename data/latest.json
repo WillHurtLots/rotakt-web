@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-08T23:32:20.912657+00:00",
-  "date": "2026-09-08",
+  "generated_at": "2026-09-09T05:34:26.897955+00:00",
+  "date": "2026-09-09",
   "sites": {
     "rotakt.ro": {
       "total": 1084,
@@ -1849,40 +1849,8 @@
       },
       "diff": {
         "baseline": false,
-        "added": [
-          {
-            "id": 23977,
-            "name": "Triciclu electric Rotakt Nautilus Ultra, motor 1000 W, autonomie pana la 52 Km, fara permis",
-            "permalink": "https://rotakt.ro/produse/triciclu-electric-rotakt-nautilus-ultra-motor-1000-w-autonomie-pana-la-52-km-fara-permis/",
-            "sku": "057448"
-          }
-        ],
-        "removed": [
-          {
-            "id": 21241,
-            "name": "Triciclu Electric Cu Cabina Gagarin Rosu",
-            "permalink": "https://rotakt.ro/produse/triciclu-electric-utilitar-rotakt-gagarin-fara-permis-25km-h-autonomie-pana-la-69-km/",
-            "sku": "055193"
-          },
-          {
-            "id": 12371,
-            "name": "Triciclu Transport Marfa Electric Nautilus 1600w 25km/h Autonomie pana la 44km",
-            "permalink": "https://rotakt.ro/produse/triciclu-electric-cu-remorca-rotakt-nautilus-1600w-25-km-h-autonomie-44-km-baterie-plumb-acid-60v-32ah-greutate-maxima-364-kg/",
-            "sku": "050305"
-          },
-          {
-            "id": 12372,
-            "name": "Triciclu Electric Safari motor 1000w 25/km autonomie pana la 62 km",
-            "permalink": "https://rotakt.ro/produse/triciclu-electric-rotakt-safari-motor-1000w-25-km-h-autonomie-62-km-baterie-plumb-acid-60v-20ah-greutate-maxima-187-kg-fara-permis/",
-            "sku": "049489"
-          },
-          {
-            "id": 12366,
-            "name": "Triciclu Electric Liberia 1400w 25km/h autonomie pana la 35km",
-            "permalink": "https://rotakt.ro/produse/triciclu-electric-rotakt-liberia-1400w-25-km-h-autonomie-48-km-baterie-plumb-acid-60v-20ah-greutate-maxima-292-kg/",
-            "sku": "049488"
-          }
-        ]
+        "added": [],
+        "removed": []
       }
     },
     "micromobilitate.ro": {
