@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-09T05:34:26.897955+00:00",
-  "date": "2026-09-09",
+  "generated_at": "2026-09-15T05:49:54.217715+00:00",
+  "date": "2026-09-15",
   "sites": {
     "rotakt.ro": {
       "total": 1084,
-      "in_stock": 738,
-      "out_of_stock": 346,
+      "in_stock": 736,
+      "out_of_stock": 348,
       "health_score": 83,
       "products_with_issues": 180,
       "checks": {
@@ -1855,8 +1855,8 @@
     },
     "micromobilitate.ro": {
       "total": 98,
-      "in_stock": 62,
-      "out_of_stock": 36,
+      "in_stock": 60,
+      "out_of_stock": 38,
       "health_score": 46,
       "products_with_issues": 53,
       "checks": {
