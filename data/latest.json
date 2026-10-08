@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-15T05:49:54.217715+00:00",
-  "date": "2026-09-15",
+  "generated_at": "2026-10-08T07:52:02.939862+00:00",
+  "date": "2026-10-08",
   "sites": {
     "rotakt.ro": {
       "total": 1084,
-      "in_stock": 736,
-      "out_of_stock": 348,
+      "in_stock": 720,
+      "out_of_stock": 364,
       "health_score": 83,
       "products_with_issues": 180,
       "checks": {
@@ -1148,14 +1148,14 @@
           },
           {
             "id": 14633,
-            "name": "Baterie semitractiune Deep Cycle Xupai 6-DZF-20, 12V 20Ah VRLA GEL pentru scutere si tricicluri electrice",
+            "name": "Baterie semitractiune Deep Cycle Tianneng TNE12-25, 12V 25Ah VRLA GEL pentru scutere si tricicluri electrice",
             "sku": "051463",
-            "permalink": "https://rotakt.ro/produse/baterie-semitractiune-deep-cycle-xupai-6-dzf-20-12v-20ah-vrla-gel-pentru-scutere-si-tricicluri-electrice/",
+            "permalink": "https://rotakt.ro/produse/baterie-semitractiune-deep-cycle-tne12-25-12v-25ah-vrla-gel-pentru-scutere-si-tricicluri-electrice/",
             "issues": [
               "slug>80"
             ],
-            "slug": "baterie-semitractiune-deep-cycle-xupai-6-dzf-20-12v-20ah-vrla-gel-pentru-scutere-si-tricicluri-electrice",
-            "name_chars": 105
+            "slug": "baterie-semitractiune-deep-cycle-tne12-25-12v-25ah-vrla-gel-pentru-scutere-si-tricicluri-electrice",
+            "name_chars": 108
           },
           {
             "id": 14194,
@@ -1855,8 +1855,8 @@
     },
     "micromobilitate.ro": {
       "total": 98,
-      "in_stock": 60,
-      "out_of_stock": 38,
+      "in_stock": 61,
+      "out_of_stock": 37,
       "health_score": 46,
       "products_with_issues": 53,
       "checks": {
