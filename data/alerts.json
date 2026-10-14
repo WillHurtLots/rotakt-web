@@ -1,16 +1,16 @@
 {
-  "date": "2026-10-09",
-  "generated_at": "2026-10-09T05:14:25.386694+00:00",
+  "date": "2026-10-14",
+  "generated_at": "2026-10-14T05:42:16.269232+00:00",
   "sites": {
     "rotakt.ro": {
       "missing_description": 74,
       "missing_image": 0,
       "missing_price": 0,
-      "missing_brand": 7,
+      "missing_brand": 10,
       "low_stock": 0,
-      "seo_issues": 99,
+      "seo_issues": 100,
       "empty_categories": 1,
-      "added_today": 0,
+      "added_today": 4,
       "removed_today": 0
     },
     "micromobilitate.ro": {
@@ -25,5 +25,5 @@
       "removed_today": 0
     }
   },
-  "total_alerts": 240
+  "total_alerts": 244
 }

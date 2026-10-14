@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-09T05:14:25.384694+00:00",
-  "date": "2026-10-09",
+  "generated_at": "2026-10-14T05:42:16.261727+00:00",
+  "date": "2026-10-14",
   "sites": {
     "rotakt.ro": {
-      "total": 1084,
-      "in_stock": 722,
-      "out_of_stock": 362,
+      "total": 1088,
+      "in_stock": 727,
+      "out_of_stock": 361,
       "health_score": 83,
-      "products_with_issues": 180,
+      "products_with_issues": 184,
       "checks": {
         "missing_description": [
           {
@@ -607,6 +607,24 @@
         "missing_price": [],
         "missing_brand": [
           {
+            "id": 24272,
+            "name": "Vitezometru SZ110A pentru triciclu electric",
+            "sku": "057855",
+            "permalink": "https://rotakt.ro/produse/vitezometru-sz110a-pentru-triciclu-electric/"
+          },
+          {
+            "id": 24254,
+            "name": "Anvelopa triciclu 3.75-12/66J",
+            "sku": "057068",
+            "permalink": "https://rotakt.ro/produse/anvelopa-triciclu-3-75-12-66j/"
+          },
+          {
+            "id": 24250,
+            "name": "Anvelopa triciclu 3.00-12 47J",
+            "sku": "052625",
+            "permalink": "https://rotakt.ro/produse/anvelopa-triciclu-3-00-12-47j/"
+          },
+          {
             "id": 23667,
             "name": "Plug Arat Pentru Mini Tractor Rotakt  Zeppelin",
             "sku": "056122",
@@ -651,6 +669,17 @@
         ],
         "low_stock": [],
         "seo_issues": [
+          {
+            "id": 24283,
+            "name": "Triciclu Electric Rotakt Traveler Autonomie pana la 47Km, Viteză Maximă 25km/h, Putere 1200W, Acumulatori 72V/20Ah,  Fără Permis",
+            "sku": "056393",
+            "permalink": "https://rotakt.ro/produse/triciclu-electric-rotakt-traveler-autonomie-pana-la-47km-viteza-maxima-25km-h-putere-1200w-acumulatori-72v-20ah-fara-permis/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "triciclu-electric-rotakt-traveler-autonomie-pana-la-47km-viteza-maxima-25km-h-putere-1200w-acumulatori-72v-20ah-fara-permis",
+            "name_chars": 128
+          },
           {
             "id": 23977,
             "name": "Triciclu electric Rotakt Nautilus Ultra, motor 1000 W, autonomie pana la 52 Km, fara permis",
@@ -1782,7 +1811,7 @@
           {
             "id": 283,
             "name": "Mobilitate",
-            "count": 91,
+            "count": 95,
             "permalink": "https://rotakt.ro/categorie/mobilitate/"
           },
           {
@@ -1834,22 +1863,47 @@
             "permalink": "https://rotakt.ro/categorie/motocultoare-si-motosape/consumabile-motocultoare/"
           },
           {
+            "id": 1285,
+            "name": "Piese de schimb",
+            "count": 37,
+            "permalink": "https://rotakt.ro/categorie/mobilitate/piese-de-schimb/"
+          },
+          {
             "id": 275,
             "name": "Echipamente de protecție",
             "count": 36,
             "permalink": "https://rotakt.ro/categorie/bricolaj/echipamente-de-protectie/"
-          },
-          {
-            "id": 1285,
-            "name": "Piese de schimb",
-            "count": 34,
-            "permalink": "https://rotakt.ro/categorie/mobilitate/piese-de-schimb/"
           }
         ]
       },
       "diff": {
         "baseline": false,
-        "added": [],
+        "added": [
+          {
+            "id": 24272,
+            "name": "Vitezometru SZ110A pentru triciclu electric",
+            "permalink": "https://rotakt.ro/produse/vitezometru-sz110a-pentru-triciclu-electric/",
+            "sku": "057855"
+          },
+          {
+            "id": 24250,
+            "name": "Anvelopa triciclu 3.00-12 47J",
+            "permalink": "https://rotakt.ro/produse/anvelopa-triciclu-3-00-12-47j/",
+            "sku": "052625"
+          },
+          {
+            "id": 24283,
+            "name": "Triciclu Electric Rotakt Traveler Autonomie pana la 47Km, Viteză Maximă 25km/h, Putere 1200W, Acumulatori 72V/20Ah,  Fără Permis",
+            "permalink": "https://rotakt.ro/produse/triciclu-electric-rotakt-traveler-autonomie-pana-la-47km-viteza-maxima-25km-h-putere-1200w-acumulatori-72v-20ah-fara-permis/",
+            "sku": "056393"
+          },
+          {
+            "id": 24254,
+            "name": "Anvelopa triciclu 3.75-12/66J",
+            "permalink": "https://rotakt.ro/produse/anvelopa-triciclu-3-75-12-66j/",
+            "sku": "057068"
+          }
+        ],
         "removed": []
       }
     },
