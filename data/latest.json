@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-14T05:42:16.261727+00:00",
-  "date": "2026-10-14",
+  "generated_at": "2026-10-21T08:40:23.861875+00:00",
+  "date": "2026-10-21",
   "sites": {
     "rotakt.ro": {
-      "total": 1088,
-      "in_stock": 727,
-      "out_of_stock": 361,
-      "health_score": 83,
-      "products_with_issues": 184,
+      "total": 1107,
+      "in_stock": 742,
+      "out_of_stock": 365,
+      "health_score": 82,
+      "products_with_issues": 198,
       "checks": {
         "missing_description": [
           {
@@ -607,6 +607,48 @@
         "missing_price": [],
         "missing_brand": [
           {
+            "id": 24394,
+            "name": "Set semnalizatoare fata cu LED 12V/5W pentru triciclu electric Nautilus Ultra",
+            "sku": "057857",
+            "permalink": "https://rotakt.ro/produse/set-semnalizatoare-fata-cu-led-12v-5w-pentru-triciclu-electric-nautilus-ultra/"
+          },
+          {
+            "id": 24374,
+            "name": "Lampa stop spate stanga/dreapta cu LED-uri 12V pentru tricicluri electrice Nautilus Ultra",
+            "sku": "057886",
+            "permalink": "https://rotakt.ro/produse/lampa-stop-spate-stanga-dreapta-cu-led-uri-12v-pentru-tricicluri-electrice-nautilus-ultra/"
+          },
+          {
+            "id": 24370,
+            "name": "Amortizor fata stanga pentru triciclu electric Nautilus-Ultra",
+            "sku": "057836",
+            "permalink": "https://rotakt.ro/produse/amortizor-fata-stanga-pentru-triciclu-electric-nautilus-ultra/"
+          },
+          {
+            "id": 24368,
+            "name": "Amortizor fata dreapta pentru triciclu electric  Nautilus-Ultra",
+            "sku": "057837",
+            "permalink": "https://rotakt.ro/produse/amortizor-fata-dreapta-pentru-triciclu-electric-nautilus-ultra/"
+          },
+          {
+            "id": 24348,
+            "name": "Controler Huaihai 60V/1000W",
+            "sku": "057870",
+            "permalink": "https://rotakt.ro/produse/controler-huaihai-60v-1000w/"
+          },
+          {
+            "id": 24318,
+            "name": "Motor electric cu magneti permanenti pentru tricicluri 60V/1000W",
+            "sku": "057871",
+            "permalink": "https://rotakt.ro/produse/motor-electric-cu-magneti-permanenti-pentru-tricicluri-60v-1000w/"
+          },
+          {
+            "id": 24303,
+            "name": "Convertor tensiune de la 48-72Vcc la 12Vcc 10A",
+            "sku": "050690",
+            "permalink": "https://rotakt.ro/produse/convertor-tensiune-de-la-48-72vcc-la-12vcc-10a/"
+          },
+          {
             "id": 24272,
             "name": "Vitezometru SZ110A pentru triciclu electric",
             "sku": "057855",
@@ -669,6 +711,94 @@
         ],
         "low_stock": [],
         "seo_issues": [
+          {
+            "id": 24374,
+            "name": "Lampa stop spate stanga/dreapta cu LED-uri 12V pentru tricicluri electrice Nautilus Ultra",
+            "sku": "057886",
+            "permalink": "https://rotakt.ro/produse/lampa-stop-spate-stanga-dreapta-cu-led-uri-12v-pentru-tricicluri-electrice-nautilus-ultra/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "lampa-stop-spate-stanga-dreapta-cu-led-uri-12v-pentru-tricicluri-electrice-nautilus-ultra",
+            "name_chars": 89
+          },
+          {
+            "id": 24360,
+            "name": "Motopompa apa murdara si semimurdara Honda WT20XK4, 2&#8243; motor 4.9 CP debit 42 mc/h refulare 26 m absorbtie 8 m",
+            "sku": "036256",
+            "permalink": "https://rotakt.ro/produse/motopompa-apa-murdara-si-semimurdara-honda-wt20xk4-2-motor-4-9-cp-debit-42-mc-h-refulare-26-m-absorbtie-8-m/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "motopompa-apa-murdara-si-semimurdara-honda-wt20xk4-2-motor-4-9-cp-debit-42-mc-h-refulare-26-m-absorbtie-8-m",
+            "name_chars": 115
+          },
+          {
+            "id": 24356,
+            "name": "Motocoasa de umar Honda UMK 435 E3 UEET motor GX35T 1.4 CP 35 cmc 4 timpi benzina",
+            "sku": "038285",
+            "permalink": "https://rotakt.ro/produse/motocoasa-de-umar-honda-umk-435-e3-ueet-motor-gx35t-1-4-cp-35-cmc-4-timpi-benzina/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "motocoasa-de-umar-honda-umk-435-e3-ueet-motor-gx35t-1-4-cp-35-cmc-4-timpi-benzina",
+            "name_chars": 81
+          },
+          {
+            "id": 24337,
+            "name": "Generator de curent HONDA EU30IS1 GW1, 3000W, monofazat, tip Inverter, motor benzina Honda GX200",
+            "sku": "038015",
+            "permalink": "https://rotakt.ro/produse/generator-de-curent-honda-eu30is1-gw1-3000w-monofazat-tip-inverter-motor-benzina-honda-gx200/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "generator-de-curent-honda-eu30is1-gw1-3000w-monofazat-tip-inverter-motor-benzina-honda-gx200",
+            "name_chars": 96
+          },
+          {
+            "id": 24335,
+            "name": "Generator de curent monofazat Honda EG 5500 CL,5500 W,pornire la sfoara, rezervor 24 L ,digital AVR",
+            "sku": "043444",
+            "permalink": "https://rotakt.ro/produse/generator-de-curent-monofazat-honda-eg-5500-cl5500-wpornire-la-sfoara-rezervor-24-l-digital-avr/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "generator-de-curent-monofazat-honda-eg-5500-cl5500-wpornire-la-sfoara-rezervor-24-l-digital-avr",
+            "name_chars": 99
+          },
+          {
+            "id": 24327,
+            "name": "Robot de tuns gazonul, iarba Honda MIIMO HRM40 EC Live, Li-ion 18V/2,5Ah, hidroizolare IPX4, latime taiere 19cm",
+            "sku": "048183",
+            "permalink": "https://rotakt.ro/produse/robot-de-tuns-gazonul-iarba-honda-miimo-hrm40-ec-live-li-ion-18v-25ah-hidroizolare-ipx4-latime-taiere-19cm/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "robot-de-tuns-gazonul-iarba-honda-miimo-hrm40-ec-live-li-ion-18v-25ah-hidroizolare-ipx4-latime-taiere-19cm",
+            "name_chars": 111
+          },
+          {
+            "id": 24319,
+            "name": "Turbosuflanta de aer Honda HHB25_EWT1, 25 cm³, 1. 1 cp, 600 m3/h",
+            "sku": "038021",
+            "permalink": "https://rotakt.ro/produse/turbosuflanta-de-aer-honda-hhb25_ewt1-25-cm%c2%b3-1-1-cp-600-m3-h/",
+            "issues": [
+              "slug-non-canonical"
+            ],
+            "slug": "turbosuflanta-de-aer-honda-hhb25_ewt1-25-cm%c2%b3-1-1-cp-600-m3-h",
+            "name_chars": 64
+          },
+          {
+            "id": 24310,
+            "name": "Triciclu Electric Rotakt Voyager 2 cu Semicabina Motor 1000W 25 km/h Autonomie de până la 41 km Baterie plumb-acid 60V 20Ah Greutate maximă 251 kg, Fără permis",
+            "sku": "053548+053549",
+            "permalink": "https://rotakt.ro/produse/triciclu-electric-rotakt-voyager-2-cu-semicabina-motor-1000w-25-km-h-autonomie-de-pana-la-41-km-baterie-plumb-acid-60v-20ah-greutate-maxima-251-kg-fara-permis/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "triciclu-electric-rotakt-voyager-2-cu-semicabina-motor-1000w-25-km-h-autonomie-de-pana-la-41-km-baterie-plumb-acid-60v-20ah-greutate-maxima-251-kg-fara-permis",
+            "name_chars": 159
+          },
           {
             "id": 24283,
             "name": "Triciclu Electric Rotakt Traveler Autonomie pana la 47Km, Viteză Maximă 25km/h, Putere 1200W, Acumulatori 72V/20Ah,  Fără Permis",
@@ -1774,13 +1904,19 @@
       },
       "categories": {
         "total": 87,
-        "empty_count": 1,
+        "empty_count": 2,
         "empty": [
           {
             "id": 266,
             "name": "Consumabile pompe",
             "slug": "consumabile-pompe",
             "permalink": "https://rotakt.ro/categorie/irigare-si-pompare-apa/consumabile-pompe/"
+          },
+          {
+            "id": 1920,
+            "name": "Promoții Active",
+            "slug": "promotii-active",
+            "permalink": "https://rotakt.ro/categorie/promotii-active/"
           }
         ],
         "top": [
@@ -1803,16 +1939,16 @@
             "permalink": "https://rotakt.ro/categorie/lichidare/"
           },
           {
+            "id": 283,
+            "name": "Mobilitate",
+            "count": 103,
+            "permalink": "https://rotakt.ro/categorie/mobilitate/"
+          },
+          {
             "id": 271,
             "name": "Bricolaj",
             "count": 96,
             "permalink": "https://rotakt.ro/categorie/bricolaj/"
-          },
-          {
-            "id": 283,
-            "name": "Mobilitate",
-            "count": 95,
-            "permalink": "https://rotakt.ro/categorie/mobilitate/"
           },
           {
             "id": 235,
@@ -1823,7 +1959,7 @@
           {
             "id": 237,
             "name": "Motocoase și motocositoare",
-            "count": 58,
+            "count": 60,
             "permalink": "https://rotakt.ro/categorie/motocoase-si-motocositoare/"
           },
           {
@@ -1835,20 +1971,26 @@
           {
             "id": 260,
             "name": "Irigare și pompare apă",
-            "count": 50,
+            "count": 52,
             "permalink": "https://rotakt.ro/categorie/irigare-si-pompare-apa/"
+          },
+          {
+            "id": 1285,
+            "name": "Piese de schimb",
+            "count": 44,
+            "permalink": "https://rotakt.ro/categorie/mobilitate/piese-de-schimb/"
+          },
+          {
+            "id": 278,
+            "name": "Uz casnic și gospodăresc",
+            "count": 44,
+            "permalink": "https://rotakt.ro/categorie/uz-casnic-si-gospodaresc/"
           },
           {
             "id": 1420,
             "name": "Accesorii si consumabile bricolaj",
             "count": 40,
             "permalink": "https://rotakt.ro/categorie/bricolaj/accesorii-si-consumabile-bricolaj/"
-          },
-          {
-            "id": 278,
-            "name": "Uz casnic și gospodăresc",
-            "count": 40,
-            "permalink": "https://rotakt.ro/categorie/uz-casnic-si-gospodaresc/"
           },
           {
             "id": 232,
@@ -1863,12 +2005,6 @@
             "permalink": "https://rotakt.ro/categorie/motocultoare-si-motosape/consumabile-motocultoare/"
           },
           {
-            "id": 1285,
-            "name": "Piese de schimb",
-            "count": 37,
-            "permalink": "https://rotakt.ro/categorie/mobilitate/piese-de-schimb/"
-          },
-          {
             "id": 275,
             "name": "Echipamente de protecție",
             "count": 36,
@@ -1880,28 +2016,118 @@
         "baseline": false,
         "added": [
           {
-            "id": 24272,
-            "name": "Vitezometru SZ110A pentru triciclu electric",
-            "permalink": "https://rotakt.ro/produse/vitezometru-sz110a-pentru-triciclu-electric/",
-            "sku": "057855"
+            "id": 24327,
+            "name": "Robot de tuns gazonul, iarba Honda MIIMO HRM40 EC Live, Li-ion 18V/2,5Ah, hidroizolare IPX4, latime taiere 19cm",
+            "permalink": "https://rotakt.ro/produse/robot-de-tuns-gazonul-iarba-honda-miimo-hrm40-ec-live-li-ion-18v-25ah-hidroizolare-ipx4-latime-taiere-19cm/",
+            "sku": "048183"
           },
           {
-            "id": 24250,
-            "name": "Anvelopa triciclu 3.00-12 47J",
-            "permalink": "https://rotakt.ro/produse/anvelopa-triciclu-3-00-12-47j/",
-            "sku": "052625"
+            "id": 24333,
+            "name": "Motor de barcă HONDA BF5DH LHU, 5 CP",
+            "permalink": "https://rotakt.ro/produse/motor-de-barca-honda-bf5dh-lhu-5-cp/",
+            "sku": "039426"
           },
           {
-            "id": 24283,
-            "name": "Triciclu Electric Rotakt Traveler Autonomie pana la 47Km, Viteză Maximă 25km/h, Putere 1200W, Acumulatori 72V/20Ah,  Fără Permis",
-            "permalink": "https://rotakt.ro/produse/triciclu-electric-rotakt-traveler-autonomie-pana-la-47km-viteza-maxima-25km-h-putere-1200w-acumulatori-72v-20ah-fara-permis/",
-            "sku": "056393"
+            "id": 24335,
+            "name": "Generator de curent monofazat Honda EG 5500 CL,5500 W,pornire la sfoara, rezervor 24 L ,digital AVR",
+            "permalink": "https://rotakt.ro/produse/generator-de-curent-monofazat-honda-eg-5500-cl5500-wpornire-la-sfoara-rezervor-24-l-digital-avr/",
+            "sku": "043444"
           },
           {
-            "id": 24254,
-            "name": "Anvelopa triciclu 3.75-12/66J",
-            "permalink": "https://rotakt.ro/produse/anvelopa-triciclu-3-75-12-66j/",
-            "sku": "057068"
+            "id": 24337,
+            "name": "Generator de curent HONDA EU30IS1 GW1, 3000W, monofazat, tip Inverter, motor benzina Honda GX200",
+            "permalink": "https://rotakt.ro/produse/generator-de-curent-honda-eu30is1-gw1-3000w-monofazat-tip-inverter-motor-benzina-honda-gx200/",
+            "sku": "038015"
+          },
+          {
+            "id": 24348,
+            "name": "Controler Huaihai 60V/1000W",
+            "permalink": "https://rotakt.ro/produse/controler-huaihai-60v-1000w/",
+            "sku": "057870"
+          },
+          {
+            "id": 24351,
+            "name": "Masina de tuns gazon HONDA HRG 466C1 SKEP, latime de taiere de 46 cm, cos 50 l",
+            "permalink": "https://rotakt.ro/produse/masina-de-tuns-gazon-honda-hrg-466c1-skep-latime-de-taiere-de-46-cm-cos-50-l/",
+            "sku": "038012"
+          },
+          {
+            "id": 24353,
+            "name": "Motocoasă de umăr Honda UMK 450 E XEET profesională 2CP",
+            "permalink": "https://rotakt.ro/produse/motocoasa-de-umar-honda-umk-450-e-xeet-profesionala/",
+            "sku": "038287"
+          },
+          {
+            "id": 24356,
+            "name": "Motocoasa de umar Honda UMK 435 E3 UEET motor GX35T 1.4 CP 35 cmc 4 timpi benzina",
+            "permalink": "https://rotakt.ro/produse/motocoasa-de-umar-honda-umk-435-e3-ueet-motor-gx35t-1-4-cp-35-cmc-4-timpi-benzina/",
+            "sku": "038285"
+          },
+          {
+            "id": 24360,
+            "name": "Motopompa apa murdara si semimurdara Honda WT20XK4, 2&#8243; motor 4.9 CP debit 42 mc/h refulare 26 m absorbtie 8 m",
+            "permalink": "https://rotakt.ro/produse/motopompa-apa-murdara-si-semimurdara-honda-wt20xk4-2-motor-4-9-cp-debit-42-mc-h-refulare-26-m-absorbtie-8-m/",
+            "sku": "036256"
+          },
+          {
+            "id": 24362,
+            "name": "Motopompa apa murdara Honda WT30XK4 DE, 3&#8243;, 8.5 CP, benzina, 1200 l/min, Hmax. 25 m",
+            "permalink": "https://rotakt.ro/produse/motopompa-apa-murdara-honda-wt30xk4-de-3-8-5-cp-benzina-1200-l-min-hmax-25-m/",
+            "sku": "042920"
+          },
+          {
+            "id": 24365,
+            "name": "Generator de curent monofazat AGT-Honda 7501 HSB",
+            "permalink": "https://rotakt.ro/produse/generator-de-curent-monofazat-agt-honda-7501-hsb/",
+            "sku": "043523"
+          },
+          {
+            "id": 24368,
+            "name": "Amortizor fata dreapta pentru triciclu electric  Nautilus-Ultra",
+            "permalink": "https://rotakt.ro/produse/amortizor-fata-dreapta-pentru-triciclu-electric-nautilus-ultra/",
+            "sku": "057837"
+          },
+          {
+            "id": 24370,
+            "name": "Amortizor fata stanga pentru triciclu electric Nautilus-Ultra",
+            "permalink": "https://rotakt.ro/produse/amortizor-fata-stanga-pentru-triciclu-electric-nautilus-ultra/",
+            "sku": "057836"
+          },
+          {
+            "id": 24374,
+            "name": "Lampa stop spate stanga/dreapta cu LED-uri 12V pentru tricicluri electrice Nautilus Ultra",
+            "permalink": "https://rotakt.ro/produse/lampa-stop-spate-stanga-dreapta-cu-led-uri-12v-pentru-tricicluri-electrice-nautilus-ultra/",
+            "sku": "057886"
+          },
+          {
+            "id": 24394,
+            "name": "Set semnalizatoare fata cu LED 12V/5W pentru triciclu electric Nautilus Ultra",
+            "permalink": "https://rotakt.ro/produse/set-semnalizatoare-fata-cu-led-12v-5w-pentru-triciclu-electric-nautilus-ultra/",
+            "sku": "057857"
+          },
+          {
+            "id": 24303,
+            "name": "Convertor tensiune de la 48-72Vcc la 12Vcc 10A",
+            "permalink": "https://rotakt.ro/produse/convertor-tensiune-de-la-48-72vcc-la-12vcc-10a/",
+            "sku": "050690"
+          },
+          {
+            "id": 24310,
+            "name": "Triciclu Electric Rotakt Voyager 2 cu Semicabina Motor 1000W 25 km/h Autonomie de până la 41 km Baterie plumb-acid 60V 20Ah Greutate maximă 251 kg, Fără permis",
+            "permalink": "https://rotakt.ro/produse/triciclu-electric-rotakt-voyager-2-cu-semicabina-motor-1000w-25-km-h-autonomie-de-pana-la-41-km-baterie-plumb-acid-60v-20ah-greutate-maxima-251-kg-fara-permis/",
+            "sku": "053548+053549"
+          },
+          {
+            "id": 24318,
+            "name": "Motor electric cu magneti permanenti pentru tricicluri 60V/1000W",
+            "permalink": "https://rotakt.ro/produse/motor-electric-cu-magneti-permanenti-pentru-tricicluri-60v-1000w/",
+            "sku": "057871"
+          },
+          {
+            "id": 24319,
+            "name": "Turbosuflanta de aer Honda HHB25_EWT1, 25 cm³, 1. 1 cp, 600 m3/h",
+            "permalink": "https://rotakt.ro/produse/turbosuflanta-de-aer-honda-hhb25_ewt1-25-cm%c2%b3-1-1-cp-600-m3-h/",
+            "sku": "038021"
           }
         ],
         "removed": []
@@ -1909,8 +2135,8 @@
     },
     "micromobilitate.ro": {
       "total": 98,
-      "in_stock": 61,
-      "out_of_stock": 37,
+      "in_stock": 62,
+      "out_of_stock": 36,
       "health_score": 46,
       "products_with_issues": 53,
       "checks": {
