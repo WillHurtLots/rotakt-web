@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-22T03:51:11.869083+00:00",
-  "date": "2026-10-22",
+  "generated_at": "2026-10-23T03:56:26.938497+00:00",
+  "date": "2026-10-23",
   "sites": {
     "rotakt.ro": {
       "total": 1107,
-      "in_stock": 741,
-      "out_of_stock": 366,
+      "in_stock": 743,
+      "out_of_stock": 364,
       "health_score": 82,
       "products_with_issues": 198,
       "checks": {
@@ -1847,14 +1847,14 @@
           },
           {
             "id": 3769,
-            "name": "Robot inteligent de tuns iarba cu GPS Rotakt ROBT-1000M, electric, lățime cosire 180 mm",
+            "name": "Robot inteligent de tuns iarba Rotakt ROBT-1000M, electric, lățime cosire 180 mm",
             "sku": "038905",
             "permalink": "https://rotakt.ro/produse/robot-inteligent-de-tuns-iarba-cu-gps-rotakt-robt-1000m-electric-latime-cosire-180-mm/",
             "issues": [
               "slug>80"
             ],
             "slug": "robot-inteligent-de-tuns-iarba-cu-gps-rotakt-robt-1000m-electric-latime-cosire-180-mm",
-            "name_chars": 87
+            "name_chars": 80
           },
           {
             "id": 3766,
@@ -2020,8 +2020,8 @@
     },
     "micromobilitate.ro": {
       "total": 98,
-      "in_stock": 62,
-      "out_of_stock": 36,
+      "in_stock": 61,
+      "out_of_stock": 37,
       "health_score": 46,
       "products_with_issues": 53,
       "checks": {
