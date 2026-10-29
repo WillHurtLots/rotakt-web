@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-23T03:56:26.938497+00:00",
-  "date": "2026-10-23",
+  "generated_at": "2026-10-29T11:00:12.390028+00:00",
+  "date": "2026-10-29",
   "sites": {
     "rotakt.ro": {
-      "total": 1107,
-      "in_stock": 743,
-      "out_of_stock": 364,
+      "total": 1110,
+      "in_stock": 739,
+      "out_of_stock": 371,
       "health_score": 82,
-      "products_with_issues": 198,
+      "products_with_issues": 196,
       "checks": {
         "missing_description": [
           {
@@ -667,12 +667,6 @@
             "permalink": "https://rotakt.ro/produse/anvelopa-triciclu-3-00-12-47j/"
           },
           {
-            "id": 23667,
-            "name": "Plug Arat Pentru Mini Tractor Rotakt  Zeppelin",
-            "sku": "056122",
-            "permalink": "https://rotakt.ro/produse/plug-arat-pentru-mini-tractor-rotakt-zeppelin/"
-          },
-          {
             "id": 21053,
             "name": "CARTE IDENTIFICARE AUTO (CIV) 400",
             "sku": "056018",
@@ -683,34 +677,43 @@
             "name": "CARTE IDENTIFICARE AUTO (CIV) 200",
             "sku": "051169",
             "permalink": "https://rotakt.ro/produse/carte-identificare-auto-civ-200/"
-          },
-          {
-            "id": 20881,
-            "name": "Ax melcat antrenare roată Rotakt MF360",
-            "sku": "008076",
-            "permalink": "https://rotakt.ro/produse/ax-melcat-antrenare-roata-rotakt-mf360/"
-          },
-          {
-            "id": 20878,
-            "name": "Roata dintata melcata din bronz, pentru antrenarea axului roții MF360",
-            "sku": "013009",
-            "permalink": "https://rotakt.ro/produse/roata-dintata-melcata-din-bronz-pentru-antrenarea-axului-rotii-mf360/"
-          },
-          {
-            "id": 20837,
-            "name": "Motor 4T 10CP 300cc Pentru Motocultor Rotakt RO10R Cu Pornire Electrica Rato",
-            "sku": "054831",
-            "permalink": "https://rotakt.ro/produse/motor-4t-10cp-300cc-pentru-motocultor-rotakt-ro10r-cu-pornire-electrica-rato/"
-          },
-          {
-            "id": 20717,
-            "name": "Motor 4T Loncin G200F – 6.5 CP pentru MF360 196cc",
-            "sku": "007576",
-            "permalink": "https://rotakt.ro/produse/motor-4t-loncin-g200f-6-5-cp-pentru-mf360-196cc/"
           }
         ],
         "low_stock": [],
         "seo_issues": [
+          {
+            "id": 24462,
+            "name": "Suport perete cablu încărcare mașini electrice RheidonTech AC200, suport conector Type 2, organizator cablu EV, montaj pe perete, negru",
+            "sku": "053134",
+            "permalink": "https://rotakt.ro/produse/suport-perete-cablu-incarcare-masini-electrice-rheidontech-ac200-suport-conector-type-2-organizator-cablu-ev-montaj-pe-perete-negru/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "suport-perete-cablu-incarcare-masini-electrice-rheidontech-ac200-suport-conector-type-2-organizator-cablu-ev-montaj-pe-perete-negru",
+            "name_chars": 135
+          },
+          {
+            "id": 24460,
+            "name": "Cablu încărcare mașini electrice RheidonTech CC268-22K, Type 2 &#8211; Type 2, 22 kW, 32A, trifazat 400V, 6 metri, IP54",
+            "sku": "052930",
+            "permalink": "https://rotakt.ro/produse/cablu-incarcare-masini-electrice-rheidontech-cc268-22k-type-2-type-2-22-kw-32a-trifazat-400v-6-metri-ip54/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "cablu-incarcare-masini-electrice-rheidontech-cc268-22k-type-2-type-2-22-kw-32a-trifazat-400v-6-metri-ip54",
+            "name_chars": 119
+          },
+          {
+            "id": 24453,
+            "name": "Încărcător portabil mașini electrice RheidonTech PC100-7K2, 7.2 kW, 230V, monofazat, Type 2, curent reglabil 6-32A, cablu 6 m, display LCD, CEE 32A",
+            "sku": "054491",
+            "permalink": "https://rotakt.ro/produse/incarcator-portabil-masini-electrice-rheidontech-pc100-7k2-7-2-kw-230v-monofazat-type-2-curent-reglabil-6-32a-cablu-6-m-display-lcd-cee-32a/",
+            "issues": [
+              "slug>80"
+            ],
+            "slug": "incarcator-portabil-masini-electrice-rheidontech-pc100-7k2-7-2-kw-230v-monofazat-type-2-curent-reglabil-6-32a-cablu-6-m-display-lcd-cee-32a",
+            "name_chars": 147
+          },
           {
             "id": 24374,
             "name": "Lampa stop spate stanga/dreapta cu LED-uri 12V pentru tricicluri electrice Nautilus Ultra",
@@ -1065,47 +1068,47 @@
           },
           {
             "id": 17039,
-            "name": "Incarcator portabil PC100-3k6 pentru masini electrice conector type 2 3,6 kW 6-16A reglabil 230V cablu de incarcare 6m",
+            "name": "Încărcător portabil mașini electrice RheidonTech PC100-3K6, 3.6 kW, 230V, monofazat, Schuko, Type 2, curent reglabil 6-16A, cablu 6 m, display LED 3.5 inch, IP65",
             "sku": "052927",
             "permalink": "https://rotakt.ro/produse/incarcator-portabil-pc100-3k6-pentru-masini-electrice-conector-type-2-36kw-6-16a-reglabil-230v-cablu-de-incarcare-6m/",
             "issues": [
               "slug>80"
             ],
             "slug": "incarcator-portabil-pc100-3k6-pentru-masini-electrice-conector-type-2-36kw-6-16a-reglabil-230v-cablu-de-incarcare-6m",
-            "name_chars": 118
+            "name_chars": 161
           },
           {
             "id": 17024,
-            "name": "Incarcator portabil PC100-11k pentru masini electrice conector type 2 11kW 6-16A reglabil 400V cablu de incarcare 6m",
+            "name": "Încărcător portabil mașini electrice PC100-11K, 11 kW, 400V, trifazat, Type 2, curent reglabil 6-16A, cablu 6 m",
             "sku": "052922",
             "permalink": "https://rotakt.ro/produse/incarcator-portabil-pc100-11k-pentru-masini-electrice-conector-type-2-11kw-6-16a-reglabil-400v-6m-cablu-de-incarcare/",
             "issues": [
               "slug>80"
             ],
             "slug": "incarcator-portabil-pc100-11k-pentru-masini-electrice-conector-type-2-11kw-6-16a-reglabil-400v-6m-cablu-de-incarcare",
-            "name_chars": 116
+            "name_chars": 111
           },
           {
             "id": 17004,
-            "name": "Statie de incarcare vehicule electrice WB500 -11K 400V trifazat, conector tip 2, cablu incarcare 6m, control WiFi",
+            "name": "Stație încărcare mașini electrice Rheidon WB500-11K, 11 kW, 400V, trifazată, Type 2, cablu 6 m, WiFi, display 7 inch, IP65",
             "sku": "052921",
             "permalink": "https://rotakt.ro/produse/statie-de-incarcare-vehicule-electrice-wb500-11k-400v-trifazat-conector-tip-2-cablu-incarcare-6m-control-wifi/",
             "issues": [
               "slug>80"
             ],
             "slug": "statie-de-incarcare-vehicule-electrice-wb500-11k-400v-trifazat-conector-tip-2-cablu-incarcare-6m-control-wifi",
-            "name_chars": 113
+            "name_chars": 122
           },
           {
             "id": 16895,
-            "name": "Statie de incarcare vehicule electrice WB500 -7K2 230V monofazat, conector tip 2, cablu incarcare 6m, control WiFi",
+            "name": "Statie incarcare masini electrice WB500-7K2, 7,2 kW, 230V, monofazata, conector Type 2, cablu 6 m, control WiFi, montaj pe perete",
             "sku": "052920",
             "permalink": "https://rotakt.ro/produse/statie-de-incarcare-vehicule-electrice-wb500-7k2-230v-monofazat-conector-tip-2-cablu-incarcare-6m-control-wifi/",
             "issues": [
               "slug>80"
             ],
             "slug": "statie-de-incarcare-vehicule-electrice-wb500-7k2-230v-monofazat-conector-tip-2-cablu-incarcare-6m-control-wifi",
-            "name_chars": 114
+            "name_chars": 129
           },
           {
             "id": 16304,
@@ -1494,25 +1497,25 @@
           },
           {
             "id": 13646,
-            "name": "Incarcator portabil PC280 pentru masini electrice conector type 2 7,2kW 6-32A reglabil 230V 6m cablu de incarcare",
+            "name": "Incarcator portabil masina electrica Rheidon PC280, Type 2, 7,2 kW, 230V, curent reglabil 6-32A, cablu 6 m, ecran LED 3,5 inch, IP65, Schuko/CEE32",
             "sku": "050905",
             "permalink": "https://rotakt.ro/produse/incarcator-portabil-pc280-pentru-masini-electrice-conector-type-2-72kw-6-32a-reglabil-230v-6m-cablu-de-incarcare/",
             "issues": [
               "slug>80"
             ],
             "slug": "incarcator-portabil-pc280-pentru-masini-electrice-conector-type-2-72kw-6-32a-reglabil-230v-6m-cablu-de-incarcare",
-            "name_chars": 113
+            "name_chars": 146
           },
           {
             "id": 13631,
-            "name": "Incarcator portabil PC200 pentru masini electrice conector type 2 3,6kW 6-16A reglabil 230V 6m cablu de incarcare",
+            "name": "Încărcător portabil mașini electrice RheidonTech PC200, 3.6 kW, 230V, Schuko, Type 2, curent reglabil 6-16A, cablu 6 m, ecran LED 3.5 inch, IP65",
             "sku": "050904",
             "permalink": "https://rotakt.ro/produse/incarcator-portabil-pentru-masini-electrice-conector-type-2-36kw-6-16a-reglabil-230v-6m-cablu-de-incarcare/",
             "issues": [
               "slug>80"
             ],
             "slug": "incarcator-portabil-pentru-masini-electrice-conector-type-2-36kw-6-16a-reglabil-230v-6m-cablu-de-incarcare",
-            "name_chars": 113
+            "name_chars": 144
           },
           {
             "id": 12365,
@@ -1941,7 +1944,7 @@
           {
             "id": 283,
             "name": "Mobilitate",
-            "count": 103,
+            "count": 106,
             "permalink": "https://rotakt.ro/categorie/mobilitate/"
           },
           {
@@ -2014,14 +2017,33 @@
       },
       "diff": {
         "baseline": false,
-        "added": [],
+        "added": [
+          {
+            "id": 24460,
+            "name": "Cablu încărcare mașini electrice RheidonTech CC268-22K, Type 2 &#8211; Type 2, 22 kW, 32A, trifazat 400V, 6 metri, IP54",
+            "permalink": "https://rotakt.ro/produse/cablu-incarcare-masini-electrice-rheidontech-cc268-22k-type-2-type-2-22-kw-32a-trifazat-400v-6-metri-ip54/",
+            "sku": "052930"
+          },
+          {
+            "id": 24453,
+            "name": "Încărcător portabil mașini electrice RheidonTech PC100-7K2, 7.2 kW, 230V, monofazat, Type 2, curent reglabil 6-32A, cablu 6 m, display LCD, CEE 32A",
+            "permalink": "https://rotakt.ro/produse/incarcator-portabil-masini-electrice-rheidontech-pc100-7k2-7-2-kw-230v-monofazat-type-2-curent-reglabil-6-32a-cablu-6-m-display-lcd-cee-32a/",
+            "sku": "054491"
+          },
+          {
+            "id": 24462,
+            "name": "Suport perete cablu încărcare mașini electrice RheidonTech AC200, suport conector Type 2, organizator cablu EV, montaj pe perete, negru",
+            "permalink": "https://rotakt.ro/produse/suport-perete-cablu-incarcare-masini-electrice-rheidontech-ac200-suport-conector-type-2-organizator-cablu-ev-montaj-pe-perete-negru/",
+            "sku": "053134"
+          }
+        ],
         "removed": []
       }
     },
     "micromobilitate.ro": {
       "total": 98,
-      "in_stock": 61,
-      "out_of_stock": 37,
+      "in_stock": 59,
+      "out_of_stock": 39,
       "health_score": 46,
       "products_with_issues": 53,
       "checks": {
