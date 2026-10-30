@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-29T11:00:12.390028+00:00",
-  "date": "2026-10-29",
+  "generated_at": "2026-10-30T12:42:58.511871+00:00",
+  "date": "2026-10-30",
   "sites": {
     "rotakt.ro": {
       "total": 1110,
-      "in_stock": 739,
-      "out_of_stock": 371,
+      "in_stock": 738,
+      "out_of_stock": 372,
       "health_score": 82,
       "products_with_issues": 196,
       "checks": {
@@ -2017,33 +2017,14 @@
       },
       "diff": {
         "baseline": false,
-        "added": [
-          {
-            "id": 24460,
-            "name": "Cablu încărcare mașini electrice RheidonTech CC268-22K, Type 2 &#8211; Type 2, 22 kW, 32A, trifazat 400V, 6 metri, IP54",
-            "permalink": "https://rotakt.ro/produse/cablu-incarcare-masini-electrice-rheidontech-cc268-22k-type-2-type-2-22-kw-32a-trifazat-400v-6-metri-ip54/",
-            "sku": "052930"
-          },
-          {
-            "id": 24453,
-            "name": "Încărcător portabil mașini electrice RheidonTech PC100-7K2, 7.2 kW, 230V, monofazat, Type 2, curent reglabil 6-32A, cablu 6 m, display LCD, CEE 32A",
-            "permalink": "https://rotakt.ro/produse/incarcator-portabil-masini-electrice-rheidontech-pc100-7k2-7-2-kw-230v-monofazat-type-2-curent-reglabil-6-32a-cablu-6-m-display-lcd-cee-32a/",
-            "sku": "054491"
-          },
-          {
-            "id": 24462,
-            "name": "Suport perete cablu încărcare mașini electrice RheidonTech AC200, suport conector Type 2, organizator cablu EV, montaj pe perete, negru",
-            "permalink": "https://rotakt.ro/produse/suport-perete-cablu-incarcare-masini-electrice-rheidontech-ac200-suport-conector-type-2-organizator-cablu-ev-montaj-pe-perete-negru/",
-            "sku": "053134"
-          }
-        ],
+        "added": [],
         "removed": []
       }
     },
     "micromobilitate.ro": {
       "total": 98,
-      "in_stock": 59,
-      "out_of_stock": 39,
+      "in_stock": 58,
+      "out_of_stock": 40,
       "health_score": 46,
       "products_with_issues": 53,
       "checks": {
